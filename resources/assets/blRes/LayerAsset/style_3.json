@@ -1,0 +1,3221 @@
+{
+    "marker_info": {
+        "map_lr_nofeeroad": {},
+        "map_lr_feeroad": {},
+        "map_lr": {
+            "anchor": 4,
+            "repeat": 1,
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_stop_exit_line": {
+            "anchor": 4,
+            "repeat": 1,
+            "pre_mul_alpha":1
+        },
+        "global_image_map_aolr": {
+            "repeat": 1,
+            "gen_mipmaps": 1
+        },
+        "map_lr_road_white_front": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_back": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "global_image_map_ferry": {
+            "repeat": 1,
+            "gen_mipmaps": 1
+        },
+        "map_traffic_platenum_restrict_hl": {
+            "repeat": 1,
+            "gen_mipmaps": 1
+        },
+        "map_lr_dott_car_fill": {
+            "repeat": 1,
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_dott_car_light": {
+            "repeat": 1,
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_front_select": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_front_unselect": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_back_select": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_back_unselect": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_front_select_night": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_front_unselect_night": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_back_select_night": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_lr_road_white_back_unselect_night": {
+            "gen_mipmaps": 1,
+            "pre_mul_alpha":1
+        },
+        "map_traffic_platenum_restrict_light": {
+            "repeat": 1,
+            "gen_mipmaps": 1
+        },
+        "marker_info_point_center_up": {
+            "anchor": 5
+        },
+        "marker_info_point_center_up_2": {
+            "anchor":9,
+            "x_ratio": 0.5,
+            "y_ratio": 0.918
+        },
+        "marker_info_traffic_light_left": {
+            "anchor": 9,
+            "x_ratio": 0.95,
+            "y_ratio": 0.918
+        },
+        "marker_info_traffic_light_right": {
+            "anchor": 9,
+            "x_ratio": 0.05,
+            "y_ratio": 0.918
+        },
+        "marker_info_route_jam_bubbles_left_up": {
+            "anchor":13,
+            "x_offset":16,
+            "y_offset":25,
+            "night_style": {
+                "color":[{"sub_title":"#e6ffffff"}]
+            },
+            "day_style": {
+                "color":[{"sub_title":"#e6000000"}]
+            }
+        },
+        "marker_info_route_jam_bubbles_left_down": {
+            "anchor":11,
+            "x_offset":16,
+            "y_offset":10,
+            "night_style": {
+                "color":[{"sub_title":"#e6ffffff"}]
+            },
+            "day_style": {
+                "color":[{"sub_title":"#e6000000"}]
+            }
+        },
+        "marker_info_route_jam_bubbles_right_up": {
+            "anchor":12,
+            "x_offset":16,
+            "y_offset":25,
+           "night_style": {
+                "color":[{"sub_title":"#e6ffffff"}]
+            },
+            "day_style": {
+                "color":[{"sub_title":"#e6000000"}]
+            }
+        },
+        "marker_info_route_jam_bubbles_right_down": {
+            "anchor":10,
+            "x_offset":16,
+            "y_offset":10,
+          "night_style": {
+                "color":[{"sub_title":"#e6ffffff"}]
+            },
+            "day_style": {
+                "color":[{"sub_title":"#e6000000"}]
+            }
+        },
+		"point_camera_left_x_y":
+		{
+			"anchor": 9,
+			"x_ratio": 0.85,
+			"y_ratio": 0.804
+		},
+		"point_camera_right_x_y":
+		{
+			"anchor": 9,
+			"x_ratio": 0.15,
+			"y_ratio": 0.804
+		},
+        "point_camera_small_left_x_y": {
+            "anchor": 9,
+            "x_ratio": 1,
+            "y_ratio":1
+        },
+        "point_camera_small_right_x_y": {
+            "anchor": 9,
+            "x_ratio": 0,
+            "y_ratio": 1
+        },
+        "marker_info_guide_camera_left": {
+            "anchor":13,
+            "x_offset":10,
+            "y_offset":21
+        },
+        "marker_info_guide_camera_right": {
+            "anchor":12,
+            "x_offset":10,
+            "y_offset":21
+        },
+        "marker_info_guide_camera_small_left": {
+            "anchor":13,
+            "x_offset":0,
+            "y_offset":0
+        },
+        "marker_info_guide_camera_small_right": {
+            "anchor":12,
+            "x_offset":0,
+            "y_offset":0
+        },
+        "marker_info_guide_camera_left_distance": {
+            "anchor":13,
+            "x_offset":10,
+            "y_offset":21,
+            "night_style": {
+                "color":[{"distance_text":"#f0ffffff"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}]
+            },
+            "day_style": {
+                "color":[{"distance_text":"#e5000000"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}]
+            },
+            "image_style": {
+                "camera_type_image":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                },
+                "camera_type_image2":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                }
+            }
+        },
+        "marker_info_guide_camera_right_distance": {
+            "anchor":12,
+            "x_offset":10,
+            "y_offset":21,
+            "night_style": {
+                "color":[{"distance_text":"#f0ffffff"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}]
+            },
+            "day_style": {
+                "color":[{"distance_text":"#e5000000"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}]
+            },
+            "image_style": {
+                "camera_type_image":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                },
+                "camera_type_image2":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                }
+            }
+        },
+		"marker_info_guide_camera_left_distance_penalty": {
+            "anchor":13,
+            "x_offset":10,
+            "y_offset":21,
+            "night_style": {
+                "color":[{"distance_text_penalty":"#f0ffffff"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}, {"distance_text_hint":"#e5ff8e88"}]
+            },
+            "day_style": {
+                "color":[{"distance_text_penalty":"#e5000000"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}, {"distance_text_hint":"#e5ff2020"}]
+            },
+            "image_style": {
+                "camera_type_image":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                },
+                "camera_type_image2":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                }
+            }
+        },
+        "marker_info_guide_camera_right_distance_penalty": {
+            "anchor":12,
+            "x_offset":10,
+            "y_offset":21,
+            "night_style": {
+                "color":[{"distance_text_penalty":"#f0ffffff"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}, {"distance_text_hint":"#e5ff8e88"}]
+            },
+            "day_style": {
+                "color":[{"distance_text_penalty":"#e5000000"}, {"speed_text":"#e5000000"}, {"speed_text2":"#e5000000"}, {"speed_text3":"#e5000000"}, {"distance_text_hint":"#e5ff2020"}]
+            },
+            "image_style": {
+                "camera_type_image":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                },
+                "camera_type_image2":{
+                    "camera_type_breakrule_courtesy_crossing":"global_image_guide_camera_bubble_sidewalk_day_night",
+                    "camera_type_breakrule_dial_phone_when_driving":"global_image_guide_camera_bubble_phone_day_night",
+                    "camera_type_breakrule_illegal_parking":"global_image_guide_camera_bubble_parking_day_night",
+                    "camera_type_breakrule_illegal_use_safety_belt":"global_image_guide_camera_bubble_seatbelt_day_night",
+                    "camera_type_breakrule_occupied_bus_lane":"global_image_guide_camera_bubble_busway_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane":"global_image_guide_camera_bubble_emergencylane_day_night",
+                    "camera_type_breakrule_occupied_emergency_lane_en":"global_image_guide_camera_bubble_emergencylane_en_day_night",
+                    "camera_type_breakrule_occupied_non_motorized_lane":"global_image_guide_camera_bubble_bicyclelane_day_night",
+                    "camera_type_breakrule_run_red_light":"global_image_guide_camera_bubble_trafficlight_day_night",
+                    "camera_type_breakrule_speaker":"global_image_guide_camera_bubble_speaker_day_night",
+                    "camera_type_breakrule_violate_prohibited_markings":"global_image_guide_camera_bubble_line_day_night",
+                    "camera_type_car_spacing":"global_image_guide_camera_bubble_space_day_night",
+                    "camera_type_end_number_limit":"global_image_guide_camera_bubble_tail_day_night",
+                    "camera_type_environmental_limit":"global_image_guide_camera_bubble_recycle_day_night",
+                    "camera_type_etc":"global_image_guide_camera_bubble_etc_day_night",
+                    "camera_type_hov_lane":"global_image_guide_camera_bubble_hov_day_night",
+                    "camera_type_illegal_use_light":"global_image_guide_camera_bubble_lamp_day_night",
+                    "camera_type_reverse_driving":"global_image_guide_camera_bubble_reverse_day_night",
+                    "camera_type_railway_crossing":"global_image_guide_camera_bubble_railway_day_night",
+                    "camera_type_speed":"global_image_guide_camera_bubble_speed_day_night",
+                    "camera_type_speed_unknown":"global_image_guide_camera_bubble_speed_unknown_day_night"
+                }
+            }
+        },
+        "marker_info_road_facilities": {
+            "anchor":9,
+            "x_ratio":0.5,
+            "y_ratio":0.935
+        },
+        "marker_info_road_facilities_ferry": {
+            "anchor":9,
+            "x_ratio":0.5,
+            "y_ratio":0.935,
+            "vector":0
+        },
+        "marker_info_restdistance": {
+            "anchor":9,
+            "x_ratio":0.18,
+            "y_ratio":0.85,
+            "vector":0
+        },
+        "marker_info_little_camera": {
+            "anchor":4,
+            "vector":0
+        },
+        "marker_info_speed_car": {
+            "anchor":4,
+            "day_style": {
+                "color":[{"speed_text_two":"#333333"},{"speed_text_three":"#333333"},{"speed_text_two_os":"#d62727"},{"speed_text_three_os":"#d62727"}]
+            },
+            "night_style": {
+                "color":[{"speed_text_two":"#000000"},{"speed_text_three":"#000000"},{"speed_text_two_os":"#e31a1a"},{"speed_text_three_os":"#e31a1a"}]
+            }
+        },
+        "marker_info_guide_traffic_event": {
+            "anchor":12,
+            "x_offset":19,
+            "y_offset":19,
+            "night_style": {
+                "color":[{"event_name":"#d8d8d8"},{"lane_name":"#d8d8d8"}]
+            },
+            "day_style": {
+                "color":[{"event_name":"#3a3a3a"},{"lane_name":"#3a3a3a"}]
+            },
+            "image_style": {
+                "event_image":{
+                    "event_type_accident":"global_image_auto_ic_navi_traffic_event_accident_day_night",
+                    "event_type_malfunction":"global_image_auto_ic_navi_traffic_event_malfunction_day_night",
+                    "event_type_project":"global_image_auto_ic_navi_traffic_event_project_day_night",
+                    "event_type_water":"global_image_auto_ic_navi_traffic_event_water_day_night",
+                    "event_type_close":"global_image_auto_ic_navi_traffic_event_close_day_night"
+                }
+            }
+        },
+        "marker_info_guide_traffic_event_right_up": {
+            "anchor":12,
+            "x_offset":20,
+            "y_offset":29,
+            "night_style": {
+                "color":[{"event_name":"#ff8e88"},{"lane_name":"#ff8e88"}]
+            },
+            "day_style": {
+                "color":[{"event_name":"#ed390d"},{"lane_name":"#ed390d"}]
+            },
+            "image_style": {
+                "event_image":{
+                    "event_type_accident":"event_accident_thumbnail",
+                    "event_type_malfunction":"event_breakdown_thumbnail",
+                    "event_type_project":"event_road_work_thumbnail",
+                    "event_type_water":"event_stagnant_water_thumbnail",
+                    "event_type_close":"event_road_closure_thumbnail"
+                }
+            }
+        },
+        "marker_info_guide_traffic_event_left_up": {
+            "anchor":13,
+            "x_offset":20,
+            "y_offset":29,
+            "night_style": {
+                "color":[{"event_name":"#ff8e88"},{"lane_name":"#ff8e88"}]
+            },
+            "day_style": {
+                "color":[{"event_name":"#ed390d"},{"lane_name":"#ed390d"}]
+            },
+            "image_style": {
+                "event_image":{
+                    "event_type_accident":"event_accident_thumbnail",
+                    "event_type_malfunction":"event_breakdown_thumbnail",
+                    "event_type_project":"event_road_work_thumbnail",
+                    "event_type_water":"event_stagnant_water_thumbnail",
+                    "event_type_close":"event_road_closure_thumbnail"
+                }
+            }
+        },
+        "marker_info_guide_traffic_event_right_down": {
+            "anchor":10,
+            "x_offset":21,
+            "y_offset":12,
+            "night_style": {
+                "color":[{"event_name":"#ff8e88"},{"lane_name":"#ff8e88"}]
+            },
+            "day_style": {
+                "color":[{"event_name":"#ed390d"},{"lane_name":"#ed390d"}]
+            },
+            "image_style": {
+                "event_image":{
+                    "event_type_accident":"event_accident_thumbnail",
+                    "event_type_malfunction":"event_breakdown_thumbnail",
+                    "event_type_project":"event_road_work_thumbnail",
+                    "event_type_water":"event_stagnant_water_thumbnail",
+                    "event_type_close":"event_road_closure_thumbnail"
+                }
+            }
+        },
+        "marker_info_guide_traffic_event_left_down": {
+            "anchor":11,
+            "x_offset":20,
+            "y_offset":12,
+            "night_style": {
+                "color":[{"event_name":"#ff8e88"},{"lane_name":"#ff8e88"}]
+            },
+            "day_style": {
+                "color":[{"event_name":"#ed390d"},{"lane_name":"#ed390d"}]
+            },
+            "image_style": {
+                "event_image":{
+                    "event_type_accident":"event_accident_thumbnail",
+                    "event_type_malfunction":"event_breakdown_thumbnail",
+                    "event_type_project":"event_road_work_thumbnail",
+                    "event_type_water":"event_stagnant_water_thumbnail",
+                    "event_type_close":"event_road_closure_thumbnail"
+                }
+            }
+        },
+        "marker_info_route_energy_empty": {
+            "anchor":5,
+            "night_style": {
+                "color":[{"name_text":"#ff3860"}]
+            },
+            "day_style": {
+                "color":[{"name_text":"#ffffff"}]
+            }
+        },
+        "marker_info_route_energy_remain": {
+            "anchor":5,
+            "day_style": {
+                "color":[{"remain_text":"#40393d"},{"value_text":"#40393d"},{"lower_text":"#ff4545"}]
+            },
+            "night_style": {
+                "color":[{"remain_text":"#ffffff"},{"value_text":"#ffffff"},{"lower_text":"#ff4545"}]
+            }
+        },
+        "marker_info_traffic_light_time_left": {
+            "anchor": 9,
+            "x_ratio": 0.95,
+            "y_ratio": 0.918,
+            "day_style": {
+                "color":[{"time_text_two":"#1c1c1c"},{"time_text_three":"#1c1c1c"}]
+            },
+            "night_style": {
+                "color":[{"time_text_two":"#f1f1f1"},{"time_text_three":"#f1f1f1"}]
+            }
+        },
+        "marker_info_traffic_light_time_right": {
+            "anchor": 9,
+            "x_ratio": 0.05,
+            "y_ratio": 0.918,
+            "day_style": {
+                "color":[{"time_text_two":"#1c1c1c"},{"time_text_three":"#1c1c1c"}]
+            },
+            "night_style": {
+                "color":[{"time_text_two":"#f1f1f1"},{"time_text_three":"#f1f1f1"}]
+            }
+        },
+        "marker_info_interval_camera_left_up": {
+            "anchor":13,
+            "x_offset":10,
+            "y_offset":23
+        },
+        "marker_info_interval_camera_right_up": {
+            "anchor":12,
+            "x_offset":10,
+            "y_offset":23
+        },
+        "marker_info_route_via_point": {
+            "anchor":9,
+            "x_ratio": 0.5,
+            "y_ratio": 0.918,
+            "image_style": {
+                "via_image_dynamic":{
+                    "route_via":"global_image_bubble_midd_day_night",
+                    "route_via_english":"global_image_bubble_midd_english_day_night",
+                    "route_via0":"global_image_bubble_midd1_day_night",
+                    "route_via1":"global_image_bubble_midd2_day_night",
+                    "route_via2":"global_image_bubble_midd3_day_night",
+                    "route_via_invalid":"global_image_bubble_midd_invalid_day_night",
+                    "route_via_invalid_english":"global_image_bubble_midd_english_big_invalid_day_night",
+                    "route_via_invalid0":"global_image_bubble_midd1_invalid_day_night",
+                    "route_via_invalid1":"global_image_bubble_midd2_invalid_day_night",
+                    "route_via_invalid2":"global_image_bubble_midd3_invalid_day_night"
+                }
+            }
+        }
+    },
+    "layer_item_info": {
+        "3dcar_style": {
+            "3dmodel_layer_item_style": {
+                "priority": 0,
+                "model_id": "65538"
+            }
+        },
+        "point_speed_car": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "speed_car.xml",
+                    "poi_marker_info": "marker_info_speed_car"
+                }
+            }
+        },
+        "point_speed_car_overspeed": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "speed_car_overspeed.xml",
+                    "poi_marker_info": "marker_info_speed_car"
+                }
+            }
+        },
+        "point_little_camera": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "autonavi_navi_camera_day",
+                    "poi_marker_info": "marker_info_little_camera"
+                }
+            }
+        },
+        "point_little_camera_night": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "autonavi_navi_camera_night",
+                    "poi_marker_info": "marker_info_little_camera"
+                }
+            }
+        },
+        "point_traffic_light_red_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_traffic_light_red_left_day_night",
+                    "poi_marker_info": "marker_info_traffic_light_left"
+                }
+            }
+        },
+        "point_traffic_light_yellow_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_traffic_light_yellow_left_day_night",
+                    "poi_marker_info": "marker_info_traffic_light_left"
+                }
+            }
+        },
+        "point_traffic_light_green_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_traffic_light_green_left_day_night",
+                    "poi_marker_info": "marker_info_traffic_light_left"
+                }
+            }
+        },
+        "point_traffic_light_red_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_traffic_light_red_right_day_night",
+                    "poi_marker_info": "marker_info_traffic_light_right"
+                }
+            }
+        },
+        "point_traffic_light_yellow_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_traffic_light_yellow_right_day_night",
+                    "poi_marker_info": "marker_info_traffic_light_right"
+                }
+            }
+        },
+        "point_traffic_light_green_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_traffic_light_green_right_day_night",
+                    "poi_marker_info": "marker_info_traffic_light_right"
+                }
+            }
+        },
+        "point_traffic_light_red_left_time": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_light_red_left_time.xml",
+                    "poi_marker_info": "marker_info_traffic_light_time_left"
+                }
+            }
+        },
+        "point_traffic_light_yellow_left_time": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_light_yellow_left_time.xml",
+                    "poi_marker_info": "marker_info_traffic_light_time_left"
+                }
+            }
+        },
+        "point_traffic_light_green_left_time": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_light_green_left_time.xml",
+                    "poi_marker_info": "marker_info_traffic_light_time_left"
+                }
+            }
+        },
+        "point_traffic_light_red_right_time": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_light_red_right_time.xml",
+                    "poi_marker_info": "marker_info_traffic_light_time_right"
+                }
+            }
+        },
+        "point_traffic_light_yellow_right_time": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_light_yellow_right_time.xml",
+                    "poi_marker_info": "marker_info_traffic_light_time_right"
+                }
+            }
+        },
+        "point_traffic_light_green_right_time": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_light_green_right_time.xml",
+                    "poi_marker_info": "marker_info_traffic_light_time_right"
+                }
+            }
+        },
+        "cruise_facilities_left_in": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_left_in",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_right_in": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_right_in",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_bends": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_left_sharp_turn",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_the_wind": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_the_wind",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_continuous_curve": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_continuous_curve",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_accident_prone_sections": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_accident_prone_sections",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_falling_rocks": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_falling_rocks",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_right_falling_rocks": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_right_falling_rocks",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_left_falling_rocks": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_left_falling_rocks",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_railway_crossing": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_railway_crossing",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_easy_slip_road": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_easy_slip_road",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_village": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_village",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_left_lane_narrowing": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_left_lane_narrowing",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_right_lane_narrowing": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_right_lane_narrowing",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_lane_narrowing_on_both_sides": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_lane_narrowing_on_both_sides",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_service_area": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_service_area",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_school": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_school",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_sharp_turn_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_sharp_turn_right",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_no_overtaking": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_no_overtaking",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_narrow_bridge": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_narrow_bridge",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_detour_left_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_detour_left_right",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_detour_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_detour_left",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_detour_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_detour_right",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_mountain_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_mountain_left",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_mountain_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_mountain_right",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_upper_slope": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_upper_slope",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_down_slope": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_down_slope",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_through_water": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_through_water",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_bumpy_road": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_bumpy_road",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_slow_down": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_slow_down",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_tunnel": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_auto_ic_road_facilities_tunnel",
+                    "poi_marker_info": "marker_info_road_facilities"
+                }
+            }
+        },
+        "cruise_facilities_ferry": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "auto_ic_road_facilities_ferry",
+                    "poi_marker_info": "marker_info_road_facilities_ferry"
+                }
+            }
+        },
+        "guide_traffic_event": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_event.xml",
+                    "poi_marker_info": "marker_info_guide_traffic_event"
+                }
+            }
+        },
+        "guide_traffic_event_right_up": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_event_right_up.xml",
+                    "poi_marker_info": "marker_info_guide_traffic_event_right_up"
+                }
+            }
+        },
+        "guide_traffic_event_left_up": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_event_left_up.xml",
+                    "poi_marker_info": "marker_info_guide_traffic_event_left_up"
+                }
+            }
+        },
+        "guide_traffic_event_right_down": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_event_right_down.xml",
+                    "poi_marker_info": "marker_info_guide_traffic_event_right_down"
+                }
+            }
+        },
+        "guide_traffic_event_left_down": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_traffic_event_left_down.xml",
+                    "poi_marker_info": "marker_info_guide_traffic_event_left_down"
+                }
+            }
+        },
+        "guide_traffic_light": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_autonavi_navi_light_day_night"
+                }
+            }
+        },
+        "point_route_start": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_start_day_night",
+                    "poi_marker_info": "marker_info_point_center_up_2"
+                }
+            }
+        },
+        "point_route_start_english": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_start_english_day_night",
+                    "poi_marker_info": "marker_info_point_center_up_2"
+                }
+            }
+        },
+        "point_route_end": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_end_day_night",
+                    "poi_marker_info": "marker_info_point_center_up_2"
+                }
+            }
+        },
+        "point_route_end_english": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_end_english_day_night",
+                    "poi_marker_info": "marker_info_point_center_up_2"
+                }
+            }
+        },
+        "point_guide_end": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_end_day_night",
+                    "poi_marker_info": "marker_info_point_center_up_2"
+                }
+            }
+        },
+        "point_guide_end_english": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_end_english_day_night",
+                    "poi_marker_info": "marker_info_point_center_up_2"
+                }
+            }
+        },
+        "point_eagle_start": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_hawkeye_start"
+                }
+            }
+        },
+        "point_eagle_via": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_hawkeye_via"
+                }
+            }
+        },
+        "point_eagle_end": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_hawkeye_end"
+                }
+            }
+        },
+        "point_route_via": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_via_point_exscreen.xml",
+                    "poi_marker_info": "marker_info_route_via_point"
+                }
+            }
+        },
+        "point_route_energy_empty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_energy_empty_point.xml",
+                    "poi_marker_info": "marker_info_route_energy_empty"
+                }
+            }
+        },
+        "point_route_energy_remain_day": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_energy_remain_point_day.xml",
+                    "poi_marker_info": "marker_info_route_energy_remain"
+                }
+            }
+        },
+        "point_route_energy_remain_night": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_energy_remain_point_night.xml",
+                    "poi_marker_info": "marker_info_route_energy_remain"
+                }
+            }
+        },
+        "point_guide_camera_speed_two": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_normal_two.xml"
+                }
+            }
+        },
+        "point_guide_camera_speed_three": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_normal_three.xml"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_normal_two_small_left.xml",
+                    "poi_marker_info": "marker_info_guide_camera_small_left"
+                }
+            }
+        },
+        "point_guide_camera_speed_three_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_normal_three_small_left.xml",
+                    "poi_marker_info": "marker_info_guide_camera_small_left"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_normal_two_small_right.xml",
+                    "poi_marker_info": "marker_info_guide_camera_small_right"
+                }
+            }
+        },
+        "point_guide_camera_speed_three_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_normal_three_small_right.xml",
+                    "poi_marker_info": "marker_info_guide_camera_small_right"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_active_two_left.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left"
+                }
+            }
+        },
+        "point_guide_camera_speed_three_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_active_three_left.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_active_two_right.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right"
+                }
+            }
+        },
+        "point_guide_camera_speed_three_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_speed_camera_active_three_right.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right"
+                }
+            }
+        },
+        "point_guide_camera_speed_unknown": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_unknown_day_night"
+                }
+            }
+        },
+        "point_guide_camera_breakrule": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_breakrule_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_illegalusesafetybelt": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_seatbelt_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_dialphonewhendriving": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_phone_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_runredlight": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_violateprohibitedmarkings": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_line_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_courtesycrossing": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_sidewalk_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_illegalparking": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_parking_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_occupiednonmotorizedlane": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_occupiedbuslane": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_occupiedemergencylane": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_day_night"
+                }
+            }
+        },
+		"point_guide_camera_breakrule_speaker": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speaker_day_night"
+                }
+            }
+        },
+        "point_guide_camera_busway": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_day_night"
+                }
+            }
+        },
+        "point_guide_camera_bicyclelane": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_day_night"
+                }
+            }
+        },
+        "point_guide_camera_trafficLight": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_day_night"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_day_night"
+                }
+            }
+        },
+        "point_guide_camera_surveillance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_breakrule_day_night"
+                }
+            }
+        },
+        "point_guide_camera_etc": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_etc_day_night"
+                }
+            }
+        },
+        "point_guide_camera_illegaluselight":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_lamp_day_night"
+                }
+            }
+        },
+        "point_guide_camera_endnumberlimit":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_tail_day_night"
+                }
+            }
+        },
+        "point_guide_camera_environmentallimit":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_recycle_day_night"
+                }
+            }
+        },
+        "point_guide_camera_reversedriving":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_reverse_day_night"
+                }
+            }
+        },
+        "point_guide_camera_railwaycrossing":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_railway_day_night"
+                }
+            }
+        },
+        "point_guide_camera_carspacing":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_space_day_night"
+                }
+            }
+        },
+        "point_guide_camera_hovlane":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_hov_day_night"
+                }
+            }
+        },
+        "point_guide_camera_speed_unknown_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_unknown_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_breakrule_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_illegalusesafetybelt_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_seatbelt_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_dialphonewhendriving_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_phone_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_runredlight_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_violateprohibitedmarkings_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_line_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_courtesycrossing_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_sidewalk_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_illegalparking_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_parking_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_occupiednonmotorizedlane_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_occupiedbuslane_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_occupiedemergencylane_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_speaker_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speaker_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_busway_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_bicyclelane_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_trafficLight_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_surveillance_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_breakrule_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_etc_small_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_etc_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_illegaluselight_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+					"poi_marker_id": "global_image_guide_camera_lamp_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_endnumberlimit_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_tail_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_environmentallimit_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_recycle_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_reversedriving_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_reverse_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_railwaycrossing_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_railway_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_carspacing_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_space_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_hovlane_small_left":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_hov_small_left_day_night",
+                    "poi_marker_info": "point_camera_small_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_speed_unknown_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_unknown_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_breakrule_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_illegalusesafetybelt_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_seatbelt_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_dialphonewhendriving_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_phone_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_runredlight_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_violateprohibitedmarkings_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_line_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_courtesycrossing_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_sidewalk_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_illegalparking_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_parking_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_occupiednonmotorizedlane_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_occupiedbuslane_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_occupiedemergencylane_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_speaker_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speaker_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_busway_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_bicyclelane_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_trafficLight_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_surveillance_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_breakrule_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_etc_small_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_etc_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_illegaluselight_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_lamp_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_endnumberlimit_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_tail_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_environmentallimit_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_recycle_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_reversedriving_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_reverse_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_railwaycrossing_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_railway_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_carspacing_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_space_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_hovlane_small_right":{
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_hov_small_right_day_night",
+                    "poi_marker_info": "point_camera_small_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_left_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_left_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance"
+                }
+            }
+        },
+	"point_guide_camera_left_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_left_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_left_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_two_left_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_left_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_two_left_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_speed_three_left_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_three_left_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance"
+                }
+            }
+        },
+		"point_guide_camera_speed_three_left_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_three_left_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_aggregated_left_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_aggregated_left_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance"
+                }
+            }
+        },
+        "point_guide_camera_aggregated_left_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_aggregated_left_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_left_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_speed_unknown_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_unknown_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_surveillance_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_busway_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_bicyclelane_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_trafficLight_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane_left_english": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_left_english_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_surveillance_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_surveillance_left_day_night",
+                    "poi_marker_info": "point_camera_left_x_y"
+                }
+            }
+        },
+        "point_guide_camera_right_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_right_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance"
+                }
+            }
+        },
+		 "point_guide_camera_right_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_right_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_speed_two_right_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_two_right_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance"
+                }
+            }
+        },
+		"point_guide_camera_speed_two_right_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_two_right_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_speed_three_right_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_three_right_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance"
+                }
+            }
+        },
+		"point_guide_camera_speed_three_right_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_speed_three_right_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_aggregated_right_distance": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_aggregated_right_distance.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance"
+                }
+            }
+        },
+        "point_guide_camera_aggregated_right_distance_penalty": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_camera_aggregated_right_distance_penalty.xml",
+                    "poi_marker_info": "marker_info_guide_camera_right_distance_penalty"
+                }
+            }
+        },
+        "point_guide_camera_speed_unknown_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_speed_unknown_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_breakrule_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_surveillance_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_busway_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_busway_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_bicyclelane_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_bicyclelane_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_trafficLight_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_trafficlight_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_emergencylane_right_english": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_emergencylane_right_english_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_camera_surveillance_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_guide_camera_surveillance_right_day_night",
+                    "poi_marker_info": "point_camera_right_x_y"
+                }
+            }
+        },
+        "point_guide_interval_camera_start_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_interval_camera_start_left.xml",
+                    "poi_marker_info": "marker_info_interval_camera_left_up"
+                }
+            }
+        },
+        "point_guide_interval_camera_end_left": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_interval_camera_end_left.xml",
+                    "poi_marker_info": "marker_info_interval_camera_left_up"
+                }
+            }
+        },
+        "point_guide_interval_camera_start_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_interval_camera_start_right.xml",
+                    "poi_marker_info": "marker_info_interval_camera_right_up"
+                }
+            }
+        },
+        "point_guide_interval_camera_end_right": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "guide_interval_camera_end_right.xml",
+                    "poi_marker_info": "marker_info_interval_camera_right_up"
+                }
+            }
+        },
+        "point_route_jam_bubbles_left_up": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_jam_bubbles_left_up.xml",
+                    "poi_marker_info":"marker_info_route_jam_bubbles_left_up"
+                }
+            }
+        },
+        "point_route_jam_bubbles_left_down": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_jam_bubbles_left_down.xml",
+                    "poi_marker_info":"marker_info_route_jam_bubbles_left_down"
+                }
+            }
+        },
+        "point_route_jam_bubbles_right_up": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_jam_bubbles_right_up.xml",
+                    "poi_marker_info":"marker_info_route_jam_bubbles_right_up"
+                }
+            }
+        },
+        "point_route_jam_bubbles_right_down": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "route_jam_bubbles_right_down.xml",
+                    "poi_marker_info":"marker_info_route_jam_bubbles_right_down"
+                }
+            }
+        },
+        "point_route_jam_bubbles_block": {
+            "point_layer_item_style": {
+                "normal_style": {
+                    "poi_marker_id": "global_image_bubble_block_day_night"
+                }
+            }
+        },
+        "polygon_route_restrict": {
+            "polygon_layer_item_style": {
+                "color": "0x26E53B00"
+            }
+        },
+        "line_route_restrict": {
+            "line_layer_item_style": {
+                "use_cap": 1,
+                "use_color": 1,
+                "draw_cover": 1,
+                "can_be_coveredbylabel": 0,
+                "fill_texture": {
+                    "marker_id": "map_lr",
+                    "color": "0xFFE53B00",
+                    "width": 20
+                },
+                "border_texture": {
+                    "marker_id": -1,
+                    "color": "0x26E53B00",
+                    "width": 8
+                }
+            }
+        },
+        "line_route_dodge_line": {
+            "line_layer_item_style": {
+                "priority":0,
+                "use_cap":1,
+                "use_color":1,
+                "draw_cover":1,
+                "can_be_coveredbylabel":1,
+                "fill_texture": {
+                    "marker_id":"map_frontlr",
+                    "marker_info":"",
+                    "color":"0xff00baff",
+                    "width":32
+                },
+                "border_texture": {
+                    "marker_id":"map_frontlr",
+                    "marker_info":"",
+                    "color":"0xff0066ff",
+                    "width":40
+                },
+                "texture_info": {
+                    "x1":0.0,
+                    "y1":0.5,
+                    "x2":1.0,
+                    "y2":0.5,
+                    "texture_len":32
+                },
+                "cap_texture_info": {
+                    "x1":0.0,
+                    "y1":0.5,
+                    "x2":1.0,
+                    "y2":0.75
+                }
+            }
+        },
+        "arrow_route_arrow_style": {
+            "arrow_layer_item_style": {
+                "arrow_fine_texture_info":{
+                    "head_angle": 60.0,
+                    "width": 9.0,
+                    "head_width_ratio": 2.2,
+                    "height_width_ratio": 0.7,
+                    "hang_width_ratio": 0.4,
+                    "purfle_width_ratio_1": 0.1,
+                    "purfle_width_ratio_2": 0.18,
+                    "shadow_purfle_width_ratio": 0.6,
+                    "purfle_color_1": "0xff0046c6",
+                    "purfle_color_2": "0xff266ffd",
+                    "surface_color": "0xffffffff",
+                    "wall_color": "0xff3b7eff",
+                    "shadow_color": "0x99000000"
+                },
+                "arrow_2d_texture_info": {
+                    "use_cap": 1,
+                    "use_color": 1,
+                    "draw_cover": 1,
+                    "can_be_coveredbylabel": 1,
+                    "solid_arrow_in2dmap": 1,
+                    "fill_texture": {
+                        "marker_id": "arrow_line_inner",
+                        "color": "0xffffffff",
+                        "width": 48
+                    },
+                    "border_texture": {
+                        "marker_id": "arrow_line_outer",
+                        "color": "0xff0b6fc4",
+                        "width": 40
+                    },
+                    "texture_info": {
+                        "x1": 0.12,
+                        "y1": 0.77,
+                        "x2": 0.88,
+                        "y2": 0.77,
+                        "texture_len": 0
+                    },
+                    "cap_texture_info": {
+                        "x1": 0.12,
+                        "y1": 0.85,
+                        "x2": 0.88,
+                        "y2": 1
+                    }
+                },
+                "arrow_3d_texture_info": {
+                    "draw_3d_arrow": 1,
+                    "bias_width": 0,
+                    "auto_zoomer_width": 0,
+                    "solid_res_marker_id": "threed_arrow_line_shadow",
+                    "solid_top_face_color": "0xfff0f9ff",
+                    "solid_side_face_color": "0xff2c428a",
+                    "solid_shadow_color": "0x4d000000",
+                    "solid_height": 5,
+                    "solid_thickness": 10,
+                    "solid_border_line_top_line_width": 3,
+                    "solid_border_line_side_line_width": 0,
+                    "solid_border_line_bottom_line_width": 0,
+                    "solid_border_line_top_line_color": "0xff506cc9",
+                    "solid_border_line_side_line_color": "0xff1c3575",
+                    "solid_border_line_bottom_line_color": "0xff1c3575",
+                    "solid_arrow_header_param": {
+                        "header_angle": 55,
+                        "header_width_rate": 2.8
+                    },
+                    "solid_texture_info": {
+                        "x1": 0.3,
+                        "y1": 0.77,
+                        "x2": 0.7,
+                        "y2": 0.77,
+                        "texture_len": 0.01
+                    },
+                    "solid_cap_texture_info": {
+                        "x1": 0.3,
+                        "y1": 0.8,
+                        "x2": 0.7,
+                        "y2": 1.0
+                    },
+                    "solid_header_texture_info": {
+                        "x1": 0.12,
+                        "y1": 0.75,
+                        "x2": 0.88,
+                        "y2": 0.0
+                    }
+                }
+            }
+        },
+        "arrow_route_arrow_style_night": {
+            "arrow_layer_item_style": {
+                "arrow_fine_texture_info":{
+                    "head_angle": 60.0,
+                    "width": 9.0,
+                    "head_width_ratio": 2.2,
+                    "height_width_ratio": 0.7,
+                    "hang_width_ratio": 0.4,
+                    "purfle_width_ratio_1": 0.1,
+                    "purfle_width_ratio_2": 0.18,
+                    "shadow_purfle_width_ratio": 0.6,
+                    "purfle_color_1": "0xff0043be",
+                    "purfle_color_2": "0xff2c69d9",
+                    "surface_color": "0xffe5e7eb",
+                    "wall_color": "0xff3f78e0",
+                    "shadow_color": "0x66000000"
+                },
+                "arrow_2d_texture_info": {
+                    "use_cap": 1,
+                    "use_color": 1,
+                    "draw_cover": 1,
+                    "can_be_coveredbylabel": 1,
+                    "solid_arrow_in2dmap": 1,
+                    "fill_texture": {
+                        "marker_id": "arrow_line_inner",
+                        "color": "0xffffffff",
+                        "width": 48
+                    },
+                    "border_texture": {
+                        "marker_id": "arrow_line_outer",
+                        "color": "0xff0b6fc4",
+                        "width": 40
+                    },
+                    "texture_info": {
+                        "x1": 0.12,
+                        "y1": 0.77,
+                        "x2": 0.88,
+                        "y2": 0.77,
+                        "texture_len": 0
+                    },
+                    "cap_texture_info": {
+                        "x1": 0.12,
+                        "y1": 0.85,
+                        "x2": 0.88,
+                        "y2": 1
+                    }
+                },
+                "arrow_3d_texture_info": {
+                    "draw_3d_arrow": 1,
+                    "bias_width": 0,
+                    "auto_zoomer_width": 0,
+                    "solid_res_marker_id": "threed_arrow_line_shadow",
+                    "solid_top_face_color": "0xfff0f9ff",
+                    "solid_side_face_color": "0xff2c428a",
+                    "solid_shadow_color": "0x4d000000",
+                    "solid_height": 5,
+                    "solid_thickness": 10,
+                    "solid_border_line_top_line_width": 3,
+                    "solid_border_line_side_line_width": 0,
+                    "solid_border_line_bottom_line_width": 0,
+                    "solid_border_line_top_line_color": "0xff506cc9",
+                    "solid_border_line_side_line_color": "0xff1c3575",
+                    "solid_border_line_bottom_line_color": "0xff1c3575",
+                    "solid_arrow_header_param": {
+                        "header_angle": 55,
+                        "header_width_rate": 2.8
+                    },
+                    "solid_texture_info": {
+                        "x1": 0.3,
+                        "y1": 0.77,
+                        "x2": 0.7,
+                        "y2": 0.77,
+                        "texture_len": 0.01
+                    },
+                    "solid_cap_texture_info": {
+                        "x1": 0.3,
+                        "y1": 0.8,
+                        "x2": 0.7,
+                        "y2": 1.0
+                    },
+                    "solid_header_texture_info": {
+                        "x1": 0.12,
+                        "y1": 0.75,
+                        "x2": 0.88,
+                        "y2": 0.0
+                    }
+                }
+            }
+        },
+        "raster_image_style": {
+            "raster_image_layer_item_style":
+            {
+                "priority":0,
+                "winx":24,
+                "winy":224,
+                "width":464,
+                "height":352,
+                "bg_marker_id":"global_image_cross_background_day_night",
+                "marker_id":50000
+          }
+        },
+        "vector_cross_style": {
+            "vector_cross_layer_style": {
+                "vector_cross_marker": {
+                    "bg_marker_id": "global_image_cross_background_day_night",
+                    "arrow_outer_marker_id": "arrow_line_outer_in_cross",
+                    "arrow_inner_marker_id": "arrow_line_inner_in_cross",
+                    "car_marker_id": "car"
+                },
+                "vector_cross_attr": {
+                    "day_mode": 1,
+                    "arrow_border_width": 22,
+                    "arrow_line_width": 18,
+                    "arrow_border_color": {
+                        "r": 0,
+                        "g": 50,
+                        "b": 20,
+                        "a": 0
+                    },
+                    "arrow_line_color": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 0,
+                        "a": 255
+                    },
+                    "arrow_line_cap_texture": {
+                        "x1": 0.23,
+                        "x2": 0.77,
+                        "y1": 0.77,
+                        "y2": 0.77
+                    },
+                    "arrow_header_cap_texture": {
+                        "x1": 0.23,
+                        "x2": 0.77,
+                        "y1": 0.75,
+                        "y2": 0
+                    },
+                    "arrow_line_texture": {
+                        "x1": 0.23,
+                        "x2": 0.77,
+                        "y1": 0.77,
+                        "y2": 0.77,
+                        "texture_len": 0.001
+                    },
+                    "rect": {
+                        "x_min": 24,
+                        "y_min": 224,
+                        "x_max": 488,
+                        "y_max": 576
+                    }
+                }
+            }
+        },
+        "rct_cross_style": {
+            "rct_route_layer_style": {
+                "rct_navi_marker": {
+                    "car_marker_id": "car",
+                    "car_scale":1.5,
+                    "compass_marker_id": "",
+                    "compass_scale":1.5,
+                    "shine_marker_id": "",
+                    "shine_scale": 1.5
+                },
+                "rct_fly_line_param": {
+                    "fill_marker_id": "map_lr_road_white_front",
+                    "arrow_marker_id": "",
+                    "width": 7,
+                    "side_width": 2,
+                    "fly_line_texture": {
+                        "x1": 0.0,
+                        "x2": 1.0,
+                        "y1": 0.25,
+                        "y2": 0.25,
+                        "texture_len": 256
+                    },
+                    "fly_line_arrow_texture": {
+                        "x1": 1.0,
+                        "x2": 0.0,
+                        "y1": 1.0,
+                        "y2": 0.0,
+                        "texture_len": 256
+                    }
+                }
+            }
+        },
+        "car_route_normal": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "-1",
+                    "compass_indicator_marker_id": "-1",
+                    "track_marker_id": "global_image_auto_car_net_loc",
+                    "track_arc_marker_id": "global_image_auto_car_net_loc_breath",
+                    "shine_marker_id": "-1"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "-1",
+                    "south_marker_id": "-1",
+                    "west_marker_id": "-1",
+                    "north_marker_id": "-1",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_eagle_normal": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "-1",
+                    "compass_indicator_marker_id": "-1",
+                    "track_marker_id": "global_image_hawkeye_navi_car_circle_day_night",
+                    "track_arc_marker_id": "-1",
+                    "shine_marker_id": "-1"
+                }
+            }
+        },
+        "car_cruise_net_loc": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "-1",
+                    "compass_indicator_marker_id": "-1",
+                    "track_marker_id": "global_image_auto_car_net_loc",
+                    "track_arc_marker_id": "global_image_auto_car_net_loc_breath",
+                    "shine_marker_id": "-1"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "-1",
+                    "south_marker_id": "-1",
+                    "west_marker_id": "-1",
+                    "north_marker_id": "-1",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 2,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_3d_day": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_day_underpan",
+                    "shine_marker_id": "navi_day_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_day_night",
+                    "north_marker_id": "global_image_navi_direction_north",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_3d_night": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_night_underpan",
+                    "shine_marker_id": "navi_night_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_day_night",
+                    "north_marker_id": "global_image_navi_direction_north",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_skeleton_day": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_day_underpan",
+                    "shine_marker_id": "navi_day_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_day_night",
+                    "north_marker_id": "global_image_navi_direction_north",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_skeleton_night": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_night_underpan",
+                    "shine_marker_id": "navi_night_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_day_night",
+                    "north_marker_id": "global_image_navi_direction_north",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_speed_day": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "id_static",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_day_night",
+                    "north_marker_id": "global_image_navi_direction_north",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_speed_night": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "id_static",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_day_night",
+                    "north_marker_id": "global_image_navi_direction_north",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_gps_day_mini": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "car_mini_direction",
+                    "compass_indicator_marker_id": "-1",
+                    "track_marker_id": "global_image_car_mini_day_night",
+                    "track_arc_marker_id": "-1",
+                    "shine_marker_id": "-1"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "-1",
+                    "south_marker_id": "-1",
+                    "west_marker_id": "-1",
+                    "north_marker_id": "-1",
+                    "relative_distance": 75
+                }
+            }
+        },
+        "car_other_gps_night_mini": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "car_mini_direction_night",
+                    "compass_indicator_marker_id": "-1",
+                    "track_marker_id": "global_image_car_mini_day_night",
+                    "track_arc_marker_id": "-1",
+                    "shine_marker_id": "-1"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "-1",
+                    "south_marker_id": "-1",
+                    "west_marker_id": "-1",
+                    "north_marker_id": "-1",
+                    "relative_distance": 75
+                }
+            }
+        },
+        "car_other_nogps_day_mini": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "car_mini_direction",
+                    "compass_indicator_marker_id": "-1",
+                    "track_marker_id": "global_image_car_mini_gps_no_location_day_night",
+                    "track_arc_marker_id": "-1",
+                    "shine_marker_id": "-1"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "-1",
+                    "south_marker_id": "-1",
+                    "west_marker_id": "-1",
+                    "north_marker_id": "-1",
+                    "relative_distance": 75
+                }
+            }
+        },
+        "car_other_nogps_night_mini": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "car_mini_direction_night",
+                    "compass_indicator_marker_id": -1,
+                    "track_marker_id": "global_image_car_mini_gps_no_location_day_night",
+                    "track_arc_marker_id": -1,
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": -1,
+                    "south_marker_id": -1,
+                    "west_marker_id": -1,
+                    "north_marker_id": -1,
+                    "relative_distance": 75
+                }
+            }
+        },
+        "car_other_3d_day_english": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_day_underpan",
+                    "shine_marker_id": "navi_day_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_english_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_english_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_english_day_night",
+                    "north_marker_id": "global_image_navi_direction_north_english",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_3d_night_english": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_night_underpan",
+                    "shine_marker_id": "navi_night_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_english_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_english_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_english_day_night",
+                    "north_marker_id": "global_image_navi_direction_north_english",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_skeleton_day_english": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_day_underpan",
+                    "shine_marker_id": "navi_day_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_english_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_english_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_english_day_night",
+                    "north_marker_id": "global_image_navi_direction_north_english",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_skeleton_night_english": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_night_underpan",
+                    "shine_marker_id": "navi_night_light"
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_english_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_english_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_english_day_night",
+                    "north_marker_id": "global_image_navi_direction_north_english",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_speed_day_english": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "id_static",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_english_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_english_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_english_day_night",
+                    "north_marker_id": "global_image_navi_direction_north_english",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_speed_night_english": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": "global_image_navi_direction_day_night",
+                    "compass_indicator_marker_id": "global_image_navi_direction_day_night",
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "id_static",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": "global_image_navi_direction_east_english_day_night",
+                    "south_marker_id": "global_image_navi_direction_south_english_day_night",
+                    "west_marker_id": "global_image_navi_direction_west_english_day_night",
+                    "north_marker_id": "global_image_navi_direction_north_english",
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_skeleton_search": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": -1,
+                    "compass_indicator_marker_id": -1,
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": -1,
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": -1,
+                    "south_marker_id": -1,
+                    "west_marker_id": -1,
+                    "north_marker_id": -1,
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_3d_day_search": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": -1,
+                    "compass_indicator_marker_id": -1,
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_day_underpan",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": -1,
+                    "south_marker_id": -1,
+                    "west_marker_id": -1,
+                    "north_marker_id": -1,
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_3d_night_search": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": -1,
+                    "compass_indicator_marker_id": -1,
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "navi_night_underpan",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": -1,
+                    "south_marker_id": -1,
+                    "west_marker_id": -1,
+                    "north_marker_id": -1,
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_speed_day_search": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": -1,
+                    "compass_indicator_marker_id": -1,
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "id_static",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": -1,
+                    "south_marker_id": -1,
+                    "west_marker_id": -1,
+                    "north_marker_id": -1,
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        },
+        "car_other_speed_night_search": {
+            "car_layer_style": {
+                "car_marker": {
+                    "compass_marker_id": -1,
+                    "compass_indicator_marker_id": -1,
+                    "track_marker_id": -1,
+                    "track_arc_marker_id": "id_static",
+                    "shine_marker_id": -1
+                },
+                "compass_marker_info": {
+                    "east_marker_id": -1,
+                    "south_marker_id": -1,
+                    "west_marker_id": -1,
+                    "north_marker_id": -1,
+                    "relative_distance": 75
+                },
+                "car_animation_style": {
+                    "car_style": 1,
+                    "no_net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    },
+                    "net": {
+                        "animation_duration": 2000,
+                        "from_zoom": 0.7,
+                        "end_zoom": 1,
+                        "from_alpha": 1,
+                        "end_alpha": 0
+                    }
+                }
+            }
+        }
+    }
+}

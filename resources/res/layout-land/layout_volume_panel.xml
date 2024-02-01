@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.volumn.VerticalSeekBarWrapper xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout_volume_panel" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/volume_panel_elevation">
+    <com.xiaopeng.montecarlo.views.volumn.seekbar.VerticalSeekBar android:id="@+id/verticalSeekBar" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="0" android:progressDrawable="@drawable/layer_map_blue_dot_seekbar" android:thumb="@null"/>
+</com.xiaopeng.montecarlo.views.volumn.VerticalSeekBarWrapper>

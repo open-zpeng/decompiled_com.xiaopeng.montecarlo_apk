@@ -1,0 +1,373 @@
+{
+    "point_demo_style":
+	{
+		"point_layer_item_style":
+		{
+			"priority":0,
+			"angle":0.0,
+			"is_billboard":1,
+			"normal_style":
+			{
+				"poi_marker_id":3001,
+				"bg_marker_id":3001,
+				"bubble_marker_id":3001,
+				"poi_texture":
+				{
+					"x1":0.0,
+					"y1":0.0,
+					"x2":1.0,
+					"y2":1.0,
+					"scale":1.0
+				},
+				"bg_texture":
+				{
+					"x1":0.0,
+					"y1":0.0,
+					"x2":1.0,
+					"y2":1.0,
+					"scale":1.0
+				},
+				"bubble_texture":
+				{
+					"x1":0.0,
+					"y1":0.0,
+					"x2":1.0,
+					"y2":1.0,
+					"scale":1.0
+				}
+			},
+			"focus_style":
+			{
+				"poi_marker_id":3002,
+				"bg_marker_id":3002,
+				"bubble_marker_id":3002,
+				"poi_texture":
+				{
+					"x1":0.0,
+					"y1":0.0,
+					"x2":1.0,
+					"y2":1.0,
+					"scale":1.0
+				},
+				"bg_texture":
+				{
+					"x1":0.0,
+					"y1":0.0,
+					"x2":1.0,
+					"y2":1.0,
+					"scale":1.0
+				},
+				"bubble_texture":
+				{
+					"x1":0.0,
+					"y1":0.0,
+					"x2":1.0,
+					"y2":1.0,
+					"scale":1.0
+				}
+			},
+			"collision_region":
+			{
+				"x":0,
+				"y":0,
+				"width":100,
+				"height":100
+			},
+			"ignore_region":
+			{
+				"ignore_type":0,
+				"item_index":0,
+				"x":0,
+				"y":0,
+				"width":100,
+				"height":100
+			}
+		}
+	},
+	"line_demo_style":
+	{
+		"line_layer_item_style":
+		{
+			"priority":0,
+			"use_cap":1,
+			"use_color":1,
+			"draw_cover":1,
+			"can_be_coveredbylabel":0,
+			"fill_texture":
+			{
+				"marker_id":1013,
+				"color":"0xFFff0081",
+				"width":20
+			},
+			"border_texture":
+			{
+				"marker_id":-1,
+				"color":"0xFFf0ab01",
+				"width":10
+			},
+			"texture_info":
+			{
+				"x1":0.0,
+				"y1":0.5,
+				"x2":1.0,
+				"y2":0.5,
+				"texture_len":32
+			},
+			"cap_texture_info":
+			{
+				"x1":0.0,
+				"y1":0.5,
+				"x2":1.0,
+				"y2":0.75
+			}
+		}
+	},
+	"polygon_demo_style":
+	{
+		"polygon_layer_item_style":
+		{
+			"priority":0,
+			"color":"0x7700ab81"
+		}
+	},
+	"sector_demo_style":
+	{
+		"sector_layer_item_style":
+		{
+			"priority":0,
+			"color":"0x770f0b01"
+		}
+	},
+	"arrow_demo_style":
+	{
+        "arrow_layer_item_style":
+        {
+            "arrow_2d_texture_info":
+            {
+                "use_cap": 1,
+                "use_color": 1,
+				"draw_cover":1,
+                "can_be_coveredbylabel": 0,
+                "fill_texture":
+                {
+                    "marker_id":1014,
+                    "color": "0xffffffff",
+                    "width": 40
+                },
+                "border_texture":
+                {
+                    "marker_id":1015,
+                    "color": "0xff0b6fc4",
+                    "width": 40
+                },
+                "texture_info":
+                {
+                    "x1": 0.12,
+                    "y1": 0.77,
+                    "x2": 0.88,
+                    "y2": 0.77,
+                    "texture_len": 0
+                },
+                "cap_texture_info":
+                {
+                    "x1": 0.12,
+                    "y1": 0.85,
+                    "x2": 0.88,
+                    "y2": 1.0
+                }
+            },
+            "arrow_3d_texture_info":
+            {
+                "draw_3d_arrow": 1,
+                "bias_width": 0,
+                "auto_zoomer_width": 1,
+                "solid_res_marker_id": 1014,
+                "solid_top_face_color": "0xff5aebce",
+                "solid_side_face_color": "0xff00ae94",
+                "solid_shadow_color": "0x59000000",
+                "solid_height": 3,
+                "solid_thickness": 10,
+                "solid_border_line_top_line_width": 2,
+                "solid_border_line_side_line_width": 2,
+                "solid_border_line_bottom_line_width": 2,
+                "solid_border_line_top_line_color": "0xff506cc9",
+                "solid_border_line_side_line_color": "0xff1c3575",
+                "solid_border_line_bottom_line_color": "0xff1c3575",
+                "solid_arrow_header_param":
+                {
+                    "header_angle": 80,
+                    "header_WidthRate": 3
+                },
+                "solid_texture_info":
+                {
+                    "x1": 0.35,
+                    "y1": 0.625,
+                    "x2": 0.65,
+                    "y2": 0.625,
+                    "texture_len": 32
+                },
+                "solid_cap_texture_info":
+                {
+                    "x1": 0.35,
+                    "y1": 0.75,
+                    "x2": 0.65,
+                    "y2": 0.82
+                },
+                "solid_header_texture_info":
+                {
+                    "x1": 0.1,
+                    "y1": 0.75,
+                    "x2": 0.9,
+                    "y2": 0.1
+                }
+            }
+        }
+    },
+	"vector_cross_demo_style":
+	{
+		"vector_cross_layer_style":
+		{
+			"vector_cross_marker":
+			{
+				"bg_marker_id":55,
+				"arrow_outer_marker_id":59, 
+				"arrow_inner_marker_id":60,
+				"car_marker_id":19
+			},
+			"vector_cross_attr":
+			{
+				"day_mode":1,
+				"arrow_border_width":22.0,
+				"arrow_line_width":18.0,
+				"area_color":
+				{
+					"r":95.0,
+					"g":95.0,
+					"b":95.0,
+					"a":217.0
+				},
+				"arrow_border_color":
+				{
+					"r":0.0,
+					"g":50.0,
+					"b":20.0,
+					"a":0.0
+				},
+				"arrow_line_color":
+				{
+					"r":255.0,
+					"g":255.0,
+					"b":255.0,
+					"a":0.0
+				},
+				"arrow_line_cap_texture":
+				{
+					"x1":0.23,
+					"x2":0.77,
+					"y1":0.77,
+					"y2":1.0
+				},
+				"arrow_header_cap_texture":
+				{
+					"x1":0.23,
+					"x2":0.75,
+					"y1":0.77,
+					"y2":1.0
+				},
+				"arrow_line_texture":
+				{
+					"x1":0.23,
+					"x2":0.77,
+					"y1":0.77,
+					"y2":1.0,
+					"texture_len":0.001
+				},
+				"rect":
+				{
+					"x_min":24.0,
+					"y_min":244.0,
+					"x_max":488.0,
+					"y_max":576.0
+				}
+			}
+		}
+	},
+	"rct_cross_demo_style":
+	{
+		"rct_route_layer_style":
+		{
+			"rct_navi_marker":
+			{
+				"car_marker_id":55,
+				"compass_marker_id":59,
+				"shine_marker_id":19
+			},
+			"rct_fly_line_param":
+			{
+				"fill_marker_id":1,
+				"arrow_marker_id":22,
+				"width":18.0,
+				"side_width":18.0,
+				"fly_line_texture":
+				{
+					"x1":0.23,
+					"x2":0.77,
+					"y1":0.77,
+					"y2":1.0,
+					"texture_len":0.001
+				},
+				"fly_line_arrow_texture":
+				{
+					"x1":0.23,
+					"x2":0.77,
+					"y1":0.77,
+					"y2":1.0,
+					"texture_len":0.001
+				}
+			}
+		}
+	},
+	"car_demo_style":
+	{
+		"car_layer_style":
+		{
+			"car_marker":
+			{
+				"compass_marker_id":1012,
+				"compass_indicator_marker_id":-1,
+				"track_marker_id":1056,
+				"track_arc_marker_id":1096,
+				"shine_marker_id":1013
+			},
+			"compass_marker_info":
+			{
+				"east_marker_id":-1,
+				"south_marker_id":-1,
+				"west_marker_id":-1,
+				"north_marker_id":-1,
+				"relative_distance":0.0
+			},
+			"car_animation_style":
+			{
+				"car_style":1,
+				"no_net":
+				{
+					"animation_duration":800,
+					"from_zoom":0.5,
+					"end_zoom":1.4,
+					"from_lpha":1.0,
+					"end_lpha":0.0
+				},
+				"net":
+				{
+					"animation_duration":800,
+					"from_zoom":0.5,
+					"end_zoom":1.4,
+					"from_lpha":1.0,
+					"end_lpha":0.0
+				}
+			},
+			"car_scale":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+		}
+	}
+}

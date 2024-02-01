@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XListTwo android:id="@+id/setting_map_data_reset_layout" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" app:list_two_text="@string/setting_map_data_reset_title_name" app:list_two_text_sub="@string/setting_map_data_reset_explanation_content" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP" app:vuiLabel="@string/vui_label_setting_map_data_reset" style="@style/XList.Two">
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/setting_map_data_reset_btn" android:layout_marginLeft="@dimen/setting_route_preference_margin_start" android:text="@string/setting_map_data_reset_btn_name" android:layout_centerVertical="true" app:vuiMode="DISABLED" style="@style/XButton.Ghost.Small.Positive"/>
+    </com.xiaopeng.xui.widget.XListTwo>
+</com.xiaopeng.xui.widget.XConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/container_search_result_content_offset" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/container_page_control" android:background="@drawable/layer_bg_white_with_corner" android:layout_width="match_parent" android:layout_height="84dp">
+        <ImageView android:id="@+id/btn_previous" android:layout_width="80dp" android:layout_height="match_parent" android:layout_marginRight="60dp" android:src="@drawable/icon_32_normal_ic_previous_gray" android:scaleType="center" android:layout_toLeftOf="@+id/current_page" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/font_size_land_30_port_28" android:textColor="@color/sub_title_text_color" android:id="@+id/current_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/btn_next" android:layout_width="80dp" android:layout_height="match_parent" android:layout_marginLeft="60dp" android:src="@drawable/icon_32_normal_ic_next_gray" android:scaleType="center" android:layout_toRightOf="@+id/current_page" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/search_result_list" android:background="@drawable/layer_bg_white_with_corner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_below="@+id/container_page_control">
+        <com.xiaopeng.montecarlo.views.XPRecyclerView android:id="@+id/keyword_search_result" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:overScrollMode="never" style="@style/scrollbar_left_style"/>
+    </LinearLayout>
+</RelativeLayout>

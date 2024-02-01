@@ -1,0 +1,7 @@
+<div style='display:flex;flex-direction:column;align-items:center;justify-content:space-around'>
+  <image style="width:306px;height:103px;line-height:NaNpx;position:absolute;top:0px;left:0px;bottom:0px;right:0px;white-space:normal;" src="global_image_navi_interval_camera_bg_end_right_english_day_night" />
+  <div style='position:absolute;left:32px;top:32px;width:43px;display:flex;flex-direction:column;justify-content:space-around;'>
+    <label id='speed_two_text' style='color:#e5000000;font-size:28px;background-color:transparent;align-items:center;font-family:Roboto-Bold;max-height:31px;' text='80'/>
+    <label id='speed_three_text' style='color:#e5000000;font-size:26px;background-color:transparent;align-items:center;font-family:Roboto-Bold;max-height:29px;' text='120'/>
+  </div>
+</div>

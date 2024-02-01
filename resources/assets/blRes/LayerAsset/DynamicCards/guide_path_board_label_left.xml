@@ -1,0 +1,5 @@
+<div id='guide_path_board_label' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:column;justify-content:center;align-items:flex-start;background-image:global_image_autonavi_roadname_left_day_night;'>
+    <label id='name_text' style='color:#ffffff;font-size:24px;justify-content:flex-start;max-height:27px;' text='中国石油加油站'/>
+  </div>
+</div>

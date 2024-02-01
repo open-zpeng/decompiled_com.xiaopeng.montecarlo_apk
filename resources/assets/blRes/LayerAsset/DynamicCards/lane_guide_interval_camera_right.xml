@@ -1,0 +1,7 @@
+<div style=''>
+  <image id="camera_type" src='global_image_autonavi_lane_interval_camera_bg_end_right_day_night' />
+  <div style="position:absolute;align-items:center;width:60px;height:60px;top:12px;left:85px;">
+  <label id='speed_two_text' style='top:20px;color:#e6000000;font-size:28px;font-family:Roboto-Bold;' text='70'/>
+  <label id='speed_three_text' style='top:20px;color:#e6000000;font-size:26px;font-family:Roboto-Bold;' text='120'/>
+</div>
+</div>

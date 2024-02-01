@@ -1,0 +1,62 @@
+package com.autonavi.gbl.pos.router;
+
+import com.autonavi.auto.intfauto.BindTable;
+import com.autonavi.auto.intfauto.BuildType;
+import com.autonavi.auto.intfauto.IntfAuto;
+import com.autonavi.auto.intfauto.ReflexTool;
+import com.autonavi.auto.intfauto.TypeHelper;
+import com.autonavi.gbl.pos.observer.IPosDiagnosisInfoObserver;
+import com.autonavi.gbl.pos.observer.impl.IPosDiagnosisInfoObserverImpl;
+@IntfAuto(target = IPosDiagnosisInfoObserver.class, type = BuildType.JROUTER)
+/* loaded from: classes2.dex */
+public class PosDiagnosisInfoObserverRouter extends IPosDiagnosisInfoObserverImpl {
+    private static BindTable BIND_TABLE = new BindTable(PosDiagnosisInfoObserverRouter.class);
+    private static String PACKAGE = ReflexTool.PN(PosDiagnosisInfoObserverRouter.class);
+    private TypeHelper mHelper;
+    private IPosDiagnosisInfoObserver mObserver;
+    private String mTargetId;
+
+    private void $constructor(String str, IPosDiagnosisInfoObserver iPosDiagnosisInfoObserver) {
+        this.mTargetId = String.format("router_%s_%s_%d", str, String.valueOf(IPosDiagnosisInfoObserverImpl.getCPtr(this)), Long.valueOf(System.currentTimeMillis()));
+        this.mHelper = new TypeHelper(this.mTargetId);
+        this.mObserver = iPosDiagnosisInfoObserver;
+    }
+
+    protected PosDiagnosisInfoObserverRouter(String str, IPosDiagnosisInfoObserver iPosDiagnosisInfoObserver, long j, boolean z) {
+        super(j, z);
+        this.mTargetId = null;
+        this.mHelper = null;
+        this.mObserver = null;
+        $constructor(str, iPosDiagnosisInfoObserver);
+    }
+
+    protected PosDiagnosisInfoObserverRouter(String str, IPosDiagnosisInfoObserver iPosDiagnosisInfoObserver) {
+        this.mTargetId = null;
+        this.mHelper = null;
+        this.mObserver = null;
+        $constructor(str, iPosDiagnosisInfoObserver);
+    }
+
+    protected void unbind() {
+        TypeHelper typeHelper = this.mHelper;
+        if (typeHelper != null) {
+            typeHelper.delete();
+            this.mHelper = null;
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // com.autonavi.gbl.pos.observer.impl.IPosDiagnosisInfoObserverImpl
+    public synchronized void delete() {
+        super.delete();
+        unbind();
+    }
+
+    @Override // com.autonavi.gbl.pos.observer.impl.IPosDiagnosisInfoObserverImpl
+    public void onDiagnosisInfoUpdate(String str) {
+        IPosDiagnosisInfoObserver iPosDiagnosisInfoObserver = this.mObserver;
+        if (iPosDiagnosisInfoObserver != null) {
+            iPosDiagnosisInfoObserver.onDiagnosisInfoUpdate(str);
+        }
+    }
+}

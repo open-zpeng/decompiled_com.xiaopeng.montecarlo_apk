@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="@dimen/ngp_btn_bg_width_height" android:width="@dimen/ngp_btn_bg_width_height" android:viewportWidth="96" android:viewportHeight="96">
+    <group>
+        <clip-path android:pathData="M89,0l-82,0l-0,92l82,0z"/>
+        <path android:fillColor="@color/ngp_warn_avoid_van_line_color" android:pathData="M49,6L49,31L45,31L45,6L49,6ZM49,45L49,70L45,70L45,45L49,45ZM49,83L49,97L45,97L45,83L49,83Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.76" android:fillType="nonZero"/>
+    </group>
+    <group>
+        <clip-path android:pathData="M89,0l-82,0l-0,92l82,0z"/>
+        <path android:fillColor="#00000000" android:pathData="M24.8357,25.2214C24.8357,36.784 24.8357,40.9574 24.8357,49.4173C24.8357,57.8772 23.3631,64.4805 30.4179,68.2053C36.4945,71.4136 35.2897,76.9904 35.2897,88" android:strokeColor="@color/ngp_warn_avoid_van_arrow_color" android:strokeWidth="8" android:strokeLineCap="round" android:fillType="evenOdd"/>
+        <path android:fillColor="@color/ngp_warn_avoid_van_arrow_color" android:pathData="M25.0956,8l-16.2984,25.5105l32.5967,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    </group>
+    <group>
+        <clip-path android:pathData="M89,0l-82,0l-0,92l82,0z"/>
+        <path android:fillColor="@color/ngp_warn_avoid_van_truck_color" android:pathData="M84,28L55,28A2,2 0,0 0,53 30L53,90A2,2 0,0 0,55 92L84,92A2,2 0,0 0,86 90L86,30A2,2 0,0 0,84 28z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+        <path android:fillColor="@color/ngp_warn_avoid_van_truck_color" android:pathData="M78,24l-17,0l-0,5l17,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+        <path android:fillColor="@color/ngp_warn_avoid_van_truck_color" android:pathData="M57.6366,24L56.6393,22.4549C56.222,21.8084 56,21.0552 56,20.2857L56,11.5447C56,10.1607 56.7155,8.875 57.8916,8.1455C61.2725,6.0485 65.0595,5 69.2526,5C73.3857,5 77.2372,5.9039 80.8072,7.7118C82.1522,8.393 83,9.7726 83,11.2803L83,20.5293C83,21.1445 82.8581,21.7514 82.5853,22.3028L81.7458,24L81.7458,24L57.6366,24Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    </group>
+</vector>

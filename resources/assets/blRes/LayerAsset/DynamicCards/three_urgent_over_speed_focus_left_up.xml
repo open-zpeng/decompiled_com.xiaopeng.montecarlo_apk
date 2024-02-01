@@ -1,0 +1,8 @@
+<div id='guide_path_board_label' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  <div style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:flex-start;align-items:flex-start;background-image:global_image_speeding_top_left_day_night'>
+    <label id='passing_speed' style='color:#ffffff; font-size:18px;margin-right:1px;margin-top:9px;font-family:Roboto-Bold;max-height:21px;' text='128' />
+    <label id='passing_speed_unit' style='color:#ffffff; font-size:14px;margin-top:10px;max-height:17px;' text='km/h' />
+    <label id='camera_speed' style='color:#000000;font-size:20px;margin-left:12px;margin-right:4px;margin-top:8px;font-family:Roboto-Bold;max-height:23px;' text='80' />
+    <label id='camera_speed_three' style='color:#000000;font-size:18px;margin-left:5px;margin-top:8px;font-family:Roboto-Bold;max-height:21px;' text='120'/>
+  </div>
+</div>

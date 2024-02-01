@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@android:color/background_light" android:layout_width="match_parent" android:layout_height="match_parent" style="@android:style/Widget.Holo.Light">
+    <LinearLayout android:orientation="horizontal" android:background="@android:drawable/title_bar" android:layout_width="match_parent" android:layout_height="50dp" android:layout_weight="0">
+        <ImageButton android:id="@+id/btn_back" android:layout_width="50dp" android:layout_height="50dp" android:layout_weight="0" app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"/>
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="0dp" android:layout_height="match_parent" android:text="@android:string/dialog_alert_title" android:layout_weight="1" style="@android:style/TextAppearance.WindowTitle"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

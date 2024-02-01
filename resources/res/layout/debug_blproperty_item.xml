@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="200dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textColor="@android:color/white" android:id="@+id/debug_list_item_text" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/renderfps_radiogroup" android:background="@color/xui_white" android:visibility="gone" android:layout_width="100dp" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/curise_raido" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_bl_property_cruise" style="@style/font_regular_land_30_port_28"/>
+                <RadioButton android:id="@+id/guide_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/debug_bl_property_guide" style="@style/font_regular_land_30_port_28"/>
+                <RadioButton android:id="@+id/animation_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_bl_property_anima" style="@style/font_regular_land_30_port_28"/>
+                <RadioButton android:id="@+id/gesture_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_bl_property_gesture" style="@style/font_regular_land_30_port_28"/>
+            </RadioGroup>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/debug_list_item_seekbar_des_container" android:padding="20dp" android:visibility="gone" android:layout_width="200dp" android:layout_height="match_parent">
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/debug_list_item_float_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/debug_list_item_seekbar_default_Value" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/debug_list_item_seekbar_minValue" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/debug_list_item_seekbar_maxValue" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Switch android:layout_gravity="center" android:id="@+id/debug_list_item_switch" android:padding="10dp" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingEnd="30dp"/>
+        <SeekBar android:textColor="@android:color/white" android:id="@+id/debug_list_item_seekbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:layout_weight="1" android:paddingEnd="30dp" style="@style/font_regular_land_40_port_36"/>
+    </LinearLayout>
+    <include layout="@layout/layout_horizontal_line"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/debug_list_item_reboot_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200dp">
+        <Button android:textColor="@android:color/white" android:gravity="center" android:id="@+id/debug_list_item_reset_btn" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/debug_bl_property_reset_setting" android:layout_weight="1"/>
+        <Button android:textColor="@android:color/white" android:gravity="center" android:id="@+id/debug_list_item_reboot_btn" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/debug_bl_property_reboot" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

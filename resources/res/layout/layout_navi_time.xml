@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/day_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/font_digital_land_48_port_44"/>
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/day_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navi_title_label_day" style="@style/font_regular_land_28_port_26"/>
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/hour_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/font_digital_land_48_port_44"/>
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/hour_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navi_title_label_hour" style="@style/font_regular_land_28_port_26"/>
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/minute_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/font_digital_land_48_port_44"/>
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/minute_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navi_title_label_minute" style="@style/font_regular_land_28_port_26"/>
+</LinearLayout>

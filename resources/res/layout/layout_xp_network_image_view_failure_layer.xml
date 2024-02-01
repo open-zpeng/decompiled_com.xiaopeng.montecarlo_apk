@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/layer_failure" android:background="@color/network_image_error_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_failure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_64_normal_ic_failedtoload" android:layout_centerInParent="true"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

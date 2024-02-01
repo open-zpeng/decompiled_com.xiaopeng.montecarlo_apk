@@ -1,0 +1,13 @@
+<div id='guide_traffic_signal_light_red_left' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;'>
+    <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-end;background-image:global_image_guide_light1_bubble_left_day_night;'>
+        <div id='number_content' style='width:74px;display:flex;flex-direction:row;justify-content:space-around;bottom:3px'>
+            <div id='inner_content' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-end;padding-right:1px'>
+                <label id='single_number_text' style='left:6px;color:#ff000000;font-size:26;max-height:29px;' text='8'/>
+                <label id='single_seconds_text' style='left:8px;margin-right:14px;color:#ff000000;font-size:26;max-height:29px;' text='秒'/>
+                <label id='number_text' style='color:#ff000000;font-size:26;max-height:29px;' text='8'/>
+                <label id='seconds_text' style='color:#ff000000;font-size:26;max-height:29px;' text='秒'/>
+            </div>
+        </div>
+    </div>
+    <image id='light_red' style='opacity:1.0;position:absolute;left:16px;top:12px;' src='global_image_guide_light_red_day_night'/>
+</div>

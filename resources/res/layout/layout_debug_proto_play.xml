@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.MovableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@drawable/png_bg_shadow_secondlevel" android:padding="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isAttach="true" app:isDrag="true">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/common_text_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="@string/debug_play_proto"/>
+    <com.xiaopeng.xui.widget.XButton android:id="@+id/btn_debug_proto_play" android:layout_marginTop="10dp" android:text="@string/debug_proto_play" style="@style/XButton.Real.Small.Positive"/>
+    <com.xiaopeng.xui.widget.XSeekBar android:id="@+id/btn_debug_proto_progress" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:max="100" android:progress="0" android:secondaryProgress="100" style="@style/XSeekBar"/>
+</com.xiaopeng.montecarlo.views.MovableLayout>

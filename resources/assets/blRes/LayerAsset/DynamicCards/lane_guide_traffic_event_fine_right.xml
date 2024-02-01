@@ -1,0 +1,10 @@
+<div style="">
+  <div
+    style="display:flex;flex-direction:column;align-items:flex-start;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;width:auto;height:111px;font-weight:normal;position:relative;top:0px;left:0px;white-space:nowrap;background-image:global_image_autonavi_lane_bubble_container_two_traffic_event_right_day_night;"
+  >
+    <label id="event_name" style="top:2px;font-size:24px;color:#ED390D;position:relative;white-space:pre;overflow:hidden;text-overflow:ellipsis;font-family:font_cn;" lines="1">右</label>
+    <label id="event_length" style="top:6px;font-size:20px;color:#99000000;position:relative;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:font_cn;" lines="1">长</label>
+  </div>
+  <image id="event_image" style="width:40px;height:40px;position:absolute;top:28px;left:64px;" src="global_image_autonavi_lane_icon_traffic_event_project" />
+</div>
+

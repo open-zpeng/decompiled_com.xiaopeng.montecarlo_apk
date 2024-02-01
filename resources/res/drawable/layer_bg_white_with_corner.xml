@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item android:left="20dp" android:top="20dp" android:right="20dp" android:bottom="20dp">
+        <shape android:shape="rectangle" android:useLevel="false">
+            <corners android:radius="20dp"/>
+            <gradient android:startColor="@color/gradient_start_1C2835" android:endColor="@color/gradient_end_182336"/>
+        </shape>
+    </item>
+</layer-list>

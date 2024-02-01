@@ -1,0 +1,6 @@
+<div style="">
+<div style="display:flex;flex-direction:row-reverse;justify-content:flex-start;align-items:center;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;width:auto;height:107px;background-image:global_image_autonavi_lane_bubble_container_traffic_event_left_day_night;">
+<label id="event_name" style="top:4px;font-size:28px;color:#ed390d;position:relative;white-space:pre;font-family:font_cn;" lines="1">施工</label>
+</div>
+<image id="event_image" style="display:flex;flex-direction:row;justify-content:center;align-items:center;width:40px;height:40px;position:absolute;top:32px;left:22px;" src="global_image_autonavi_lane_icon_traffic_event_accident"/>
+</div>

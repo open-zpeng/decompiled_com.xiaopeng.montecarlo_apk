@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/im_cross_navi_info_turn" android:layout_width="130dp" android:layout_height="130dp" android:layout_marginTop="30dp" android:contentDescription="navi_info_turn"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:id="@+id/tv_cross_navi_info_turn_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26dp" style="@style/font_digital_90"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp">
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:id="@+id/tv_cross_navi_info_turn_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="公里" style="@style/font_medium_36"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:id="@+id/tv_cross_navi_info_turn_enter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="进入" style="@style/font_medium_36"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/cross_navi_info_turn_road_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:paddingStart="26dp" android:paddingEnd="26dp">
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text06" android:gravity="center" android:id="@+id/tv_cross_navi_info_turn_exit" android:background="@drawable/shape_navi_info_exit_background" android:padding="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:text="出口" android:singleLine="true" style="@style/font_medium_20"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_cross_navi_info_turn_road_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="杭州湾环城高速" android:maxLines="2" android:layout_toRightOf="@+id/tv_cross_navi_info_turn_exit" style="@style/font_medium_36"/>
+    </RelativeLayout>
+</LinearLayout>

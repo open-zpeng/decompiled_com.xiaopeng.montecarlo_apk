@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ll_main_content" android:background="@drawable/png_lane_bubble_container_right" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_map_lane_turn_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginStart="35dp"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

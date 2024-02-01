@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_02" android:id="@+id/tv_xp_price_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true" style="@style/poi_pop_price_time_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_02" android:id="@+id/tv_xp_price_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="13.5dp" android:layout_toEndOf="@+id/tv_xp_price_time" style="@style/poi_pop_price_value_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_03" android:id="@+id/tv_xp_price_external" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="3.5dp" android:layout_toEndOf="@+id/tv_xp_price_value" style="@style/poi_pop_price_external_style"/>
+</RelativeLayout>

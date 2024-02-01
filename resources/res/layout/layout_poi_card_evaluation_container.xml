@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/poi_address_bottom_margin">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_05" android:id="@+id/tv_visit_count" android:background="@drawable/shape_bg_visit_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/search_charge_item_stop_favourable_height" style="@style/poi_pop_visit_count_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/tv_stop_favourable" android:visibility="gone" android:layout_marginTop="@dimen/poi_tv_visit_count_margin_top" android:text="@string/search_result_stop_favourable" style="@style/search_stop_favourable"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_02" android:id="@+id/tv_evaluation_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" style="@style/poi_pop_evaluation_count_style"/>
+</merge>

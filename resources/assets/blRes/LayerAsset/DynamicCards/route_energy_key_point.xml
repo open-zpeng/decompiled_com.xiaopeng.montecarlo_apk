@@ -1,0 +1,5 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;background-image:global_image_new_energy_grey_day_night'>
+   <image id='energy_middle' style='margin-left:13px;margin-top:3px;margin-bottom:13px;' src='global_image_new_energy_battery_middle_day_night' />
+   <image id='energy_full' style='margin-left:13px;margin-top:3px;margin-bottom:13px;' src='global_image_new_energy_battery_full_day_night' />
+   <label id='energy_text' style='padding-left:4px;padding-top:5px;padding-right:14px;color:#e6ffffff;font-size:20px;max-height:23px;' text='60%' />
+</div>

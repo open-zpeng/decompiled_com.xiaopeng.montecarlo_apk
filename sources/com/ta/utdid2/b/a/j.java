@@ -1,0 +1,18 @@
+package com.ta.utdid2.b.a;
+
+import android.util.Log;
+import com.xiaopeng.montecarlo.util.XpCacheConsts;
+/* compiled from: TimeUtils.java */
+/* loaded from: classes2.dex */
+public class j {
+    public static final String TAG = "com.ta.utdid2.b.a.j";
+
+    public static boolean a(long j, int i) {
+        boolean z = (System.currentTimeMillis() - j) / XpCacheConsts.ONE_DAY < ((long) i);
+        if (d.e) {
+            String str = TAG;
+            Log.d(str, "isUpToDate: " + z + "; oldTimestamp: " + j + "; currentTimestamp" + System.currentTimeMillis());
+        }
+        return z;
+    }
+}

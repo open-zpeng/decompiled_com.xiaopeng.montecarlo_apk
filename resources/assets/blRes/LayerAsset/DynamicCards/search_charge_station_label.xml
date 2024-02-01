@@ -1,0 +1,19 @@
+<div id='search_charge_label' style='width:auto;height:auto;display:flex;flex-direction:row;justify-content:center;align-items:flex-start;'>
+  <div id='charge_fast' style='background-image:global_image_station_fast_day_night;flex-direction:row;justify-content:flex-start;align-items:center;'>
+    <label id='fast_first' style='color:#FFFFFFFF;font-size:18px;justify-content:flex-start;margin-left:2px;max-height:21px;' text='15'/>
+    <label id='fast_second' style='color:#7FFFFFFF;font-size:18px;justify-content:flex-start;margin-right:2px;max-height:21px;' text=''/>
+  </div>
+  <div id='charge_slow' style='background-image:global_image_station_slow_day_night;flex-direction:row;justify-content:flex-start;align-items:center;'>
+    <label id='slow_first' style='color:#FFFFFFFF;font-size:18px;justify-content:flex-start;margin-left:2px;max-height:21px;' text='4'/>
+    <label id='slow_second' style='color:#7FFFFFFF;font-size:18px;justify-content:flex-start;margin-right:2px;max-height:21px;' text=''/>
+  </div>
+  <div id='charge_fast_2' style='background-image:global_image_station_fast_2_day_night;flex-direction:row;justify-content:flex-start;align-items:center;'>
+    <label id='fast_first_2' style='color:#FFFFFFFF;font-size:18px;justify-content:flex-start;margin-left:2px;max-height:21px;' text='15'/>
+    <label id='fast_second_2' style='color:#7FFFFFFF;font-size:18px;justify-content:flex-start;margin-right:2px;max-height:21px;' text=''/>
+  </div>
+  <div id='charge_slow_2' style='background-image:global_image_station_slow_2_day_night;flex-direction:row;justify-content:flex-start;align-items:center;'>
+    <label id='slow_first_2' style='color:#FFFFFFFF;font-size:18px;justify-content:flex-start;margin-left:2px;max-height:21px;' text='4'/>
+    <label id='slow_second_2' style='color:#7FFFFFFF;font-size:18px;justify-content:flex-start;margin-right:2px;max-height:21px;' text=''/>
+  </div>
+  <image id='best_icon' style='position:absolute;left:0px;top:0px;display:flex;' src='global_image_beststation_day_night'/>
+</div>

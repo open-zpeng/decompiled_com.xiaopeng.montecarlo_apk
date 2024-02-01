@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_02" android:id="@+id/tv_road_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/poi_item_offset" android:layout_marginBottom="@dimen/poi_item_offset" android:text="@string/road_start_close" android:lineSpacingExtra="4dp" style="@style/poi_pop_road_info_style"/>
+    <com.xiaopeng.montecarlo.views.NaviImageView android:id="@+id/road_info_divider" android:src="@color/color_poi_card_view_line_color_poi_pop_content_item" android:layout_alignParentTop="true" style="@style/poi_pop_road_info_horizontal_divider"/>
+</merge>

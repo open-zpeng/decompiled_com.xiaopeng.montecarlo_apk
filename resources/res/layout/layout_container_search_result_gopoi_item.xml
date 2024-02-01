@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/search_result_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_result_scene_item_min_height">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/search_result_item_detail" android:paddingLeft="@dimen/container_search_result_content_offset" android:paddingRight="@dimen/container_search_result_content_offset" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_result_scene_item_min_height">
+        <TextView android:gravity="center" android:id="@+id/search_result_order" android:layout_marginTop="@dimen/search_result_scene_order_mt" android:minHeight="@dimen/search_result_scene_item_min_height" android:includeFontPadding="false" android:layout_marginEnd="@dimen/search_result_scene_order_mr" style="@style/search_result_order_style"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_result_scene_item_min_height">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_result_order_bit_mt" android:layout_weight="1">
+                <TextView android:id="@+id/search_result_name" android:layout_width="wrap_content" android:layout_height="@dimen/search_result_name_height" android:includeFontPadding="false" android:layout_marginEnd="@dimen/search_result_name_mr" style="@style/search_result_name_style"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/search_result_address_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_result_address_type_mt" android:layout_marginEnd="@dimen/search_result_name_mr">
+                <TextView android:id="@+id/search_result_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/distance_type_style"/>
+                <TextView android:id="@+id/search_result_address_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/search_result_address_type_style"/>
+                <TextView android:id="@+id/search_result_address_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/search_result_address_style"/>
+            </LinearLayout>
+            <View android:id="@+id/bottom_line" android:layout_marginTop="@dimen/search_result_scene_content_mb" style="@style/search_bottom_line_style"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear_go_to_poi_parent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@+id/img_go_to_poi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_32_normal_ic_navigation_white"/>
+        <TextView android:id="@+id/search_result_route_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_result_route_name" style="@style/search_result_routename_text_style"/>
+    </LinearLayout>
+</RelativeLayout>

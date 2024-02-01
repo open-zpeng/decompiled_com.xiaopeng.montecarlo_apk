@@ -1,0 +1,18 @@
+<div id='guide_label_background_image' style='width:auto;height:auto;background-image:global_image_navi_bg_route_label_right_up_day_night;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;'>
+  <div id='div1_ignore' style='flex-direction:row;justify-content:flex-start;align-items:center;'>
+    <div id='div_label' style='justify-content:flex-start;align-items:left;background-image:global_image_navi_bg_route_textlabel_weak_day_night;margin-right:8px;'>
+      <label id='label_text' style='color:#f0ffffff;font-size:23px;justify-content:flex-start;max-height:26px;' text='大路多'/>
+    </div>
+    <label id='time_diff_text' style='color:#f0ffffff;font-size:24px;justify-content:flex-start;max-height:27px;' text='快3分钟'/>
+    <image id='cost_image1' style='margin-left:6px;max-width:24px;max-height:24px;margin-right:2px;' src='global_image_shoufei1_day_night'/>
+    <label id='cost_text1' style='color:#f0ffffff;font-size:24px;justify-content:flex-start;max-height:27px;' text='少13元'/>
+  </div>
+  <div id='div2_ignore' style='flex-direction:row;justify-content:flex-start;align-items:center;margin-top:8px'>
+    <label id='distance_diff_text' style='color:#f0ffffff;font-size:20px;justify-content:flex-start;max-height:23px;' text='多1公里'/>
+    <image id='traffic_light_image' style='margin-left:6px;margin-bottom:1px;' src='global_image_honglvdeng1_day_night'/>
+    <label id='traffic_light_text' style='color:#f0ffffff;font-size:20px;justify-content:flex-start;max-height:23px;' text='少3个'/>
+    <image id='cost_image2' style='margin-left:5px;max-width:22px;max-height:22px;margin-bottom:1px;margin-right:4px;' src='global_image_shoufei1_day_night'/>
+    <label id='cost_text2' style='color:#f0ffffff;font-size:20px;justify-content:flex-start;max-height:23px;' text='少13元'/>
+  </div>
+</div>
+

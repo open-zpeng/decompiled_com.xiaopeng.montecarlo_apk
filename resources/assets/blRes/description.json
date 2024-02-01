@@ -1,0 +1,169 @@
+{
+    "description.json": {
+        "type": 0, 
+        "path": "description.json", 
+        "version": "Lane36.9.650.155.0.301"
+    }, 
+    "global.db": {
+        "type": 1, 
+        "path": "res/global.db", 
+        "version": "1608820241", 
+        "md5": "c1e89ccdf60e1c3760857e80c8fbd16e"
+    }, 
+    "global_e.db": {
+        "type": 1, 
+        "path": "res/global_e.db", 
+        "version": "1635907287", 
+        "md5": "04aee749db2029a21b3c60efb748b1d4"
+    }, 
+    "GRestConfig.ini": {
+        "type": 0, 
+        "path": "GRestConfig.ini"
+    }, 
+    "GblConfig.json": {
+        "type": 1, 
+        "path": "GblConfig.json"
+    }, 
+    "GblConfig.json.bak": {
+        "type": 0, 
+        "path": "GblConfig.json.bak"
+    }, 
+    "GuideConfig.json": {
+        "type": 0, 
+        "path": "GuideConfig.json"
+    }, 
+    "LogSenceConfig.json": {
+        "type": 1, 
+        "path": "LogSenceConfig.json"
+    }, 
+    "MultipleScreen.json": {
+        "type": 0, 
+        "path": "MultipleScreen.json"
+    }, 
+    "localization": {
+        "type": 0, 
+        "path": "localization", 
+        "subfiles": [
+            "/values-zh-cn/bl_strings.xml", 
+            "/values-zh-tr/bl_strings.xml", 
+            "/values-en/bl_strings.xml"
+        ]
+    }, 
+    "speech_conf": {
+        "type": 0, 
+        "path": "speech_conf", 
+        "subfiles": [
+            "/xiaoyan.irf", 
+            "/common.irf", 
+            "/isstts.cfg"
+        ]
+    }, 
+    "GLndsConfig.xml": {
+        "type": 2, 
+        "path": "GLndsConfig.xml"
+    }, 
+    "GNaviConfig.xml": {
+        "type": 2, 
+        "path": "GNaviConfig.xml"
+    }, 
+    "res": {
+        "type": 2, 
+        "path": "res"
+    }, 
+    "LaneResource": {
+        "type": 2, 
+        "path": "LaneResource"
+    }, 
+    "LayerAsset": {
+        "type": 2, 
+        "path": "LayerAsset"
+    }, 
+    "LayerTool": {
+        "type": 2, 
+        "path": "LayerTool"
+    }, 
+    "MapAsset": {
+        "type": 2, 
+        "path": "MapAsset"
+    }, 
+    "arres": {
+        "type": 2, 
+        "path": "arres"
+    }, 
+    "drawable-hdpi": {
+        "type": 2, 
+        "path": "drawable-hdpi"
+    }, 
+    "font_cn.ttf": {
+        "type": 2, 
+        "path": "font_cn.ttf"
+    }, 
+    "style.json": {
+        "type": 2, 
+        "path": "style.json"
+    }, 
+    "network_conf": {
+        "type": 1, 
+        "path": "network_conf", 
+        "subfiles": [
+            "/autorz.crt"
+        ]
+    }, 
+    "offline_conf": {
+        "type": 2, 
+        "path": "offline_conf"
+    }, 
+    "theme_conf": {
+        "type": 2, 
+        "path": "theme_conf"
+    }, 
+    "voice_conf": {
+        "type": 2, 
+        "path": "voice_conf"
+    }, 
+    "opencc_conf": {
+        "type": 1, 
+        "path": "opencc_conf", 
+        "subfiles": [
+            "/STCharacters.ocd2", 
+            "/s2t.json", 
+            "/STPhrases.ocd2"
+        ]
+    }, 
+    "LaneCarSRResource": {
+        "type": 2, 
+        "path": "LaneCarSRResource"
+    }, 
+    "MapToolAsset": {
+        "type": 2, 
+        "path": "MapToolAsset"
+    }, 
+    "dsl": {
+        "type": 2, 
+        "path": "dsl"
+    }, 
+    "tips": {
+        "type": 2, 
+        "path": "tips"
+    }, 
+    "EhpConfig.dat": {
+        "type": 0, 
+        "path": "EhpConfig.dat"
+    }, 
+    "IdcConfig.dat": {
+        "type": 0, 
+        "path": "IdcConfig.dat"
+    }, 
+    "Oswald-Regular.ttf": {
+        "path": "Oswald-Regular.ttf", 
+        "type": 2
+    }, 
+    "Prefab": {
+        "path": "Prefab", 
+        "type": 2
+    }, 
+    "Roboto-Bold.ttf": {
+        "path": "Roboto-Bold.ttf", 
+        "type": 2
+    }
+}

@@ -1,0 +1,24 @@
+<div style='display:flex;flex-direction:row;align-items:right;justify-content:space-around'>
+  <div style='padding-top:12px;padding-right:9px'>
+    <div style='display:flex;width:auto;height:auto;flex-direction:column;background-image:global_image_autonavi_roadstatu_normal_2_right_up_day_night'>
+      <div id="div_time_dist" style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;align-items:center'>
+          <label id='congestion_distance' style='color:#ffffff;max-height:27px;font-size:24px' text='803米' />
+          <image style='margin-left:4px;margin-right:4px' src='global_image_line_vertical_day_night' />
+          <label id='congestion_time' style='color:#ffffff;max-height:27px;font-size:24px' text='20分钟' />
+      </div>
+      <div id="div_detail" style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;align-items:center;margin-top:12px;margin-bottom:4px'>
+        <image id='thumbnail_image' style='max-height:40px;max-width:40px;margin-right:4px;border-radius:8% 8% 8% 8%;' src=''/>
+        <label id='congestion_detail' style='color:#ed390d;font-size:20px;align-items:left;line-clamp:2;max-width:140px' text='中间 事故 拥堵加剧' />
+      </div>
+      <div id="div_time_dist2" style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;align-items:center'>
+          <label id='congestion_distance2' style='color:#ffffff;max-height:27px;font-size:24px' text='803米' />
+          <image style='margin-left:4px;margin-right:4px' src='global_image_line_vertical_day_night' />
+          <label id='congestion_time2' style='color:#ffffff;max-height:27px;font-size:24px' text='20分钟' />
+      </div>
+      <div id="div_detail2" style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;align-items:center;margin-top:14px'>
+        <label id='congestion_detail2' style='color:#ed390d;font-size:20px;max-height:23px;align-items:left' text='中间 事故 拥堵加剧' />
+      </div>
+    </div>
+  </div>
+  <image id="chat_message" style='position:absolute;top:0px;right:0px' src='global_image_message_day_night' />
+</div>

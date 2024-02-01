@@ -1,0 +1,20 @@
+{
+  "guideLineTmcColorDay": {
+    "tmcColorUninit": 4288282618,
+    "tmcColorUnknown": 4286235391,
+    "tmcColorOpen": 4284674182,
+    "tmcColorSlow": 4294963712,
+    "tmcColorJam": 4294925147,
+    "tmcColorCongested": 4294925147,
+    "tmcColorExtremeOpen": 4284674182
+  },
+  "guideLineTmcColorNight": {
+    "tmcColorUninit": 4288282618,
+    "tmcColorUnknown": 4281619938,
+    "tmcColorOpen": 4284213661,
+    "tmcColorSlow": 4294963712,
+    "tmcColorJam": 4294929002,
+    "tmcColorCongested": 4294929002,
+    "tmcColorExtremeOpen": 4284213661
+  }
+}

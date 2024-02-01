@@ -1,0 +1,6 @@
+package com.autonavi.gbl;
+/* loaded from: classes.dex */
+public final class R {
+    private R() {
+    }
+}

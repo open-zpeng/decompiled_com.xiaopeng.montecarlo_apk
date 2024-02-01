@@ -1,0 +1,11 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:row;' id="">
+    <div style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-end;background-image:global_image_guide_light1_bubble_left_day_night;'>
+        <label style='margin-right:57px;' />
+    </div>
+    <div style='width:auto;height:auto;position:absolute;left:16px;top:12px;'>
+        <div style='flex-direction:row;'>
+            <image id='light_green' style='opacity:1.0;' src='global_image_guide_light_green_day_night'/>
+            <image id='light_green_dir' style='opacity:1.0;' src='global_image_guide_light_green_go_day_night'/>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.view.XView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/poi_child_border" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/poi_sub_child_line_margin_left" android:layout_marginTop="@dimen/poi_sub_child_line_margin_top" android:layout_marginRight="@dimen/poi_sub_child_line_margin_left" android:layout_marginBottom="@dimen/poi_sub_child_line_margin_top"/>

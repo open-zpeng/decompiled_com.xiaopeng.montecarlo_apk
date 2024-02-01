@@ -1,0 +1,5 @@
+<div id='route_pop_end_area' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:center;align-items:center;background-image:global_image_route_end_area_point_tip_gohere_short_day_night;'>
+    <label id='name_text' style='max-width:192px;line-clamp:1;color:#000000;font-size:24px;margin-left:14px;margin-right:16px;justify-content:flex-start;max-height:27px;' text='停车场'/>
+  </div>
+</div>

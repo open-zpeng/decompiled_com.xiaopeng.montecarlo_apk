@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="30dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_xpeng_protocol_dialog_fail"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bind_protocol_load_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/xbind_webview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/navi_guider_unbind_btn_txtcolor" android:gravity="center" android:id="@+id/xbind_back_btn" android:background="@drawable/selector_bg_navi_guider_unbind_btn_radius10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="80dp" android:text="@string/back" style="@style/font_regular_land_24_port_22"/>
+    </LinearLayout>
+    <com.xiaopeng.montecarlo.views.XpNetworkImageView android:layout_gravity="center" android:id="@+id/bind_protocol_progress" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<div id='search_child_in' style='display:flex;flex-direction:column;align-items:center'>
+    <div id='child_type' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_in_day_night' />
+        <label id='child_name' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='入口' />
+    </div>
+</div>

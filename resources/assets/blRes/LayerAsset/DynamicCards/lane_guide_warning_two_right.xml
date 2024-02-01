@@ -1,0 +1,8 @@
+<div style="">
+<div style="display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;width:auto;height:105px;font-weight:normal;position:relative;white-space:nowrap;background-image:global_image_autonavi_lane_bubble_container_lane_warning_left_day_night;">
+<label id="name" style="top:4px;margin-left:22px;font-size:20px;color:#b3000000;position:relative;overflow:hidden;text-overflow:ellipsis;font-family:font_cn;" lines="1">公交车道</label>
+<label id="limit_text" style="top:4px;margin-left:22px;font-size:24px;color:#F99500;position:relative;overflow:hidden;text-overflow:ellipsis;font-family:font_cn;" lines="1">限时中</label>
+</div>
+<image id="bg" style="width:60px;height:60px;position:absolute;top:14px;left:62px;" src="global_image_autonavi_lane_icon_warning_orange_day_night"/>
+<image id="image" style="width:48px;height:48px;position:absolute;top:20px;left:68px;" src="global_image_autonavi_lane_icon_exclusive_bus_lane_day_night"/>
+</div>

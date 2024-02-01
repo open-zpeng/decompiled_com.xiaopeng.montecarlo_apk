@@ -1,0 +1,26 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:column;align-items:center;justify-content:center'>
+  <div id='parent_text_div' style='width:auto;margin-left:38px;margin-right:38px;margin-top:10px;'>
+    <label id='parent_text' style='max-width:140px;line-clamp:2;letter-spacing:3px;justify-content:flex-start;color:#111111;font-size:20px;font-weight:bold;text-stroke:3px #262626;' text='凯德MALL(望京店)'/>
+  </div>
+  <div id='end_area_all' style='display:flex;width:auto;height:auto;flex-direction:column;margin-left:22px;margin-right:22px;justify-content:center;align-items:flex-start;background-image:global_image_route_info_day_night;'>
+      <div id='end_area_eta' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:center;align-items:center;'>
+        <label id='eta_text' style='justify-content:flex-start;color:#ffffff;font-size:18px;max-height:21px;' text='预计17:12到达'/>
+        <image id='weather_sunny' style='display:flex;margin-left:3px;width:22px;height:22px;' src='global_image_navi_icon_weather_sunny_volvo' />
+        <image id='weather_cloudy' style='display:flex;margin-left:3px;width:22px;height:22px;' src='global_image_navi_icon_weather_cloudy_volvo' />
+        <image id='weather_rain' style='display:flex;margin-left:3px;width:22px;height:22px;' src='global_image_navi_icon_weather_rain_volvo' />
+        <image id='weather_snow' style='display:flex;margin-left:3px;width:22px;height:22px;' src='global_image_navi_icon_weather_snow_volvo' />
+      </div>
+      <div id='end_area_energy' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:center;align-items:center;margin-top:2px;'>
+        <image id='energy_low' style='display:flex;margin-right:4px;' src='global_image_odd_power_icon_low_day_night' />
+        <image id='energy_mid' style='display:flex;margin-right:4px;' src='global_image_odd_power_icon_mid_day_night' />
+        <image id='energy_high' style='display:flex;margin-right:4px;' src='global_image_odd_power_icon_high_day_night' />
+        <label id='energy_text_desc' style='justify-content:flex-start;color:#ffffff;font-size:18px;margin-top:2px;max-height:21px;' text='剩余电量'/>
+        <label id='energy_text' style='justify-content:flex-start;color:#ffffff;font-size:20px;margin-left:4px;margin-top:2px;max-height:23px;' text='60%'/>
+        <label id='energy_text_low' style='justify-content:flex-start;color:#ffbaba;font-size:20px;margin-left:4px;margin-top:2px;max-height:23px;' text='19%'/>
+      </div>
+      <div id='end_area_odd' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:center;align-items:center;margin-top:2px;'>
+        <image id='odd_wheel_icon' style='display:flex;margin-right:3px;width:22px;height:22px;' src='global_image_odd_wheel_icon1_day_night' />
+        <label id='odd_text' style='justify-content:flex-start;color:#ffffff;font-size:18px;margin-top:2px;max-height:21px;' text='5个 3.3公里'/>
+      </div>
+  </div>
+</div>

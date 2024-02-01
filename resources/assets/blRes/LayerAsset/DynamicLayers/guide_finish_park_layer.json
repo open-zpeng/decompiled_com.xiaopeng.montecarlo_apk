@@ -1,0 +1,176 @@
+[
+{
+    "abstract" : {
+        "brief" : "导航结束页停车场",
+        "name" : "guide_finish_park_layer",
+        "biz_type" : 11103
+    },
+    "data" : {
+        "brief" : "导航结束页停车场数据，value是测试数据",
+        "type" : "adaptor_point",
+        "value" : [
+            {
+                "item_data" : {
+                    "position" : {
+                        "lon" : 116.356875,
+                        "lat" : 39.939436
+                    }
+                },
+                "biz_data" : {
+                    "index" : 1,
+                    "park_name" : "望京SOHO停车场",
+                    "park_type" : "路边"
+                }
+            }
+        ]
+    },
+    "biz" : [
+        {
+            "brief" : "清除所有图元",
+            "type" : "biz_clear_all_items"
+        },
+        {
+            "brief" : "设置图层优先级",
+            "type" : "biz_set_priority",
+            "value" : {
+                "draw_priority" : 140,
+                "sub_priority" : 3500
+            }
+        },
+        {
+            "brief" : "设置图元优先级是否升序",
+            "type" : "biz_item_priority_asc",
+            "value" : {
+                "asc" : false
+            }
+        },
+        {
+            "brief" : "是否开启避让",
+            "type" : "biz_is_poi_filter",
+            "value" : {
+                "enable" : true
+            }
+        },
+        {
+            "brief" : "设置是否图层内碰撞",
+            "type" : "biz_is_collision",
+            "value" : true
+        }
+    ],
+    "style" : {
+        "style_name" : {
+            "prefix_name" : "point_guide_finish_park"
+        },
+        "dynamic_marker" : {
+            "rule" : [
+                {
+                    "brief" : "规则1",
+                    "type" : "marker_if",
+                    "value" : {
+                        "marker_id" : "guide_finish_name.xml",
+                        "condition" : {
+                            "func" : {
+                                "name" : "StringLength",
+                                "param" : [
+                                    "$biz_data.park_name"
+                                ]
+                            },
+                            "operator" : "gt",
+                            "value" : 0
+                        },
+                        "case" : {
+                            "true" : {
+                                "id" : "name",
+                                "display" : true,
+                                "value" : "$biz_data.park_name"
+                            },
+                            "false" : {
+                                "id" : "name",
+                                "display" : true,
+                                "value" : ""
+                            }
+                        }
+                    }
+                },
+                {
+                    "brief" : "规则2",
+                    "type" : "marker_if",
+                    "value" : {
+                        "marker_id" : [
+                            "guide_finish_park_normal.xml",
+                            "guide_finish_park_focus.xml"
+                        ],
+                        "condition" : {
+                            "func" : {
+                                "name" : "StringLength",
+                                "param" : [
+                                    "$biz_data.park_type"
+                                ]
+                            },
+                            "operator" : "gt",
+                            "value" : 0
+                        },
+                        "case" : {
+                            "true" : [
+                                {
+                                    "id" : "park_type",
+                                    "display" : true,
+                                    "value" : "$biz_data.park_type"
+                                },
+                                {
+                                    "id" : "type_bar",
+                                    "display" : true
+                                },
+                                {
+                                    "id" : "park_image",
+                                    "style" : "position:absolute"
+                                }
+                            ],
+                            "false" : [
+                                {
+                                    "id" : "type_bar",
+                                    "display" : false
+                                },
+                                {
+                                    "id" : "park_image",
+                                    "style" : "position:relative"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "image_key_rule" : [
+                {
+                    "brief" : "规则1",
+                    "type" : "image_key_switch",
+                    "value" : {
+                        "image_key" : "park_image",
+                        "marker_id" : "guide_finish_park_normal.xml",
+                        "condition" : "$biz_data.index",
+                        "case" : {
+                            "1" : "park1",
+                            "2" : "park2",
+                            "3" : "park3"
+                        }
+                    }
+                },
+                {
+                    "brief" : "规则2",
+                    "type" : "image_key_switch",
+                    "value" : {
+                        "image_key" : "park_big_image",
+                        "marker_id" : "guide_finish_park_focus.xml",
+                        "condition" : "$biz_data.index",
+                        "case" : {
+                            "1" : "park1",
+                            "2" : "park2",
+                            "3" : "park3"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
+]

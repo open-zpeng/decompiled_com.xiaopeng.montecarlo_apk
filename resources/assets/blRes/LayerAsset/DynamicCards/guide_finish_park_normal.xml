@@ -1,0 +1,6 @@
+<div style='display:flex;'>
+	<div id='type_bar' style='margin-left:12;width:auto;height:52px;flex-direction:row;align-items:center;background-image:global_image_quick_route_search_along_des_bg_day_night;'>
+		<label id='park_type' style='margin-left:12px;color:#ff000000;font-size:18px;max-height:21px;' text='路边'/>
+	</div>
+	<image id='park_image' src='global_image_autonavi_car_parking_1_day_night' />
+</div>

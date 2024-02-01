@@ -1,0 +1,5 @@
+<div style='display:flex;flex-direction:column;align-items:center;justify-content:space-around'>
+  <image src='global_image_fast_overspeed_day_night' />
+  <label id='camera_speed' style='position:absolute;left:6px;top:9px;color:#ffffff;font-size:17px;font-family:Roboto-Bold;max-height:20px;' text='80'/>
+  <label id='camera_speed_three' style='position:absolute;left:1px;top:9px;color:#ffffff;font-size:17px;font-family:Roboto-Bold;max-height:20px;' text='120'/>
+</div>

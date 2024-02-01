@@ -1,0 +1,19 @@
+<div style='display:flex;flex-direction:row;align-items:right;justify-content:space-around'>
+  <div style='padding-top:12px;padding-right:9px'>
+    <div style='display:flex;width:auto;height:auto;flex-direction:row;align-items:center;background-image:global_image_autonavi_roadstatu_normal_right_up_day_night'>
+      <image id='thumbnail_image' style='max-height:40px;max-width:40px;margin-right:4px;border-radius:8% 8% 8% 8%;' src=''/>
+      <div>
+        <div id='time_dist_one_line' style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;align-items:center;margin-top:2px'>
+          <label id='congestion_distance' style='color:#ffffff;font-size:24px;max-height:27px;align-items:left' text='803米' />
+          <image style='margin-left:4px;margin-right:4px' src='global_image_line_vertical_day_night' />
+          <label id='congestion_time' style='color:#ffffff;font-size:24px;max-height:27px;align-items:left' text='20分钟' />
+        </div>
+        <div id='time_dist_multiple_line' style='width:auto;height:auto;display:flex;flex-direction:column;justify_content:space-around'>
+          <label id='congestion_distance2' style='color:#ffffff;font-size:24px;max-height:27px;padding-bottom:2px' text='803米' />
+          <label id='congestion_time2' style='color:#ffffff;font-size:24px;max-height:27px;padding-top:2px' text='20分钟' />
+        </div>
+      </div>
+    </div>
+  </div>
+  <image id="chat_message" style='position:absolute;top:0px;right:0px' src='global_image_message_day_night' />
+</div>

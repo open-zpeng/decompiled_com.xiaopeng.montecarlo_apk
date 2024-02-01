@@ -1,0 +1,12 @@
+{
+  "alphaStrengthenRate": 2.0,
+  "laneWidthRate":0.8,                   
+  "laneTextureRepeatRate":0.6
+}
+
+/* 注释
+{
+  "alphaStrengthenRate": 1.2, // 增强系数
+  "laneWidthRate":1.5,        // 车道线宽度系数        
+  "laneTextureRepeatRate":1.5 // 车道线纹理Repeat系数   
+*/

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.poicard.PoiCardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/poi_pop" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="@dimen/poi_pop_max_height" android:minWidth="@dimen/poi_pop_min_width" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>

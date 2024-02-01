@@ -1,0 +1,27 @@
+<div id='jam_bubbles' style='display:flex;width:auto;height:auto;flex-direction:row;align-items:center;background-image:global_image_bubble_left_bottom_day_night'>
+	<div id='detail_style' style='display:flex;width:auto;height:auto;flex-direction:row;align-items:center'>
+		<label style='font-size:0px;align-items:left;margin-left:10px' text='' />
+		<image id='pic_image' style='height:52px;width:52px;margin-right:4px;margin-top:10px;margin-bottom:10px' src=''/>
+		<image id='icon_image' style='display:flex;align-items:flex-start;align-self:flex-start;margin-right:2px;margin-top:8px' src='global_image_prediction_green_day_night' />
+		<div id='text_line' style='display:flex;width:auto;height:auto;flex-direction:row;align-items:left'>
+			<label style='font-size:0px;align-items:left;margin-left:4px' text='' />
+			<div style='display:flex;width:auto;height:auto;flex-direction:column;align-items:left'>
+				<label style='font-size:0px;align-items:left;margin-top:10px' text='' />
+				<div id='text_time_dist' style='display:flex;width:auto;height:auto;flex-direction:row;align-items:left'>
+					<label id='main_title' style='color:#ffed390d;font-size:24px;max-height:27px;align-items:left' text='即将加剧' />
+      				<image id='line_image' style='margin-left:8px;margin-right:8px' src='global_image_vertical_line_day_night' />
+      				<label id='time_col' style='color:#ffed390d;font-size:24px;max-height:27px;align-items:left' text='7分钟' />
+				</div>
+				<label id='sub_title_top' style='font-size:0px;align-items:left;margin-top:4px' text='' />
+				<label id='sub_title' style='color:#e6000000;font-size:20px;max-height:23px;align-items:left' text='好几辆车追尾' />
+				<label id='time_row' style='color:#ffed390d;font-size:24px;max-height:27px;align-items:left' text='42分钟' />
+				<label style='font-size:0px;align-items:left;margin-bottom:10px' text='' />
+			</div>
+			<label style='font-size:0px;align-items:left;margin-right:8px' text='' />
+		</div>
+		<label style='font-size:0px;align-items:left;margin-right:6px' text='' />
+	</div>
+	<div id='jam_style' style='display:flex;width:auto;height:auto;flex-direction:row;align-items:center'>
+    	<image style='margin-left:8px;margin-right:8px;margin-top:8px;margin-bottom:8px' src='global_image_bubble_block_day_night' />
+  	</div>
+</div>

@@ -1,0 +1,6 @@
+<div style='display:flex;flex-direction:column;width:201px;height:201px;align-items:center;justify-content:space-around;background-image:km_h;'>
+  <label id='speed_text_two' style='margin-right:1px;justify-content:center;align-items:center;display:flex;color:#ff333333;font-size:50px;background-color:transparent;font-weight:bold;max-height:53px;' text='80'/>
+  <label id='speed_text_three' style='margin-right:1px;justify-content:center;align-items:center;display:flex;color:#ff333333;font-size:40px;background-color:transparent;font-weight:bold;max-height:43px;' text='100'/>
+  <label id='speed_text_two_os' style='margin-right:1px;justify-content:center;align-items:center;display:flex;color:#ffd62727;font-size:50px;background-color:transparent;font-weight:bold;max-height:53px;' text='80'/>
+  <label id='speed_text_three_os' style='margin-right:1px;justify-content:center;align-items:center;display:flex;color:#ffd62727;font-size:40px;background-color:transparent;font-weight:bold;max-height:43px;' text='100'/>
+</div>

@@ -1,0 +1,12 @@
+<div style='display:flex;flex-direction:row;align-items:left;justify-content:space-around'>
+  <div style='padding-top:0px;padding-left:4px'>
+    <div style='display:flex;width:auto;height:auto;flex-direction:row;align-items:center;background-image:global_image_traffic_left_down_day_night'>
+      <image id='event_image' style='' src='event_breakdown_thumbnail' />
+      <label id='event_name' style='color:#ed390d;font-size:24px;max-height:27px;' text='车祸' />
+      <image id='point_day' style='padding-left:6px;padding-right:6px;' src='auto_ic_navi_eta_2d_point' />
+      <image id='point_night' style='padding-left:6px;padding-right:6px;' src='auto_ic_navi_eta_2d_point_night' />
+      <label id='lane_name' style='color:#ed390d;font-size:24px;max-height:27px;' text='中间道' />
+    </div>
+  </div>
+  <image id='message_image' style='position:absolute;top:0px;left:0px' src='global_image_message_day_night' />
+</div>

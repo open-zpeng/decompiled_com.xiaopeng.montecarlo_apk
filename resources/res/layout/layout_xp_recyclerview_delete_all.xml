@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:id="@+id/tv_delete_all_container" android:background="@android:color/transparent" android:layout_width="match_parent" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP" app:vuiLabel="@string/delete_all" style="@style/XButton.Flat.Large">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text03" android:id="@+id/tv_delete_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_all" style="@style/search_scene_delete_all_style"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="battery_bg_ele_normal_selected_secondary">#5c1474dc</color>
+    <color name="color_guide_add_point_way_text">@color/primary_text01</color>
+    <color name="color_guide_turn_icon_road">#a3a3a3</color>
+    <color name="color_poi_card_view_btn_setting_company">@color/primary_text06</color>
+    <color name="color_poi_card_view_btn_setting_home">@color/primary_text06</color>
+    <color name="color_poi_card_view_dial_view_divider">@color/common_black_16</color>
+    <color name="color_poi_card_view_line_color_poi_pop_content_item">@color/color_poi_pop_content_item_line_color</color>
+    <color name="color_poi_card_view_poi_pic_num_bg_color">@color/common_black_26</color>
+    <color name="color_poi_pop_content_item_line_color">@color/common_black_16</color>
+    <color name="color_search_scene_list_park_charge_free">@color/common_blue</color>
+    <color name="favorite_delete_text_color">#ffff5746</color>
+    <color name="favorite_item_delete_bg">#5cbbc2d1</color>
+    <color name="pop_dialog_bg_color">#f5a8adbe</color>
+    <color name="route_card_bg_type_no_color">@color/vector_traffic_signal_gray_fill_color</color>
+    <color name="route_charge_divider_color">@color/common_black_16</color>
+    <color name="route_detail_type_color">@color/x_theme_text_06</color>
+    <color name="route_panel_text_color_select">@color/common_blue_dark</color>
+    <color name="route_type_bg_color_normal">@color/x_theme_primary_neutral_normal</color>
+    <color name="search_load_more_color">#ffff9800</color>
+    <color name="search_load_more_normal_bg_color">#f5f5f5</color>
+    <color name="search_load_more_selected_bg_color">#dee6ee</color>
+    <color name="setting_car_logo_bg">@color/white</color>
+    <color name="setting_car_logo_name_select">@color/white</color>
+    <color name="vector_timeconsuming_fill_color">#1474dc</color>
+</resources>

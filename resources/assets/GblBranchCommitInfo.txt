@@ -1,0 +1,94 @@
+﻿<li>ProjectName: android_arm64_v8a_bl_jni</li>
+<li>Java8: True</li>
+<li>BLVersion: Lane36.9.650.155.0.301</li>
+<li>GBL21 branch: release/650_lane_3.6</li>
+<li>GBL21 commit id: 64bce7c4d0473bca5b3e00e801732971552ceec6</li>
+<li>GBLData branch: release/650_lane_3.6</li>
+<li>GBLData commit id: a21c6830b35d0dd27cb3d253d769a2ab299af079</li>
+<li>GBLUnityComponent branch: </li>
+<li>GBLUnityComponent commit id: </li>
+<li>GBLAndroidJNI branch: release/650_lane_3.6</li>
+<li>GBLAndroidJNI commit id: 8e5b421277cee32ccb08869bbf29e5c9ce90baa3</li>
+<li>AutoJNIBuild branch: release/650_lane_3.6</li>
+<li>AutoJNIBuild commit id: 4ca1050bf378e7425955eb7cd2c2544f844a7278</li>
+<li>AutoBinding branch: release/650_lane_3.6</li>
+<li>AutoBinding commit id: 75c872a9174114a1844bc363ec104f8daecdfc75</li>
+<li>GBLActivationComponent branch: release/650_lane_3.6</li>
+<li>GBLActivationComponent commit id: d28dffd2338a1eadce0c88a5b6024bc6e684d28b</li>
+<li>GBLAosComponent branch: release/650_lane_3.6</li>
+<li>GBLAosComponent commit id: 86a2b139200054045fd1a9c1928c36da4303c9e2</li>
+<li>GBLCommonComponent branch: release/650_lane_3.6</li>
+<li>GBLCommonComponent commit id: e910af0c10219b93a468a1b930fedeefea89829b</li>
+<li>GBLDataComponent branch: release/650_lane_3.6</li>
+<li>GBLDataComponent commit id: b642fcedea356727eccae9359f76c74869b4aa20</li>
+<li>GBLGuideComponent branch: release/650_lane_3.6</li>
+<li>GBLGuideComponent commit id: 494501d2baced099a50a386edb601eb78d9736ba</li>
+<li>GBLLayerComponent branch: release/650_lane_3.6</li>
+<li>GBLLayerComponent commit id: 624c059c260ad7720723ca19f86daebce032bb5d</li>
+<li>GBLMapComponent branch: release/650_lane_3.6</li>
+<li>GBLMapComponent commit id: 75a0c5edb9071839fcb06e1c056dd9682600c285</li>
+<li>GBLMultiDispComponent branch: release/650_lane_3.6</li>
+<li>GBLMultiDispComponent commit id: 059cc9c560efdf2101210fe4fbffe9416f1eb897</li>
+<li>GBLPosComponent branch: release/650_lane_3.6</li>
+<li>GBLPosComponent commit id: 62a8e32abe049f16defdf506e5aa2e15501ebbc5</li>
+<li>GBLRouteComponent branch: release/650_lane_3.6</li>
+<li>GBLRouteComponent commit id: f470a02f2abd29fd38f825c3b18f166f545de5d6</li>
+<li>GBLSearchComponent branch: release/650_lane_3.6</li>
+<li>GBLSearchComponent commit id: 2a0b4a89f9dfc62b2df958f3260c93f8f2fc6431</li>
+<li>GBLServicesManager branch: release/650_lane_3.6</li>
+<li>GBLServicesManager commit id: c1ef3091704f4ca7b68cf25549cfa0f0b1e7e516</li>
+<li>GBLUserComponent branch: release/650_lane_3.6</li>
+<li>GBLUserComponent commit id: bc429274012dafa153c713cd68e4dc8708c4b241</li>
+<li>GBLUtilComponent branch: release/650_lane_3.6</li>
+<li>GBLUtilComponent commit id: c0cdf99ab5d0af3dbe8ffc90d2190b496e32c569</li>
+<li>GBLEHPComponent branch: release/650_lane_3.6</li>
+<li>GBLEHPComponent commit id: 4d9064bdf0c1448ed9e38b65019de4760a88f48b</li>
+<li>GBLArComponent branch: release/650_lane_3.6</li>
+<li>GBLArComponent commit id: 580aea4b89cafbdc553085ca21f03e5d2e0af81c</li>
+<li>GBLExceptionComponent branch: release/650_lane_3.6</li>
+<li>GBLExceptionComponent commit id: f7814818152ed349d0c6ecc6e48c993cab36f31f</li>
+<li>GBLCardComponent branch: release/650_lane_3.6</li>
+<li>GBLCardComponent commit id: ac104f722a8d98ae46ec575b30afe1ae7a50cd69</li>
+<li>GBLGeoFenceComponent branch: release/650_lane_3.6</li>
+<li>GBLGeoFenceComponent commit id: d3389fcc130d7d3ae345c00f7669e52de439a081</li>
+<li>GBLLaneComponent branch: release/650_lane_3.6</li>
+<li>GBLLaneComponent commit id: ea144be74ae71d1df40812f97ce3e380050930ad</li>
+<li>GBLSpeechComponent branch: release/650_lane_3.6</li>
+<li>GBLSpeechComponent commit id: c2bd55bf6d78893e2af7152586595f67c9921cd8</li>
+<li>GBLTbtModuleComponent branch: release/650_lane_3.6</li>
+<li>GBLTbtModuleComponent commit id: f56ce760dae8299cffd1deb3300f4f66c42ce70e</li>
+<li>GBLMapToolComponent branch: release/650_lane_3.6</li>
+<li>GBLMapToolComponent commit id: 1f541096ba2107758f7a034cdcb2acb8b47b2270</li>
+<li>GBLConsisComponent branch: release/650_lane_3.6</li>
+<li>GBLConsisComponent commit id: 4d9bf7f15e31c29faf85304e008423247caa6045</li>
+<li>GBLSceneComponent branch: release/650_lane_3.6</li>
+<li>GBLSceneComponent commit id: b03df854238624adc6d84c4acff71695433fcaa4</li>
+<li>GBLUnityStudioComponent branch: release/650_lane_3.6</li>
+<li>GBLUnityStudioComponent commit id: 9ee68dddbb464b8a071b7b2577141c94705bec7f</li>
+<li>GBLRecorderComponent branch: release/650_lane_3.6</li>
+<li>GBLRecorderComponent commit id: 120bcd189d1a65664216b448506d55a1e7140ae8</li>
+<li>GBLInformationComponent branch: release/650_lane_3.6</li>
+<li>GBLInformationComponent commit id: ccdb16b801ea7b0aa5580e9f4349091fcf58a79e</li>
+
+<li> Third_Version </li>
+[version]
+GPlatformInterface = 2.14.1.595
+GNet = 2.68.0.490
+GComm3rd = 1.6.4.5520
+mqtt = 1.30.0.408
+GNaviDice = auto_11.18.47.60
+GNaviUtils = auto_9.1.62.52-t-230714175815
+plug_ins_project = 1.0.0.936
+VAE = auto_11.18.47.59
+GEhp = 2.27.2.285
+GSQuirrel = 1.53.0.108
+asvg = dev_600.1.0.0.0.9752
+GNaviGlyph = auto_11.18.47.22-t-231207215820
+amap_card = auto_11.18.47.22-t-231207215821
+GAdasData = 2.2.1.5367
+GEncryptionKey = 1.0.0.95
+AutoDice = auto_11.18.47.61
+sync_cxx = 1.0.5.5776
+aim_sdk = 2.0.0.140.0.4
+GIdc = 5.9.0.723
+

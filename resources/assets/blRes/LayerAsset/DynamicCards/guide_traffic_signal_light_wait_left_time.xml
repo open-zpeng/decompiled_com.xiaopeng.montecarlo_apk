@@ -1,0 +1,11 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:row;' id="">
+    <image src='global_image_guide_light2_bubble_left_day_night'/>
+    <div style='width:auto;height:auto;position:absolute;left:0;top:0'>
+        <div style='flex-direction:row;top:12px;left:18px'>
+            <image id='light_red' src='global_image_guide_light_wait_day_night'/>
+            <label id='wait_text' style='top:16;color:#ff000000;font-size:26;max-height:29px;' text='等'/>
+            <label id='numbers_text' style='top:16;left:1;color:#ffED3A3A;font-size:26;max-height:29px;' text='2'/>
+            <label id='wheel_number_text' style='top:16;left:2;color:#ff000000;font-size:26;max-height:29px;' text='轮'/>
+        </div>
+    </div>
+</div>

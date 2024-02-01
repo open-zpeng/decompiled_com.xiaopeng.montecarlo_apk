@@ -1,0 +1,11 @@
+<div style="">
+<div id="background_image" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;width:auto;height:103px;font-weight:normal;white-space:nowrap;background-image:global_image_autonavi_lane_bubble_red_container_two_cameras_right_day_night;">
+<label id="distance_text" style="margin-left:6px;margin-right:8px;top:12px;font-weight:normal;font-size:28px;color:#e6000000;position:relative;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:font_cn;" lines="1">11米</label>
+</div>
+<image id="camera_type_image2" style="width:60px;height:60px;position:absolute;top:13px;left:110px;" src="dynamic"/>
+<div style="display:flex;flex-direction:row;justify-content:center;align-items:center;width:60px;height:60px;position:absolute;top:13px;left:60px;">
+<image id="camera_type_image" style="width:60px;height:60px;position:absolute;" src="dynamic"/>
+<label id="speed_text2" style="top:19px;position:absolute;font-size:28px;color:#e6000000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:Roboto-Bold;" lines="1">80</label>
+<label id="speed_text3" style="top:20px;position:absolute;font-size:26px;color:#e6000000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:Roboto-Bold;" lines="1">220</label>
+</div>
+</div>

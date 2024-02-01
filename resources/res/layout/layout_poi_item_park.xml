@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/poi_item_height">
+    <com.xiaopeng.montecarlo.views.NaviImageView android:id="@+id/poi_park_divider" android:color="@color/color_poi_card_view_line_color_poi_pop_content_item" style="@style/poi_pop_horizontal_divider"/>
+    <LinearLayout android:gravity="center_vertical" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.xiaopeng.montecarlo.views.NaviImageView android:id="@+id/icon_poi_park" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:src="@drawable/tag_small_p"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_05" android:id="@+id/tv_park_info_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空闲8个" style="@style/poi_body_park_info_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_02" android:id="@+id/tv_park_info_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/共300个" style="@style/poi_body_park_info_style"/>
+    </LinearLayout>
+</merge>

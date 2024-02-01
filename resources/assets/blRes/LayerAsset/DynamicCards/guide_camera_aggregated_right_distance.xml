@@ -1,0 +1,13 @@
+<div id='guide_camera_bicyclelane_left' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;padding:0px 0px 0px 0px;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;background-image:global_image_guide_camera_bubble_right_both_day_night;'>
+    <label id='distance_text' style='margin-left:6px;margin-right:6px;margin-top:1px;color:#e5000000;font-size:28px;justify-content:flex-start;max-height:28px;' text='210米'/>
+  </div>
+  <image id='camera_type_image2' style='position:absolute;left:75px;top:13px;' src='global_image_guide_camera_bubble_phone_day_night'/>
+  <image id='camera_type_image' style='position:absolute;left:26px;top:13px;' src='global_image_guide_camera_bubble_speed_day_night'/>
+  <div style='position:absolute;left:40px;top:32px;width:30px;flex-direction:column;justify-content:space-around'>
+    <label id='speed_text2' style='color:#e5000000;font-size:28px;font-family:Roboto-Bold;max-height:31px;align-items:center;' text='88'/>
+  </div>
+  <div style='position:absolute;left:35px;top:33px;width:42px;flex-direction:column;justify-content:space-around'>
+    <label id='speed_text3' style='color:#e5000000;font-size:25px;font-family:Roboto-Bold;max-height:28px;align-items:center;' text='111'/>
+  </div>
+</div>

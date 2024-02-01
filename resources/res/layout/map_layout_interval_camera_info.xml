@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/png_blmap_fast_roadcondition_left_up" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/font_size_28" android:textColor="@color/xlbs_color_text_highlight" android:gravity="center" android:id="@+id/tv_title" android:background="@drawable/navi_layer_interval_camera_bg" android:layout_width="wrap_content" android:layout_height="44dp" android:text="区间测速" android:layout_alignStart="@+id/rl_gun_num_container" android:layout_alignEnd="@+id/rl_gun_num_container"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/rl_gun_num_container" android:layout_width="wrap_content" android:layout_height="68dp" android:layout_below="@+id/tv_title">
+        <ImageView android:id="@+id/camera_icon" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginLeft="20dp"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/font_size_32" android:textColor="@color/xlbs_color_text_2" android:gravity="center" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginRight="20dp" style="@style/font_bold_land_22_port_20"/>
+    </LinearLayout>
+</RelativeLayout>

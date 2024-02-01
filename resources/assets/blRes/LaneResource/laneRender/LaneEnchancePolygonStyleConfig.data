@@ -1,0 +1,236 @@
+{
+    "SingleStyle" : [
+        {
+            "textStyle": {
+                "type": "HOV",
+                "priority": 1,
+                "specialTextureLength" : 50,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "HovLaneTextureColorDay",
+                    "textureNight" : "HovLaneTextureColorNight"
+                }
+            }
+        }
+    ],
+    "AnimationStyle": [
+        {
+            "textStyle": {
+                "type": "BUS",
+                "priority": 2,
+                "specialTextureLength" : 50,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "BusLaneTextureColorDay",
+                    "textureNight" : "BusLaneTextureColorNight"
+                }
+            },  
+            "enchanceStyle": {
+                "EnchanceLengthAfterCar" : 100,
+                "EnchanceLengthBeforeCar" : 250,
+                "EnchanceAlphaMax" : 1.0,
+                "EnchanceAlphaMin" : 0.3,
+                "EnchanceAnimationInhaleTime" :600,
+                "EnchanceAnimationExhaleTime" :600,
+                "EnchanceOverpassAlpha" : 0.85,
+                "EnchanceTextureName" : {
+                    "textureDay" : "BusEnchanceTextureColorDay",
+                    "textureNight" : "BusEnchanceTextureColorNight"
+                }
+            }
+        },
+        {
+            "textStyle": {
+                "type": "Truck",
+                "priority": 2,
+                "specialTextureLength" : 60,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "TruckLanesTextureColorDay",
+                    "textureNight" : "TruckLanesTextureColorNight"
+                }
+            },  
+            "enchanceStyle": {
+                "EnchanceLengthAfterCar" : 100,
+                "EnchanceLengthBeforeCar" : 250,
+                "EnchanceAlphaMax" : 1.0,
+                "EnchanceAlphaMin" : 0.3,
+                "EnchanceAnimationInhaleTime" :1300,
+                "EnchanceAnimationExhaleTime" :1200,
+                "EnchanceOverpassAlpha" : 0.85,
+                "EnchanceTextureName" : {
+                    "textureDay" : "BusEnchanceTextureColorDay",
+                    "textureNight" : "BusEnchanceTextureColorNight"
+                }
+            }
+        },
+        {
+            "textStyle": {
+                "type": "Taxi",
+                "priority": 2,
+                "specialTextureLength" : 70,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "TaxiLanesTextureColorDay",
+                    "textureNight" : "TaxiLanesTextureColorNight"
+                }
+            },  
+            "enchanceStyle": {
+                "EnchanceLengthAfterCar" : 100,
+                "EnchanceLengthBeforeCar" : 250,
+                "EnchanceAlphaMax" : 1.0,
+                "EnchanceAlphaMin" : 0.3,
+                "EnchanceAnimationInhaleTime" :1300,
+                "EnchanceAnimationExhaleTime" :1200,
+                "EnchanceOverpassAlpha" : 0.85,
+                "EnchanceTextureName" : {
+                    "textureDay" : "BusEnchanceTextureColorDay",
+                    "textureNight" : "BusEnchanceTextureColorNight"
+                }
+            }
+        },
+        {
+            "textStyle": {
+                "type": "HazardousArticle",
+                "priority": 2,
+                "specialTextureLength" : 80,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "DangerousGoodsLanesTextureColorDay",
+                    "textureNight" : "DangerousGoodsLanesTextureColorNight"
+                }
+            },  
+            "enchanceStyle": {
+                "EnchanceLengthAfterCar" : 100,
+                "EnchanceLengthBeforeCar" : 250,
+                "EnchanceAlphaMax" : 1.0,
+                "EnchanceAlphaMin" : 0.3,
+                "EnchanceAnimationInhaleTime" :1300,
+                "EnchanceAnimationExhaleTime" :1200,
+                "EnchanceOverpassAlpha" : 0.85,
+                "EnchanceTextureName" : {
+                    "textureDay" : "BusEnchanceTextureColorDay",
+                    "textureNight" : "BusEnchanceTextureColorNight"
+                }
+            }
+        },
+        {
+            "textStyle": {
+                "type": "StreetRailway",
+                "priority": 2,
+                "specialTextureLength" : 60,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "StreetRailwayLanesTextureColorDay",
+                    "textureNight" : "StreetRailwayLanesTextureColorNight"
+                }
+            },  
+            "enchanceStyle": {
+                "EnchanceLengthAfterCar" : 100,
+                "EnchanceLengthBeforeCar" : 250,
+                "EnchanceAlphaMax" : 1.0,
+                "EnchanceAlphaMin" : 0.3,
+                "EnchanceAnimationInhaleTime" :1300,
+                "EnchanceAnimationExhaleTime" :1200,
+                "EnchanceOverpassAlpha" : 0.85,
+                "EnchanceTextureName" : {
+                    "textureDay" : "BusEnchanceTextureColorDay",
+                    "textureNight" : "BusEnchanceTextureColorNight"
+                }
+            }
+        },
+        {
+            "textStyle": {
+                "type": "TidalLane",
+                "priority": 2,
+                "specialTextureLength" : 100,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "TidalFlowLanesTextureColorDay",
+                    "textureNight" : "TidalFlowLanesTextureColorNight"
+                }
+            },  
+            "enchanceStyle": {
+                "EnchanceLengthAfterCar" : 100,
+                "EnchanceLengthBeforeCar" : 250,
+                "EnchanceAlphaMax" : 1.0,
+                "EnchanceAlphaMin" : 0.3,
+                "EnchanceAnimationInhaleTime" :1300,
+                "EnchanceAnimationExhaleTime" :1200,
+                "EnchanceOverpassAlpha" : 0.85,
+                "EnchanceTextureName" : {
+                    "textureDay" : "BusEnchanceTextureColorDay",
+                    "textureNight" : "BusEnchanceTextureColorNight"
+                }
+            }
+        }
+    ],
+    "RecommendLaneStyle" : [
+        {
+            "textStyle": {
+                "type": "Recommend",
+                "priority": 3,
+                "specialTextureLength" : 50,
+                "specialTextureEndLength" : 150,
+                "specialTextureChangeDis" : 0,
+                "sepcialTextureAnimationSpeed" : 1500,
+                "overpassAlpha" : 0.85,
+                "nextTextureGapTime" : 0,
+                "textureName" : {
+                    "textureDay" : "RecommendLaneTextureColorDay",
+                    "textureNight" : "RecommendLaneTextureColorNight"
+                }
+            },  
+            "recommendSurfaceTmcColorDay": {
+                "tmcColorUninit": 4287145172,
+                "tmcColorUnknown": 4286621422,
+                "tmcColorOpen": 4285253507,
+                "tmcColorSlow": 4293839466,
+                "tmcColorJam": 4294935427,
+                "tmcColorCongested": 4294935427,
+                "tmcColorExtremeOpen": 4285253507
+            },
+            "recommendSurfaceTmcColorNight": {
+                "tmcColorUninit": 4286224068,
+                "tmcColorUnknown": 4285766909,
+                "tmcColorOpen": 4285121921,
+                "tmcColorSlow": 4292852831,
+                "tmcColorJam": 4293361278,
+                "tmcColorCongested": 4293361278,
+                "tmcColorExtremeOpen": 4285121921
+            },
+            "recommendLaneGradientLength" : 100,
+            "recommandEnchanceAnimationTime" : 1500,
+            "recommendEnchanceOverpassAlpha" : 0.85,
+            "shrinkDis" : 2.3
+        }
+    ]
+}

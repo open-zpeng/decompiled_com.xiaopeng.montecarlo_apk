@@ -1,0 +1,76 @@
+{
+    "surface": [{
+            "type": "unable",
+            "dayColor": 3439263744,
+            "nightColor": 3439263744
+        },
+        {
+            "type": "enable",
+            "dayColor": 3434538239,
+            "nightColor": 3434538239
+        },
+        {
+            "type": "urgent",
+            "dayColor": 3429735935,
+            "nightColor": 3429735935
+        },
+        {
+            "type": "target",
+            "dayColor": 3434740925,
+            "nightColor": 3434740925
+        },
+        {
+            "type": "limitRuleUnable",
+            "dayColor": 3439117245,
+            "nightColor": 3439117245
+        },
+        {
+            "type": "invalidLaneUnable",
+            "dayColor": 3434387850,
+            "nightColor": 3434387850
+        },
+        {
+            "type": "physicsUnable",
+            "dayColor": 3438907784,
+            "nightColor": 3438907784
+        },
+        {
+            "type": "recommend",
+            "dayColor": 3429482350,
+            "nightColor": 3429482350
+        },
+        {
+            "type": "notRecommend",
+            "dayColor": 3439325066,
+            "nightColor": 3439325066
+        }
+    ],
+    "point": [
+        {
+            "type": "suddenlyDriveInPoint",
+            "dayColor": 3439263744,
+            "nightColor": 3439263744
+        },
+        {
+            "type": "roadDivergencepoint",
+            "dayColor": 3431804205,
+            "nightColor": 3431804205
+        },
+        {
+            "type": "safeChangePoint",
+            "dayColor": 3430808982,
+            "nightColor": 3430808982
+        },
+        {
+            "type": "lastChancePoint",
+            "dayColor": 3424236297,
+            "nightColor": 3424236297
+        },
+        {
+            "type": "roadNarrowPoint",
+            "dayColor": 3438984960,
+            "nightColor": 3438984960
+        }
+    ]
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/poi_charge_divider" style="@style/poi_pop_horizontal_divider"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/down_lock_title" android:text="@string/poi_charge_down_lock_title" android:layout_below="@+id/poi_charge_divider" style="@style/poi_body_charge_down_lock_title"/>
+    <com.xiaopeng.xui.widget.XRecyclerView android:id="@+id/down_lock_list" android:paddingTop="@dimen/pop_charge_down_lock_list_padding_top" android:paddingBottom="@dimen/pop_charge_down_lock_list_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/down_lock_title"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/tv_no_lock" android:visibility="gone" android:layout_marginTop="@dimen/pop_charge_down_lock_no_lock_hint_margin_top" android:layout_marginBottom="@dimen/pop_charge_down_lock_no_lock_hint_margin_bottom" android:text="@string/poi_charge_down_lock_no_lock_hint" android:layout_below="@+id/down_lock_title" style="@style/poi_body_charge_down_lock_item_hint"/>
+</merge>

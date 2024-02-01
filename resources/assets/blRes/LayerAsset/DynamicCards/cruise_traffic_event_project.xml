@@ -1,0 +1,4 @@
+<div style='display:flex;flex-direction:row;align-items:center'>
+   <image src='global_image_auto_ic_navi_traffic_event_project_day_night' />
+   <label id='event_name' style='padding-left:6px;color:#3a3a3a;font-size:20px;max-height:23px;' text='施工' />
+</div>

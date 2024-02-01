@@ -1,0 +1,8 @@
+{
+  "arrowMoveSpeed": 0.0003,
+  "arrowStartDis": -20.0,
+  "arrowEndDis": 200.0,
+  "firstAlpha": 0.15,
+  "secondAlpha": 0.85,
+  "minAlpha": 0.2
+}

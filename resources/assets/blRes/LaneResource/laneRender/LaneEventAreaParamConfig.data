@@ -1,0 +1,40 @@
+{
+  "minZoomLevel": 18,
+  "maxZoomLevel": 22,
+  "fadeFrameCount": 20,
+  "bottomMarkerDay": "EventBottom",
+  "bottomMarkerNight": "EventBottom",
+  "lightCurtainMarkerDay": "LightCurtain",
+  "lightCurtainMarkerNight": "LightCurtain",
+  "bottomMarkerTextureLength": 120,
+  "lightCurtainrTextureLength": 120,
+  "lightCurtainrHeight": 30.0,
+  "sideLineWidth": 1.8, 
+  "sideLineMarkerDay": "EventSideLineDay",
+  "sideLineMarkerNight": "EventSideLineNight",
+  "sideLineMarkerTextureLength": 35,
+  "modelMarkerDay": "EventModel",
+  "modelMarkerNight": "EventModel"
+}
+
+
+/* 注释
+{
+  "minZoomLevel": 17,                 // 最小比例尺
+  "maxZoomLevel": 22,                 // 最大比例尺
+  "fadeFrameCount": 20,               // 渐变帧数
+  "bottomMarkerDay": 0,               // 底部白天纹理
+  "bottomMarkerNight": 0,             // 底部晚上纹理
+  "lightCurtainMarkerDay": 0,         // 光幕晚上纹理
+  "lightCurtainMarkerNight": 0,       // 光幕白天纹理
+  "bottomMarkerTextureLength": 40,    // 底部纹理长度 单位 米
+  "lightCurtainrTextureLength": 40,   // 光幕纹理长度 单位 米
+  "lightCurtainrHeight": 2.0          // 光幕高度,单位：米
+  "sideLineWidth": 0.3, // 边线宽度,单位：米
+  "sideLineMarkerDay": 0, // 边线白天纹理
+  "sideLineMarkerNight": 0, // 边线黑夜纹理
+  "sideLineMarkerTextureLength": 40, // 边线纹理长度,单位：米
+  "modelMarkerDay": 0, // 模型白天纹理
+  "modelMarkerNight": 0 // 模型黑夜纹理
+}
+*/

@@ -1,0 +1,39 @@
+{
+  "landscape": {
+    "srMinZoomLevel": 18,
+    "srMaxZoomLevel": 22, 
+    "srFadeFrameCount": 10,
+    "lineMinZoomLevel": 18,
+    "lineMaxZoomLevel": 22,
+    "lineFadeFrameCount": 10
+  }, 
+  "portrait": {
+    "srMinZoomLevel": 18,
+    "srMaxZoomLevel": 22,
+    "srFadeFrameCount": 10,
+    "lineMinZoomLevel": 18,
+    "lineMaxZoomLevel": 22, 
+    "lineFadeFrameCount": 10 
+  }
+}
+
+/* 注释
+{
+  "landscape": {
+    "srMinZoomLevel": 17, // sr模型 最小比例尺
+    "srMaxZoomLevel": 22, // sr模型 最大比例尺
+    "srFadeFrameCount": 20, // sr 渐变帧数
+    "lineMinZoomLevel": 17, // line 最小比例尺
+    "lineMaxZoomLevel": 22, // line 最小比例尺
+    "lineFadeFrameCount": 20 // line 渐变帧数
+  }, // 横屏
+  "portrait": {
+    "srMinZoomLevel": 17, // sr模型 最小比例尺
+    "srMaxZoomLevel": 22, // sr模型 最大比例尺
+    "srFadeFrameCount": 20, // sr 渐变帧数
+    "lineMinZoomLevel": 17, // line 最小比例尺
+    "lineMaxZoomLevel": 22, // line 最小比例尺
+    "lineFadeFrameCount": 20 // line 渐变帧数
+  } // 竖屏
+}
+*/

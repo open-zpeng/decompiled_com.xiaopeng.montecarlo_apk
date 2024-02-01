@@ -1,0 +1,30 @@
+<div id='along_route_pop_label' style='display:flex;width:auto;height:auto;margin-right:20px;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:column;justify-content:center;align-items:flex-start;background-image:global_image_along_bubble_left_bottom_day_night;'>
+    <image id='label_image_dynamic' style='display:none;margin-top:6px;' src='global_image_along_bubble_best_way_day_night'/>
+    <label id='name_text_center' style='display:flex;color:#ff000000;font-size:18px;margin-top:8px;margin-bottom:6px;max-height:21px;' text='中国石油加油站'/>
+    <div id='eta_div_bestway' style='display:none;flex-direction:row;justify-content:flex-start;align-items:center;margin-top:2px;'>
+      <label id='more_text_bestway' style='color:#ff028947;font-size:18px;max-height:21px;' text='多'/>
+      <label id='distance_diff_text_bestway' style='color:#ff028947;margin-left:2px;margin-right:2px;margin-top:3px;font-size:20px;font-family:Roboto-Bold;' text='493'/>
+      <label id='distance_unit_text_bestway' style='color:#ff028947;font-size:18px;max-height:21px;' text='米'/>
+	  <label id='mid_solit_bord_bestway' style='margin-left:4px;'/>
+      <label id='time_diff_text_bestway' style='color:#ff028947;margin-left:2px;margin-right:2px;margin-top:3px;font-size:20px;font-family:Roboto-Bold;' text='4'/>
+      <label id='time_unit_text_bestway' style='color:#ff028947;font-size:18px;max-height:21px;' text='分钟'/>
+    </div>
+    <div id='eta_div_nearest' style='display:none;flex-direction:row;justify-content:flex-start;align-items:center;margin-top:2px;'>
+      <label id='more_text_nearest' style='color:#ff457ce9;font-size:18px;max-height:21px;' text='多'/>
+      <label id='distance_diff_text_nearest' style='color:#ff457ce9;margin-left:2px;margin-right:2px;margin-top:3px;font-size:20px;font-family:Roboto-Bold;' text='493'/>
+      <label id='distance_unit_text_nearest' style='color:#ff457ce9;font-size:18px;max-height:21px;' text='米'/>
+	  <label id='mid_solit_bord_nearest' style='margin-left:4px;'/>
+      <label id='time_diff_text_nearest' style='color:#ff457ce9;margin-left:2px;margin-right:2px;margin-top:3px;font-size:20px;font-family:Roboto-Bold;' text='4'/>
+      <label id='time_unit_text_nearest' style='color:#ff457ce9;font-size:18px;max-height:21px;' text='分钟'/>
+    </div>
+    <div id='eta_div_center' style='display:flex;flex-direction:row;justify-content:flex-start;align-items:center;margin-top:8px;margin-bottom:6px;'>
+      <label id='more_text_center' style='color:#ff000000;font-size:18px;max-height:21px;' text='多'/>
+      <label id='distance_diff_text_center' style='color:#ff000000;margin-left:2px;margin-right:2px;margin-top:3px;font-size:20px;font-family:Roboto-Bold;' text='493'/>
+      <label id='distance_unit_text_center' style='color:#ff000000;font-size:18px;max-height:21px;' text='米'/>
+	  <label id='mid_solit_bord_center' style='margin-left:4px;'/>
+      <label id='time_diff_text_center' style='color:#ff000000;margin-left:2px;margin-right:2px;margin-top:3px;font-size:20px;font-family:Roboto-Bold;' text='4'/>
+      <label id='time_unit_text_center' style='color:#ff000000;font-size:18px;max-height:21px;' text='分钟'/>
+    </div>
+  </div>
+</div>

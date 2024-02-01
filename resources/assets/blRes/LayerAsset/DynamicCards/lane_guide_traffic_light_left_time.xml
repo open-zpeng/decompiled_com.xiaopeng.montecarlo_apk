@@ -1,0 +1,11 @@
+<div style="">
+<div id="background_image" style="display:flex;flex-direction:row;justify-content:flex-start;align-items:center;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;width:auto;height:106px;line-height:30px;white-space:nowrap;background-image:global_image_autonavi_lane_bubble_container_light_left_day_night;">
+<label id="tip_text_first" style="top:2px;right:6px;font-weight:400;font-size:26px;color:#e6000000;position:relative;font-family:font_cn;" lines="1"/>
+<label id="text_value" style="top:2px;right:4px;font-weight:400;font-size:26px;color:#ed3a3a;position:relative;font-family:font_cn;" lines="1"/>
+<label id="tip_text_last" style="top:2px;right:2px;font-weight:400;font-size:26px;color:#e6000000;position:relative;font-family:font_cn;" lines="1"/>
+</div>
+<image id="image_light_border" style="width:60px;height:60px;position:absolute;top:12px;right:55px;" src="dynamic"/>
+<image id="image_light_body" style="width:60px;height:60px;position:absolute;top:12px;right:55px;" src="dynamic"/>
+<image id="image_light_direction" style="width:60px;height:60px;position:absolute;top:12px;right:112px;" src="dynamic"/>
+</div>
+

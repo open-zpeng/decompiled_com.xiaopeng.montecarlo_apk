@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="282dp" android:layout_height="282dp">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/setting_car_logo_item_icon" android:paddingLeft="10dp" android:paddingTop="20dp" android:paddingRight="10dp" android:layout_width="160dp" android:layout_height="160dp"/>
+    <com.xiaopeng.xui.widget.XTextView android:layout_gravity="center_horizontal" android:id="@+id/setting_car_logo_item_title" android:text="@string/setting_current_car_logo_sub_title_hint_name" style="@style/setting_car_location_icon_style"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

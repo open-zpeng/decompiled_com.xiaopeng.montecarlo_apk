@@ -1,0 +1,14 @@
+package com.autonavi.gbl.user.group.model;
+
+import java.io.Serializable;
+/* loaded from: classes2.dex */
+public class GroupRequestUpdate extends GroupRequest implements Serializable {
+    public String teamId = "";
+    public String teamName = "";
+    public String announcement = "";
+    public GroupDestination destination = new GroupDestination();
+
+    public GroupRequestUpdate() {
+        this.reqType = 9;
+    }
+}

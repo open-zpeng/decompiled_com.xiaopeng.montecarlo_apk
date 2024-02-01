@@ -1,0 +1,7 @@
+<div style="">
+<div style="display:flex;flex-direction:column;align-items:flex-end;width:auto;height:105px;position:relative;background-image:global_image_autonavi_lane_bubble_container_lane_warning_right_day_night;">
+<label id="limit_text" style="margin-right:4px;margin-left:6px;top:16px;right:15px;font-size:24px;color:#F99500;position:relative;overflow:hidden;text-overflow:ellipsis;font-family:font_cn;" lines="1">车流汇入</label>
+</div>
+<image id="bg" style="width:60px;height:60px;position:absolute;top:14px;right:60px;" src="global_image_autonavi_lane_icon_warning_orange_day_night"/>
+<image id="image" style="width:48px;height:48px;position:absolute;top:20px;right:66px;" src="global_image_autonavi_lane_icon_exclusive_bus_lane_day_night"/>
+</div>

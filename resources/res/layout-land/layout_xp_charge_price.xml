@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/container_xp_charge_price" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.montecarlo.views.poicard.XpChargePriceItem android:id="@+id/current_xp_charge_price" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.xiaopeng.montecarlo.views.NoScrollListView android:orientation="vertical" android:id="@+id/lv_xp_price_info" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:id="@+id/container_xp_charge_price_external" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="20dp">
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_03" android:id="@+id/tv_xp_price_park_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="5dp" style="@style/font_medium_land_18_port_16"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_03" android:id="@+id/tv_xp_price_park_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:lineSpacingExtra="5dp" style="@style/font_medium_land_18_port_16"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_03" android:id="@+id/tv_xp_price_slow_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:lineSpacingExtra="5dp" style="@style/font_medium_land_18_port_16"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_03" android:id="@+id/tv_xp_price_slow_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:lineSpacingExtra="5dp" style="@style/font_medium_land_18_port_16"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</merge>

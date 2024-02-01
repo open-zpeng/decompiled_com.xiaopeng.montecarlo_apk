@@ -1,0 +1,22 @@
+<div style='display:flex;flex-direction:row;align-items:right;justify-content:space-around'>
+    <div style='padding-top:12px;padding-right:9px'>
+        <div style='display:flex;width:auto;height:auto;flex-direction:column;background-image:global_image_autonavi_lane_bubble_container_roadstatu_normal_right_two_day_night'>
+            <div id="div_time_dist" style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;align-items:center'>
+                <label id='congestion_distance' style='bottom:4px;color:#ffffff;font-size:24px' text='803米' />
+                <image style='height:28px;weight:2px;bottom:6px;margin-left:4px;margin-right:4px' src='global_image_autonavi_lane_icon_separator_line_day_night' />
+                <label id='congestion_time' style='bottom:4px;color:#ffffff;font-size:24px' text='20分钟' />
+            </div>
+            <div id="div_detail" style='width:auto;height:44px;display:flex;flex-direction:row;justify_content:space-around;align-items:center;'>
+                <image id='thumbnail_image' style='max-height:40px;top:6px;max-width:40px;border-radius:8% 8% 8% 8%;' src=''/>
+                <div id="div_detail_info" style='width:auto;height:auto;display:flex;flex-direction:column;justify_content:space-around;align-items:left;'>
+                    <label id='congestion_detail' style='top:8px;color:#ed390d;font-size:20px;align-items:left;' text='中间 事故' />
+                    <label id='congestion_detail1' style='top:8px;color:#ed390d;font-size:20px;align-items:left;' text='拥堵加剧' />
+                </div>
+            </div>
+            <div id="div_detail2" style='width:auto;height:30px;display:flex;flex-direction:row;justify_content:space-around;align-items:center;right:4px;'>
+                <image id='thumbnail_image2' style='max-height:40px;max-width:40px;margin-right:4px;top:8px;border-radius:8% 8% 8% 8%;' src='dynamic'/>
+                <label id='congestion_detail2' style='top:8px;color:#ed390d;font-size:20px;align-items:left' text='中间 事故 拥堵加剧' />
+            </div>
+        </div>
+    </div>
+</div>

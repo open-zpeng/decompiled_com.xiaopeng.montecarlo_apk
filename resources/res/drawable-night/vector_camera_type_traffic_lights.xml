@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="72dp" android:width="72dp" android:viewportWidth="72" android:viewportHeight="72">
+    <path android:fillColor="#bcc1c7" android:pathData="M0,36a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z"/>
+    <path android:fillColor="#00000000" android:pathData="M2.9302,36a33.0698,33.0698 0,1 0,66.1395 0a33.0698,33.0698 0,1 0,-66.1395 0z" android:strokeColor="@drawable/res_0x7f080013_vector_camera_type_traffic_lights__0" android:strokeWidth="5.8605" android:fillAlpha="0"/>
+    <group>
+        <clip-path android:pathData="M5.8613,5.8604h60.2791v60.2791h-60.2791z"/>
+        <path android:fillColor="#232323" android:pathData="M20.1775,23.9434L51.824,23.9434A7.5349,7.5349 0,0 1,59.3589 31.4782L59.3589,40.5201A7.5349,7.5349 0,0 1,51.824 48.055L20.1775,48.055A7.5349,7.5349 0,0 1,12.6426 40.5201L12.6426,31.4782A7.5349,7.5349 0,0 1,20.1775 23.9434z"/>
+        <path android:fillColor="#f55a4f" android:pathData="M17.918,35.999a5.2744,5.2744 0,1 0,10.5488 0a5.2744,5.2744 0,1 0,-10.5488 0z"/>
+        <path android:fillColor="#ffb049" android:pathData="M30.7266,35.999a5.2744,5.2744 0,1 0,10.5488 0a5.2744,5.2744 0,1 0,-10.5488 0z"/>
+        <path android:fillColor="#42c271" android:pathData="M43.5352,35.999a5.2744,5.2744 0,1 0,10.5488 0a5.2744,5.2744 0,1 0,-10.5488 0z"/>
+    </group>
+</vector>

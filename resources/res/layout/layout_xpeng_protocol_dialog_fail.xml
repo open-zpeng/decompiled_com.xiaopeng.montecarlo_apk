@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bind_protocol_load_fail_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/main_title_text_color" android:gravity="center" android:id="@+id/link_seamless_failure_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/link_seamless_failure_title_name" android:layout_centerHorizontal="true" style="@style/font_medium_land_24_port_22"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/link_seamless_failure_img" android:background="@drawable/png_ic_xxlarge_nowifi" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/main_title_text_color" android:id="@+id/link_seamless_failure_explain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/link_seamless_failure_explain_name" style="@style/font_medium_land_24_port_22"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_positive_highlight" android:id="@+id/link_seamless_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/link_seamless_failure_refresh_name" style="@style/font_medium_land_18_port_16"/>
+    </LinearLayout>
+</RelativeLayout>

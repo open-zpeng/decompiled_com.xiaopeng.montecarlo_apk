@@ -1,0 +1,6 @@
+<div id='along_route_best_way_gas11100' style='width:auto;'>
+    <div style='display:flex;width:auto;height:52px;flex-direction:row;align-items:center;margin-left:12px;background-image:global_image_quick_route_search_along_des_bg_day_night;'>
+        <label id='type_name' style='margin-left:12px;color:#ff000000;font-size:18px;max-height:21px;' text='最顺路'/>
+    </div>
+    <image style='position:absolute;' src='global_image_navi_along_search_xingxing_station_icon_day_night' />
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_route_time_line" android:layout_width="8dp" android:layout_height="wrap_content"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:layout_marginEnd="30dp">
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/main_title_text_color" android:id="@+id/tv_dest_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/font_medium_land_28_port_26"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/sub_title_text_color" android:id="@+id/tv_via_name1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" style="@style/font_medium_land_22_port_20"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/sub_title_text_color" android:id="@+id/tv_via_name2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" style="@style/font_medium_land_22_port_20"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/sub_title_text_color" android:id="@+id/tv_via_name3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" style="@style/font_medium_land_22_port_20"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</merge>

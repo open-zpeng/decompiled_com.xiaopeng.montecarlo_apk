@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main_frame" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.montecarlo.views.XPMapSurfaceView android:id="@+id/map_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/ngp_mask_take_over_weak" android:background="@drawable/ngp_warning_anim" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <include android:id="@+id/map_buttons" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/base_scene_margin_top" android:layout_marginStart="@dimen/base_scene_margin_start" layout="@layout/layout_map_buttons"/>
+    <FrameLayout android:id="@+id/layer_scene" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="end|bottom" android:id="@+id/debug_lane_record_play_stub" android:visibility="gone" android:layout="@layout/layout_debug_lane_record_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="150dp" android:layout_marginBottom="24dp"/>
+    <ViewStub android:layout_gravity="end|bottom" android:id="@+id/debug_proto_play_stub" android:visibility="gone" android:layout="@layout/layout_debug_proto_play" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

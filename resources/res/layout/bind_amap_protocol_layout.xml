@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:layout_gravity="center_horizontal" android:id="@+id/bind_map_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:text="@string/bind_amap_dialog_title" style="@style/font_medium_land_40_port_36"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text03" android:layout_gravity="center_horizontal" android:id="@+id/bind_map_dialog_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/bind_amap_dialog" style="@style/font_medium_land_28_port_26"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34dp">
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:id="@+id/bind_map_dialog_agreement_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/link_seamless_amap_agreement_hint" style="@style/font_regular_land_22_port_20"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_forward_color_pressed" android:id="@+id/bind_map_dialog_agreement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/link_seamless_amap_agreement" android:layout_toRightOf="@+id/bind_map_dialog_agreement_hint" style="@style/font_regular_land_22_port_20"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</LinearLayout>

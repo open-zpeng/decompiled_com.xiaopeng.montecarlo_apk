@@ -1,0 +1,7 @@
+<div style="">
+<div style="display:flex;flex-direction:column;align-items:flex-start;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;width:auto;height:auto;position:relative;top:0px;left:0px;height: 111px;background-image:global_image_autonavi_lane_bubble_container_two_traffic_event_left_day_night;">
+<label id="event_name" style="top:2px;font-size:24px;color:#ed390d;position:relative;overflow:hidden;text-overflow:ellipsis;white-space:pre;font-family:font_cn;" lines="1">右侧2车道施工</label>
+<label id="event_length" style="top:6px;font-size:20px;color:#99000000;position:relative;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:font_cn;" lines="1">长度300米</label>
+</div>
+<image id="event_image" style="width:40px;height:40px;position:absolute;top:29px;left:22px;" src="dynamic"/>
+</div>

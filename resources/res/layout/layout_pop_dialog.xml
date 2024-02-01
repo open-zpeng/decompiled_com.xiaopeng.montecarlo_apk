@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/pop_dialog_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP" app:vuiLabel="返回|关闭"/>

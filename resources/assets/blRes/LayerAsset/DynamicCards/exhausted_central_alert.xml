@@ -1,0 +1,3 @@
+<div style='display:flex;width:auto;height:auto;flex-direction:row;align-items:center;background-image:global_image_exhausted_mark_orange_day_night;'>
+  <label id='retain_energy_text' style='margin-top:4px;color:#ffffffff;font-size:20px;max-height:23px;' text='电量预警'/>
+</div>

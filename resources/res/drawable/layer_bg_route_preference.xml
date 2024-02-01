@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item android:left="@dimen/search_shadow_margin" android:top="@dimen/search_shadow_margin" android:right="@dimen/search_shadow_margin" android:bottom="@dimen/search_shadow_margin">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="@color/small_panel_bg_color"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/drawable_ripple_r20_no_scale" android:left="@dimen/search_shadow_margin" android:top="@dimen/search_shadow_margin" android:right="@dimen/search_shadow_margin" android:bottom="@dimen/search_shadow_margin"/>
+</layer-list>

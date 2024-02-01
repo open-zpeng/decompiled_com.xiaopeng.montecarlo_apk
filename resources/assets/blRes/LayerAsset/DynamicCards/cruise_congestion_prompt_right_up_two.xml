@@ -1,0 +1,8 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:column;justify_content:space-around;background-image:global_image_autonavi_roadstatu_normal_2_simple_right_up_day_night'>
+  <label id='congestion_detail' style='color:#ed390d;max-height:23px;font-size:20px' text='中间 事故 拥堵加剧' />
+  <div style='display:flex;flex-direction:row;align-items:center;margin-top:6px;'>
+    <label id='congestion_time' style='color:#ffffff;max-height:27px;font-size:24px' text='20分钟' />
+    <image style='margin-left:6px;margin-right:6px;' src='global_image_autonavi_roadstatu_line' />
+    <label id='congestion_distance' style='color:#ffffff;max-height:27px;font-size:24px' text='803米' />
+  </div>
+</div>

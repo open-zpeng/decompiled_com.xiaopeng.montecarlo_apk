@@ -1,0 +1,9 @@
+<div id='guide_label_background_image' style='width:auto;height:auto;background-image:global_image_navi_bg_route_label_left_up1_2_day_night;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;'>
+  <div id='div1_ignore' style='flex-direction:row;justify-content:flex-start;align-items:center;'>
+    <div id='div_label' style='justify-content:flex-start;align-items:left;background-image:global_image_navi_bg_route_textlabel_day_night;margin-right:8px;'>
+      <label id='label_text' style='color:#f0ffffff;font-size:23px;justify-content:flex-start;max-height:26px;' text='大路多'/>
+    </div>
+    <label id='time_diff_text' style='color:#f0ffffff;font-size:24px;justify-content:flex-start;max-height:27px;' text='快3分钟'/>
+  </div>
+</div>
+

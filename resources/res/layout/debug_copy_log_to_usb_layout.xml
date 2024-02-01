@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/debug_copy_log_to_usb_view" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/font_regular_land_40_port_36"/>
+</RelativeLayout>
