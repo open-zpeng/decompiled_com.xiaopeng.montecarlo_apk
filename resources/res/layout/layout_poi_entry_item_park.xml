@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/poi_btn_park_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_01" android:id="@+id/poi_btn_park" android:background="@drawable/drawable_ripple_r26" android:paddingLeft="@dimen/poi_card_entry_item_padding_left" android:paddingRight="@dimen/poi_card_entry_item_padding_right" android:clickable="false" android:layout_width="wrap_content" android:text="@string/select_charge_spot" android:drawableLeft="@drawable/vector_ic_small_parking" android:drawablePadding="6dp" app:vuiAction="@string/vui_action_click" app:vuiElementType="TEXTVIEW" style="@style/poi_entry_btn"/>
+</merge>

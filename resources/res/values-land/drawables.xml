@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="drawable_add_waypoint">@drawable/vector_ic_mid_search_white</drawable>
+    <drawable name="drawable_common_toast_single_line">@drawable/layer_bg_route_dialog</drawable>
+    <drawable name="drawable_map_buttons_map_left_btn_bg">@drawable/layer_bg_gradieant_black_16_corner_20</drawable>
+    <drawable name="drawable_poi_card_view_bg_start_navi_in_poi_pop">@drawable/layer_bg_search_set_waypoint</drawable>
+    <drawable name="drawable_poi_card_view_poi_divider_bottom">@drawable/png_mask_sliding_mid</drawable>
+    <drawable name="drawable_setting_scene_icon_32_normal_ic_download_gray">@drawable/vector_ic_small_download</drawable>
+    <drawable name="drawable_setting_scene_icon_32_normal_ic_start_gray">@drawable/vector_ic_small_download_start</drawable>
+    <drawable name="drawable_setting_scene_icon_32_normal_ic_suspend_gray">@drawable/vector_ic_small_download_pause</drawable>
+    <drawable name="drawable_setting_scene_login_bg">@drawable/layer_common_gradient_btn_bg</drawable>
+    <drawable name="layer_bg_setting_car_logo_pressed">@drawable/layer_bg_setting_car_logo_pressed_land</drawable>
+    <drawable name="png_btn_basicicon_mid_packup">@drawable/png_btn_basicicon_mid_packup_land</drawable>
+    <drawable name="png_btn_basicicon_mid_packup_pressed">@drawable/png_btn_basicicon_mid_packup_pressed_land</drawable>
+    <drawable name="png_btn_basicicon_mid_unfold">@drawable/png_btn_basicicon_mid_unfold_land</drawable>
+    <drawable name="png_btn_basicicon_mid_unfold_pressed">@drawable/png_btn_basicicon_mid_unfold_pressed_land</drawable>
+    <drawable name="png_recommend_park_collapse_ic">@drawable/png_ic_large_p</drawable>
+    <drawable name="selector_bg_route_charge_add">@drawable/selector_bg_route_charge_add_land</drawable>
+    <drawable name="selector_bg_route_charge_remove">@drawable/selector_bg_route_charge_remove_land</drawable>
+    <drawable name="setting_license_plate_save_btn_background">@drawable/layer_bg_button_gray_normal</drawable>
+</resources>

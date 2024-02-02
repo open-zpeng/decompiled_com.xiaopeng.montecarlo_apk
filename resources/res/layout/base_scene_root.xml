@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scene_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:id="@+id/base_scene" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/poi_pop_stub" android:visibility="invisible" android:layout="@layout/poi_card_view" android:inflatedId="@+id/poi_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/poi_pop_min_width" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+    <ViewStub android:id="@+id/map_traffic_incident_info_stub" android:layout="@layout/layout_traffic_event" android:inflatedId="@+id/map_traffic_incident_info_pop" android:layout_width="464dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <com.xiaopeng.xui.widget.XRelativeLayout android:id="@+id/child_scene" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

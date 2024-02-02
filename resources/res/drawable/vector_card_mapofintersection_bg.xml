@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="385dp" android:width="512dp" android:viewportWidth="512" android:viewportHeight="385">
+    <path android:fillColor="@color/vector_card_mapofintersection_fill_color" android:pathData="M11,1L501,1A10,10 0,0 1,511 11L511,374A10,10 0,0 1,501 384L11,384A10,10 0,0 1,1 374L1,11A10,10 0,0 1,11 1z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

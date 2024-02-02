@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.dialog.LocationDebugDialog xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/common_white_100" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:id="@+id/loc_debug_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="32sp" android:textColor="@color/primary_black" android:gravity="center" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginLeft="10dp" android:text="@string/loc_debug_title"/>
+        <View android:background="@color/bg_list_bg_pressed_white_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="32sp" android:textColor="@color/primary_black" android:id="@+id/loc_debug_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="text"/>
+        </androidx.core.widget.NestedScrollView>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/loc_debug_dialog_scale" android:padding="@dimen/location_debug_image_padding" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/location_debug_drag_icon" android:maxWidth="@dimen/location_debug_image_width" android:maxHeight="@dimen/location_debug_image_width" android:layout_centerHorizontal="true"/>
+</com.xiaopeng.montecarlo.views.dialog.LocationDebugDialog>

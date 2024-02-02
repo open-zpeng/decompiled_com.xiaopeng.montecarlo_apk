@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card00"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card01"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card02"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card03"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card04"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card05"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card06"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card07"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card08"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card09"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card09"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card08"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card07"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card06"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card05"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card04"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card03"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card02"/>
+    <item android:duration="67" android:drawable="@drawable/png_bg_warn_card01"/>
+</animation-list>

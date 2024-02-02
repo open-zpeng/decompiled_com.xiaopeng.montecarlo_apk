@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/favorite_item_delete_bg"/>
+        </shape>
+    </item>
+    <item>
+        <drawable app:rippleSupportScale="false" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>
+    </item>
+</layer-list>

@@ -1,0 +1,65 @@
+﻿<li>BLVersion: 9.520.155.0.2332</li>
+<li>GBL branch: release/520</li>
+<li>GBL commit id: be0523d0e7f06b7931efb82e7730b94770aac266</li>
+<li>GBLAosComponent branch: release/520</li>
+<li>GBLAosComponent commit id: b5d28c96c5bb31cfa47ea7cf16162629a8be8d02</li>
+<li>GBLCommonComponent branch: release/520</li>
+<li>GBLCommonComponent commit id: d05f0d4eb5f26f0e89dd90b2e0b9ec24d90a0680</li>
+<li>GBLCardComponent branch: release/520</li>
+<li>GBLCardComponent commit id: 6ea7ffc8e4ec4edfba6fb87ae809fdab734b6510</li>
+<li>GBLDataComponent branch: release/520</li>
+<li>GBLDataComponent commit id: 9a24f55346a2c21a54fd25af1f294fc474ebb1c6</li>
+<li>GBLGuideComponent branch: release/520</li>
+<li>GBLGuideComponent commit id: 5d2e3227b83c06ef59cfced35f53060f166d93e8</li>
+<li>GBLLayerComponent branch: release/520</li>
+<li>GBLLayerComponent commit id: 4c040c24a57862314350a214486ff82a23aa7a58</li>
+<li>GBLMapComponent branch: release/520</li>
+<li>GBLMapComponent commit id: 803d4901a457c95f3919ab7fa0d647f85b858163</li>
+<li>GBLPosComponent branch: release/520</li>
+<li>GBLPosComponent commit id: a285549d9113d37e7ec010dde8f6aa64568fe870</li>
+<li>GBLRouteComponent branch: release/520</li>
+<li>GBLRouteComponent commit id: f8b2df1a01a18ee77feec7697c35762524d15b24</li>
+<li>GBLSearchComponent branch: release/520</li>
+<li>GBLSearchComponent commit id: dcec1d4853e0fcde64409ba99a8b46434a943b98</li>
+<li>GBLServicesManager branch: release/520</li>
+<li>GBLServicesManager commit id: 415a6e25d8c28475431fb52e7f61cf674eac706b</li>
+<li>GBLUserComponent branch: release/520</li>
+<li>GBLUserComponent commit id: c6235d243bd0aa8ce77923336b676e2767ece239</li>
+<li>GBLUtilComponent branch: release/520</li>
+<li>GBLUtilComponent commit id: eebbc814b4d65d7160c454e5f060647ab6cce263</li>
+<li>GBLActivationComponent branch: release/520</li>
+<li>GBLActivationComponent commit id: 5a36f82035c26d4d6fa84adfa0981339c37d0e2a</li>
+<li>GBLExceptionComponent branch: release/520</li>
+<li>GBLExceptionComponent commit id: a296734b89943fc43ac38eb4b4f8c33f447b7404</li>
+<li>GBLArComponent branch: release/520</li>
+<li>GBLArComponent commit id: 4f19afe4bcdc42bbc67dfcb0c00e6b5748c8a9ea</li>
+<li>GBLEHPComponent branch: release/520</li>
+<li>GBLEHPComponent commit id: 8d0ccc8430a72a9b4b40ad4c87ab4b9a5f5ec756</li>
+<li>GBLLaneComponent branch: release/520</li>
+<li>GBLLaneComponent commit id: 131d2844e7b9bc93db8e58be63105a7fe20b5c32</li>
+<li>GBLMapToolComponent branch: release/520</li>
+<li>GBLMapToolComponent commit id: 5783d4988ddd14af9e308997694075af469e86fe</li>
+<li>GBLAndroidJNI branch: release/520</li>
+<li>GBLAndroidJNI commit id: 61ae70eb24a8c8b8c33d3bb4d11cb5e2395b504d</li>
+<li>AutoJNI branch: release/520</li>
+<li>AutoJNI commit id: 7ab53563cc35a8bb7aae4b86f5537ad554b7a27d</li>
+
+<li> Third_Version </li>
+[version]
+GPlatformInterface = 2.12.8.38
+GNet = 2.50.0.83
+GComm3rd = 1.8.4.94
+mqtt = 1.30.0.91
+GNaviDice = auto_10.76.40.154
+GNaviUtils = auto_9.0.52.71
+plug_ins_project = 1.0.0.723
+ARDrive = auto_10.76.40.154
+GEhp = 2.26.2.532
+GSQuirrel = 1.56.0.190
+asvg = release_520.1.0.0.0.6459
+GNaviGlyph = auto_10.76.40.66-t-220526223939
+amap_card = auto_10.76.40.67-t-220712162916
+GAdasData = 1.0.0.5430
+GEncryptionKey = 1.0.0.0.13
+AutoDice = auto_10.76.40.167
+

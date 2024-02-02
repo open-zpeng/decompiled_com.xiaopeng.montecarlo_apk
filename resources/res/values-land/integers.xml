@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="enable_scratch_spot">1</integer>
+    <integer name="history_waypoint_child_poi_num">2</integer>
+    <integer name="navi_corss_img_radius">24</integer>
+    <integer name="priority_interval_camera">@integer/priority_navi_panel</integer>
+    <integer name="priority_navi_panel">3</integer>
+    <integer name="priority_offline">@integer/priority_navi_panel</integer>
+    <integer name="priority_poi_card">1</integer>
+    <integer name="priority_recommend_charge">@integer/priority_poi_card</integer>
+    <integer name="priority_recommend_park">@integer/priority_navi_panel</integer>
+    <integer name="priority_restrict">@integer/priority_navi_panel</integer>
+    <integer name="priority_sapa">@integer/priority_navi_panel</integer>
+    <integer name="priority_traffic_event">@integer/priority_poi_card</integer>
+    <integer name="search_set_way_point_orientation">1</integer>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="40dp"/>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/drawable_ripple_r20_no_scale" android:left="@dimen/map_toggle_btn_bg_ps" android:top="@dimen/map_toggle_btn_bg_pt" android:right="@dimen/map_toggle_btn_bg_pe" android:bottom="@dimen/map_toggle_btn_bg_pb"/>
+</layer-list>

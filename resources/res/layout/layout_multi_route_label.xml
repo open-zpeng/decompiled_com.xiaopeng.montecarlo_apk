@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/route_alert_label_item" android:paddingLeft="@dimen/multi_road_label_padding_left" android:paddingTop="@dimen/multi_road_label_padding_top" android:paddingRight="@dimen/multi_road_label_padding_right" android:paddingBottom="@dimen/multi_road_label_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/tx_label_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_tag_number_1" android:layout_marginEnd="5dp"/>
+        <TextView android:textColor="@color/route_label_title_normal_color" android:layout_gravity="left" android:id="@+id/tx_label_time_diff" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/alternative_route_label_title_style"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="14dp">
+        <TextView android:layout_gravity="left" android:id="@+id/tx_label_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/vector_ic_xsmall_cost_gray" style="@style/alternative_route_label_style"/>
+        <TextView android:id="@+id/tx_label_traffic_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/vector_ic_xsmall_trafficsignal_gray" style="@style/alternative_route_label_style"/>
+        <TextView android:id="@+id/tx_label_distance_diff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" style="@style/alternative_route_label_style"/>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

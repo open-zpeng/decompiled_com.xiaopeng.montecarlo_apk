@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_board"/>
+    <item android:gravity="top|right" android:drawable="@drawable/png_loading_xlarge" android:left="0dp" android:top="@dimen/app_loading_icon_mt" android:right="@dimen/app_loading_icon_mr" android:bottom="0dp"/>
+    <item android:gravity="top|right" android:drawable="@drawable/vector_loading_caption" android:left="0dp" android:top="@dimen/app_loading_text_mt" android:right="@dimen/app_loading_text_mr" android:bottom="0dp"/>
+</layer-list>

@@ -1,0 +1,1218 @@
+{
+    "car_2d_style":
+    {
+        "car_layer_style":
+        {
+            "car_marker":
+            {
+                "compass_marker_id":"-1",
+                "compass_marker_info":"",
+                "compass_indicator_marker_id":"-1",
+                "compass_indicator_marker_info":"",
+                "track_marker_id":"293",
+                "track_marker_info":"",
+                "track_arc_marker_id":"-1",
+                "track_arc_marker_info":"",
+                "shine_marker_id":"293",
+                "shine_marker_info":""
+            },
+            "car_animation_style":
+            {
+                "car_style":1,
+                "no_net":
+                {
+                    "animation_duration":800,
+                    "from_zoom":0.5,
+                    "end_zoom":1.4,
+                    "from_lpha":1.0,
+                    "end_lpha":0.0
+                },
+                "net":
+                {
+                    "animation_duration":800,
+                    "from_zoom":0.5,
+                    "end_zoom":1.4,
+                    "from_lpha":1.0,
+                    "end_lpha":0.0
+                }
+            }
+        }
+    },
+    "car_3d_style":
+    {
+        "car_layer_style":
+        {
+            "car_marker":
+            {
+                "compass_marker_id":"-1",
+                "compass_marker_info":"",
+                "compass_indicator_marker_id":"-1",
+                "compass_indicator_marker_info":"",
+                "track_marker_id":"294",
+                "track_marker_info":"",
+                "track_arc_marker_id":"-1",
+                "track_arc_marker_info":"",
+                "shine_marker_id":"294",
+                "shine_marker_info":""
+            },
+            "car_animation_style":
+            {
+                "car_style":1,
+                "no_net":
+                {
+                    "animation_duration":800,
+                    "from_zoom":0.5,
+                    "end_zoom":1.4,
+                    "from_lpha":1.0,
+                    "end_lpha":0.0
+                },
+                "net":
+                {
+                    "animation_duration":800,
+                    "from_zoom":0.5,
+                    "end_zoom":1.4,
+                    "from_lpha":1.0,
+                    "end_lpha":0.0
+                }
+            }
+        }
+    },
+    "car_speed_style":
+    {
+        "car_layer_style":
+        {
+            "car_marker":
+            {
+                "compass_marker_id":"-1",
+                "compass_marker_info":"",
+                "compass_indicator_marker_id":"-1",
+                "compass_indicator_marker_info":"",
+                "track_marker_id":"293",
+                "track_marker_info":"",
+                "track_arc_marker_id":"-1",
+                "track_arc_marker_info":"",
+                "shine_marker_id":"293",
+                "shine_marker_info":""
+            },
+            "car_animation_style":
+            {
+                "car_style":1,
+                "no_net":
+                {
+                    "animation_duration":800,
+                    "from_zoom":0.5,
+                    "end_zoom":1.4,
+                    "from_lpha":1.0,
+                    "end_lpha":0.0
+                },
+                "net":
+                {
+                    "animation_duration":800,
+                    "from_zoom":0.5,
+                    "end_zoom":1.4,
+                    "from_lpha":1.0,
+                    "end_lpha":0.0
+                }
+            }
+        }
+    },
+    "car_eagleeye_style": {
+        "car_layer_style": {
+            "car_marker": {
+                "compass_marker_id": "-1",
+                "compass_marker_info": "",
+                "compass_indicator_marker_id": "-1",
+                "compass_indicator_marker_info": "",
+                "track_marker_id": "1196",
+                "track_marker_info": "",
+                "track_arc_marker_id": "-1",
+                "track_arc_marker_info": "",
+                "shine_marker_id": "-1",
+                "shine_marker_info": ""
+            },
+            "car_animation_style": {
+                "car_style": 1,
+                "no_net": {
+                    "animation_duration": 800,
+                    "from_zoom": 0.5,
+                    "end_zoom": 1.4,
+                    "from_lpha": 1.0,
+                    "end_lpha": 0.0
+                },
+                "net": {
+                    "animation_duration": 800,
+                    "from_zoom": 0.5,
+                    "end_zoom": 1.4,
+                    "from_lpha": 1.0,
+                    "end_lpha": 0.0
+                }
+            }
+        }
+    },
+    "point_route_start":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"1006",
+                "bg_marker_id":"1006",
+                "bubble_marker_id":"1006"
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"1006",
+                "bg_marker_id":"1006",
+                "bubble_marker_id":"1006"
+            }
+        }
+    },
+    "point_route_end":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"80",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            }
+        }
+    },
+    "point_route_via":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_route_via_normal",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_route_via_focus",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            }
+        }
+    },
+    "point_eagle_route_end": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1197",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            }
+        }
+    },
+    "point_traffic_light": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "22",
+                "poi_marker_info": ""
+            }
+        }
+    },
+    "point_compare_tip_new": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "24",
+                "poi_marker_info": ""
+            }
+        }
+    },
+    "point_route_traffic_event_tips": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1152",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            }
+        }
+    },
+    "point_route_traffic_block": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1187",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_route_jam": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "27",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_guide_label_multi": {
+      "point_layer_item_style": {
+        "normal_style": {
+          "poi_marker_id": "1057",
+          "poi_marker_info": "",
+          "bg_marker_id": "-1",
+          "bg_marker_info": "",
+          "bubble_marker_id": "-1",
+          "bubble_marker_info": ""
+        }
+      }
+    },
+    "point_cruise_congestion_event":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"50",
+                "poi_marker_info":"",
+                "bg_marker_id":"-1",
+                "bg_marker_info":"",
+                "bubble_marker_id":"-1",
+                "bubble_marker_info":""
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"50",
+                "poi_marker_info":"",
+                "bg_marker_id":"-1",
+                "bg_marker_info":"",
+                "bubble_marker_id":"-1",
+                "bubble_marker_info":""
+            }
+        }
+    },
+    "point_cruise_facility":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"50",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"50",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            }
+        }
+    },
+    "point_cruise_camera":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"50",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            }
+        }
+    },
+    "point_search_parent":
+    {
+      "point_layer_item_style":
+      {
+        "normal_style":
+        {
+          "poi_marker_id":"point_search_parent_normal",
+            "bg_marker_id":-1,
+            "bubble_marker_id":-1
+        },
+        "focus_style":
+        {
+          "poi_marker_id":"point_search_parent_focus",
+            "bg_marker_id":-1,
+            "bubble_marker_id":-1
+        }
+      }
+    },
+    "arrow_route_arrow_style": {
+        "arrow_layer_item_style": {
+            "arrow_2d_texture_info": {
+                "use_cap": 1,
+                "use_color": 1,
+                "draw_cover": 1,
+                "can_be_coveredbylabel": 0,
+                "solid_arrow_in2dmap": 1,
+                "fill_texture": {
+                    "marker_id": "3",
+                    "marker_info": "",
+                    "color": "0xffffffff",
+                    "width": 80
+                },
+                "border_texture": {
+                    "marker_id": "2",
+                    "marker_info": "",
+                    "color": "0xff0b6fc4",
+                    "width": 40
+                },
+                "texture_info": {
+                    "x1": 0.12,
+                    "y1": 0.77,
+                    "x2": 0.88,
+                    "y2": 0.77,
+                    "texture_len": 0
+                },
+                "cap_texture_info": {
+                    "x1": 0.12,
+                    "y1": 0.85,
+                    "x2": 0.88,
+                    "y2": 1.0
+                }
+            },
+            "arrow_3d_texture_info": {
+                "draw_3d_arrow": 1,
+                "bias_width": 0,
+                "auto_zoomer_width": 1,
+                "solid_res_marker_id": "66",
+                "solid_res_marker_info": "",
+                "solid_top_face_color": "0xffffffff",
+                "solid_side_face_color": "0xff2c428a",
+                "solid_shadow_color": "0x99000000",
+                "solid_height": 3,
+                "solid_thickness": 10,
+                "solid_border_line_top_line_width": 2,
+                "solid_border_line_side_line_width": 2,
+                "solid_border_line_bottom_line_width": 2,
+                "solid_border_line_top_line_color": "0xff506cc9",
+                "solid_border_line_side_line_color": "0xff1c3575",
+                "solid_border_line_bottom_line_color": "0xff1c3575",
+                "solid_arrow_header_param": {
+                    "header_angle": 80,
+                    "header_width_rate": 3
+                },
+                "solid_texture_info": {
+                    "x1": 0.35,
+                    "y1": 0.625,
+                    "x2": 0.65,
+                    "y2": 0.625,
+                    "texture_len": 32
+                },
+                "solid_cap_texture_info": {
+                    "x1": 0.35,
+                    "y1": 0.75,
+                    "x2": 0.65,
+                    "y2": 0.82
+                },
+                "solid_header_texture_info": {
+                    "x1": 0.1,
+                    "y1": 0.75,
+                    "x2": 0.9,
+                    "y2": 0.1
+                }
+            }
+        }
+    },
+    "minimap_arrow_route_arrow_style": {
+        "arrow_layer_item_style": {
+            "arrow_2d_texture_info": {
+                "use_cap": 1,
+                "use_color": 1,
+                "draw_cover": 1,
+                "can_be_coveredbylabel": 0,
+                "solid_arrow_in2dmap": 1,
+                "fill_texture": {
+                    "marker_id": "3",
+                    "marker_info": "",
+                    "color": "0xffffffff",
+                    "width": 50
+                },
+                "border_texture": {
+                    "marker_id": "2",
+                    "marker_info": "",
+                    "color": "0xff0b6fc4",
+                    "width": 25
+                },
+                "texture_info": {
+                    "x1": 0.12,
+                    "y1": 0.77,
+                    "x2": 0.88,
+                    "y2": 0.77,
+                    "texture_len": 0
+                },
+                "cap_texture_info": {
+                    "x1": 0.12,
+                    "y1": 0.85,
+                    "x2": 0.88,
+                    "y2": 1.0
+                }
+            },
+            "arrow_3d_texture_info": {
+                "draw_3d_arrow": 1,
+                "bias_width": 0,
+                "auto_zoomer_width": 1,
+                "solid_res_marker_id": "66",
+                "solid_res_marker_info": "",
+                "solid_top_face_color": "0xffffffff",
+                "solid_side_face_color": "0xff2c428a",
+                "solid_shadow_color": "0x99000000",
+                "solid_height": 3,
+                "solid_thickness": 10,
+                "solid_border_line_top_line_width": 2,
+                "solid_border_line_side_line_width": 2,
+                "solid_border_line_bottom_line_width": 2,
+                "solid_border_line_top_line_color": "0xff506cc9",
+                "solid_border_line_side_line_color": "0xff1c3575",
+                "solid_border_line_bottom_line_color": "0xff1c3575",
+                "solid_arrow_header_param": {
+                    "header_angle": 80,
+                    "header_width_rate": 3
+                },
+                "solid_texture_info": {
+                    "x1": 0.35,
+                    "y1": 0.625,
+                    "x2": 0.65,
+                    "y2": 0.625,
+                    "texture_len": 32
+                },
+                "solid_cap_texture_info": {
+                    "x1": 0.35,
+                    "y1": 0.75,
+                    "x2": 0.65,
+                    "y2": 0.82
+                },
+                "solid_header_texture_info": {
+                    "x1": 0.1,
+                    "y1": 0.75,
+                    "x2": 0.9,
+                    "y2": 0.1
+                }
+            }
+        }
+    },
+    "point_search_child":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_search_child_normal",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_search_child_focus",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            }
+        }
+    },
+    "point_mark":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_mark_normal",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_mark_focus",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            }
+        }
+    },
+    "point_vpa":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_vpa_normal",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_vpa_focus",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            }
+        }
+    },
+    "point_search_centrol":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_search_centrol_normal",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_search_centrol_focus",
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            }
+        }
+    },
+    "point_user_fav":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_user_fav_normal_mark_id",
+                "poi_marker_info":"",
+                "bg_marker_id":"-1",
+                "bg_marker_info":"",
+                "bubble_marker_id":"-1",
+                "bubble_marker_info":"",
+                "poi_texture":
+                {
+                    "x1":0.0,
+                    "y1":0.0,
+                    "x2":1.0,
+                    "y2":1.0,
+                    "scale":2.0
+                }
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_user_fav_focus_mark_id",
+                "poi_marker_info":"",
+                "bg_marker_id":"-1",
+                "bg_marker_info":"",
+                "bubble_marker_id":"-1",
+                "bubble_marker_info":""
+            }
+        }
+    },
+    "point_user_charge":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"point_user_charge_normal_mark_id",
+                "poi_marker_info":"",
+                "bg_marker_id":"-1",
+                "bg_marker_info":"",
+                "bubble_marker_id":"-1",
+                "bubble_marker_info":"",
+                "poi_texture":
+                {
+                    "x1":0.0,
+                    "y1":0.0,
+                    "x2":1.0,
+                    "y2":1.0,
+                    "scale":2.0
+                }
+            },
+            "focus_style":
+            {
+                "poi_marker_id":"point_user_charge_focus_mark_id",
+                "poi_marker_info":"",
+                "bg_marker_id":"-1",
+                "bg_marker_info":"",
+                "bubble_marker_id":"-1",
+                "bubble_marker_info":""
+            }
+        }
+    },
+    "point_guide_interval_camera_start": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1059",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_guide_interval_camera_end": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1060",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_guide_camera": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1065",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_search_parkroute_1": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "287",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            },
+            "focus_style": {
+                "poi_marker_id": "290",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            }
+        }
+    },
+    "point_search_parkroute_2": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "288",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            },
+            "focus_style": {
+                "poi_marker_id": "291",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            }
+        }
+    },
+    "point_search_parkroute_3": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "289",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            },
+            "focus_style": {
+                "poi_marker_id": "292",
+                "bg_marker_id": "-1",
+                "bubble_marker_id": "-1"
+            }
+        }
+    },
+    "point_guide_path_board": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "16",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_guide_mix_fork_left": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1112",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_guide_facility": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": "1108",
+                "poi_marker_info": "",
+                "bg_marker_id": "-1",
+                "bg_marker_info": "",
+                "bubble_marker_id": "-1",
+                "bubble_marker_info": ""
+            }
+        }
+    },
+    "point_guide_traffic_event": {
+      "point_layer_item_style": {
+        "normal_style": {
+          "poi_marker_id": "1191",
+          "poi_marker_info": "",
+          "bg_marker_id": "-1",
+          "bg_marker_info": "",
+          "bubble_marker_id": "-1",
+          "bubble_marker_info": ""
+        }
+      }
+    },
+    "point_guide_congestion": {
+      "point_layer_item_style": {
+        "normal_style": {
+          "poi_marker_id": "33",
+          "bg_marker_id": "-1",
+          "bubble_marker_id": "-1"
+        }
+      }
+    },
+    "point_guide_eta_event": {
+      "point_layer_item_style": {
+        "normal_style": {
+          "poi_marker_id": "1181",
+          "bg_marker_id": "-1",
+          "bubble_marker_id": "-1"
+        }
+      }
+    },
+    "line_restrict_style": {
+        "line_layer_item_style": {
+            "use_cap": 1,
+            "use_color": 1,
+            "draw_cover": 1,
+            "can_be_coveredbylabel": 0,
+            "fill_texture": {
+                "marker_id": "64",
+                "marker_info": "",
+                "color": "0XFFE53B00",
+                "width": 16
+            },
+            "border_texture": {
+                "marker_id": "-1",
+                "line_border_marker_info": "",
+                "color": "0x26E53B00",
+                "width": 16
+            }
+        }
+    },
+    "polygon_restrict_style": {
+        "polygon_layer_item_style": {
+            "color": "0x26E53B00"
+        }
+    },
+    "guide_vector_cross_style_normal": {
+        "vector_cross_layer_style": {
+            "vector_cross_marker": {
+                "bg_marker_id": "76",
+                "bg_marker_info": "",
+                "arrow_outer_marker_id": "2",
+                "arrow_outer_marker_info": "",
+                "arrow_inner_marker_id": "3",
+                "arrow_inner_marker_info": "",
+                "car_marker_id": "295",
+                "car_marker_info": ""
+            },
+            "vector_cross_attr": {
+                "day_mode": 1,
+                "arrow_border_width": 22.0,
+                "arrow_line_width": 28.0,
+                "use_style_configure": 0,
+                "area_color": {
+                    "r": 95.0,
+                    "g": 95.0,
+                    "b": 95.0,
+                    "a": 217.0
+                },
+                "arrow_border_color": {
+                    "r": 0.0,
+                    "g": 50.0,
+                    "b": 20.0,
+                    "a": 50.0
+                },
+                "arrow_line_color": {
+                    "r": 255.0,
+                    "g": 246.0,
+                    "b": 0.0,
+                    "a": 255.0
+                },
+                "arrow_line_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 1.0
+                },
+                "arrow_header_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.75,
+                    "y2": 0.0
+                },
+                "arrow_line_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 0.77,
+                    "texture_len": 0.001
+                },
+                "rect": {
+                    "x_min": 689.0,
+                    "y_min": 32.0,
+                    "x_max": 1051.0,
+                    "y_max": 272.0
+                }
+            }
+        }
+    },
+    "guide_vector_cross_style_normal_night": {
+        "vector_cross_layer_style": {
+            "vector_cross_marker": {
+                "bg_marker_id": "76",
+                "bg_marker_info": "",
+                "arrow_outer_marker_id": "2",
+                "arrow_outer_marker_info": "",
+                "arrow_inner_marker_id": "3",
+                "arrow_inner_marker_info": "",
+                "car_marker_id": "295",
+                "car_marker_info": ""
+            },
+            "vector_cross_attr": {
+                "day_mode": 2,
+                "arrow_border_width": 22.0,
+                "arrow_line_width": 28.0,
+                "use_style_configure": 0,
+                "area_color": {
+                    "r": 95.0,
+                    "g": 95.0,
+                    "b": 95.0,
+                    "a": 217.0
+                },
+                "arrow_border_color": {
+                    "r": 0.0,
+                    "g": 50.0,
+                    "b": 20.0,
+                    "a": 50.0
+                },
+                "arrow_line_color": {
+                    "r": 255.0,
+                    "g": 246.0,
+                    "b": 0.0,
+                    "a": 255.0
+                },
+                "arrow_line_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 1.0
+                },
+                "arrow_header_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.75,
+                    "y2": 0.0
+                },
+                "arrow_line_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 0.77,
+                    "texture_len": 0.001
+                },
+                "rect": {
+                    "x_min": 689.0,
+                    "y_min": 32.0,
+                    "x_max": 1051.0,
+                    "y_max": 272.0
+                }
+            }
+        }
+    },
+    "guide_vector_cross_style_immersion": {
+        "vector_cross_layer_style": {
+            "vector_cross_marker": {
+                "bg_marker_id": "77",
+                "bg_marker_info": "",
+                "arrow_outer_marker_id": "2",
+                "arrow_outer_marker_info": "",
+                "arrow_inner_marker_id": "3",
+                "arrow_inner_marker_info": "",
+                "car_marker_id": "295",
+                "car_marker_info": ""
+            },
+            "vector_cross_attr": {
+                "day_mode": 1,
+                "arrow_border_width": 22.0,
+                "arrow_line_width": 28.0,
+                "use_style_configure": 0,
+                "area_color": {
+                    "r": 95.0,
+                    "g": 95.0,
+                    "b": 95.0,
+                    "a": 217.0
+                },
+                "arrow_border_color": {
+                    "r": 0.0,
+                    "g": 50.0,
+                    "b": 20.0,
+                    "a": 50.0
+                },
+                "arrow_line_color": {
+                    "r": 255.0,
+                    "g": 246.0,
+                    "b": 0.0,
+                    "a": 255.0
+                },
+                "arrow_line_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 1.0
+                },
+                "arrow_header_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.75,
+                    "y2": 0.0
+                },
+                "arrow_line_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 0.77,
+                    "texture_len": 0.001
+                },
+                "rect": {
+                    "x_min": 689.0,
+                    "y_min": 32.0,
+                    "x_max": 1051.0,
+                    "y_max": 272.0
+                }
+            }
+        }
+    },
+    "guide_vector_cross_style_immersion_night": {
+        "vector_cross_layer_style": {
+            "vector_cross_marker": {
+                "bg_marker_id": "77",
+                "bg_marker_info": "",
+                "arrow_outer_marker_id": "2",
+                "arrow_outer_marker_info": "",
+                "arrow_inner_marker_id": "3",
+                "arrow_inner_marker_info": "",
+                "car_marker_id": "295",
+                "car_marker_info": ""
+            },
+            "vector_cross_attr": {
+                "day_mode": 2,
+                "arrow_border_width": 22.0,
+                "arrow_line_width": 28.0,
+                "use_style_configure": 0,
+                "area_color": {
+                    "r": 95.0,
+                    "g": 95.0,
+                    "b": 95.0,
+                    "a": 217.0
+                },
+                "arrow_border_color": {
+                    "r": 0.0,
+                    "g": 50.0,
+                    "b": 20.0,
+                    "a": 50.0
+                },
+                "arrow_line_color": {
+                    "r": 255.0,
+                    "g": 246.0,
+                    "b": 0.0,
+                    "a": 255.0
+                },
+                "arrow_line_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 1.0
+                },
+                "arrow_header_cap_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.75,
+                    "y2": 0.0
+                },
+                "arrow_line_texture": {
+                    "x1": 0.23,
+                    "x2": 0.77,
+                    "y1": 0.77,
+                    "y2": 0.77,
+                    "texture_len": 0.001
+                },
+                "rect": {
+                    "x_min": 689.0,
+                    "y_min": 32.0,
+                    "x_max": 1051.0,
+                    "y_max": 272.0
+                }
+            }
+        }
+    },
+    "guide_real_city_cross_style": {
+      "rct_route_layer_style": {
+        "rct_navi_marker": {
+          "car_marker_id": "294",
+          "car_marker_info": "",
+          "compass_marker_id": "-1",
+          "compass_marker_info": "",
+          "shine_marker_id": "286",
+          "shine_marker_info": ""
+        },
+        "rct_fly_line_param": {
+          "fill_marker_id": "74",
+          "fill_marker_info": "",
+          "arrow_marker_id": "75",
+          "arrow_marker_info": "",
+          "width": 3.0,
+          "side_width": 2.0,
+          "fly_line_texture": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "y1": 0.25,
+            "y2": 0.25,
+            "texture_len": 256
+          },
+          "fly_line_arrow_texture": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "y1": 1.0,
+            "y2": 0.0,
+            "texture_len": 256
+          }
+        }
+      }
+    },
+    "point_dr_cp":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":2004,
+                "bg_marker_id":-1,
+                "bubble_marker_id":-1
+            }
+        }
+    },
+    "point_dr_trace": {
+        "point_layer_item_style": {
+            "normal_style": {
+                "poi_marker_id": 2004,
+                "bg_marker_id": -1,
+                "bubble_marker_id": -1
+            }
+        }
+    },
+    "fly_line_style": {
+        "line_layer_item_style": {
+            "priority": 0,
+            "use_cap": 1,
+            "use_color": 1,
+            "draw_cover": 1,
+            "can_be_coveredbylabel": 1,
+            "fill_texture": {
+                "marker_id": "67",
+                "marker_info": "",
+                "color": "0xFFC32C00",
+                "width": 4
+            },
+            "border_texture": {
+                "marker_id": "-1",
+                "line_border_marker_info": "",
+                "color": "-1",
+                "width": 0
+            },
+            "texture_info": {
+                "x1": 0.0,
+                "y1": 0.5,
+                "x2": 1.0,
+                "y2": 0.5,
+                "texture_len": 32
+            },
+            "cap_texture_info": {
+                "x1": 0.0,
+                "y1": 0.5,
+                "x2": 1.0,
+                "y2": 0.75
+            }
+        }
+    },
+    "polygon_search_polygon": {
+        "polygon_layer_item_style": {
+            "priority": 0,
+            "color": "0x5519A3B1"
+        }
+    },
+    "line_search_polygon": {
+        "line_layer_item_style": {
+            "use_cap": 1,
+            "use_color": 1,
+            "draw_cover": 1,
+            "can_be_coveredbylabel": 0,
+            "fill_texture": {
+                "marker_id": "42",
+                "marker_info": "",
+                "color": "0xd140a7ff",
+                "width": 8
+            }
+        }
+    },
+    "line_Jam_style": {
+        "line_layer_item_style": {
+            "priority": 0,
+            "use_cap": 1,
+            "use_color": 1,
+            "draw_cover": 1,
+            "can_be_coveredbylabel": 0,
+            "fill_texture": {
+                "marker_id": 65,
+                "marker_info": "",
+                "color": "0xFFff0081",
+                "width": 16
+            },
+            "border_texture": {
+                "marker_id": -1,
+                "marker_info": "",
+                "color": "-1",
+                "width": 0
+            },
+            "texture_info": {
+                "x1": 0.0,
+                "y1": 0.5,
+                "x2": 1.0,
+                "y2": 0.5,
+                "texture_len": 32
+            },
+            "cap_texture_info": {
+                "x1": 0.0,
+                "y1": 0.5,
+                "x2": 1.0,
+                "y2": 0.75
+            }
+        }
+    },
+    "point_odd_start":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"29",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            }
+        }
+    },
+    "point_odd_end":
+    {
+        "point_layer_item_style":
+        {
+            "normal_style":
+            {
+                "poi_marker_id":"30",
+                "bg_marker_id":"-1",
+                "bubble_marker_id":"-1"
+            }
+        }
+    }
+}

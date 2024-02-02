@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingTop="@dimen/search_scan_scene_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/search_scan_scene_padding_start">
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:id="@+id/container" android:background="@drawable/layer_bg_map_search_panel_big" android:clickable="true" android:layout_width="@dimen/search_scan_scene_width" android:layout_height="@dimen/search_scan_scene_height">
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/iv_scan_search_back" android:layout_marginStart="44dp" android:layout_marginEnd="20dp" app:vuiLabel="@string/vui_label_scan_search_close" style="@style/button_back_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/scan_search_title_color" android:ellipsize="end" android:gravity="start|center_vertical" android:id="@+id/tv_scan_search_content" android:layout_width="0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1" style="@style/font_medium_land_24_port_22"/>
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/iv_scan_search_clear" android:layout_marginStart="20dp" android:layout_marginEnd="44dp" style="@style/button_close_style"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

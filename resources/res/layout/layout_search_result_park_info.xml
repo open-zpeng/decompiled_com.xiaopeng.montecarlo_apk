@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.ParkChargeStatusView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/park_space_view" style="@style/search_result_park_space_style"/>

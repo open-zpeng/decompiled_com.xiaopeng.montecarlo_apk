@@ -1,0 +1,55 @@
+package com.xiaopeng.montecarlo.navcore.xptbt.tbtdata;
+
+import com.autonavi.gbl.layer.model.BizCustomPointInfo;
+import com.autonavi.gbl.layer.model.EagleEyeStyle;
+import com.autonavi.gbl.map.MapView;
+import com.autonavi.gbl.map.layer.LayerItem;
+import com.autonavi.gbl.map.layer.model.CarLoc;
+import com.autonavi.gbl.map.layer.observer.ILayerClickObserver;
+import com.autonavi.gbl.map.layer.observer.IPrepareLayerStyle;
+import com.xiaopeng.montecarlo.navcore.IMapListener;
+import com.xiaopeng.montecarlo.navcore.bean.map.XPPointBaseData;
+import com.xiaopeng.montecarlo.navcore.control.base.IBizControlListener;
+import java.util.ArrayList;
+/* loaded from: classes2.dex */
+public class BizControlDataModel {
+    public boolean bShowLine;
+    public boolean bShowPoint;
+    public IMapListener iMapListener;
+    public boolean isClearData;
+    public boolean isClearOldOverlay;
+    public boolean isClickable;
+    public boolean isNavi;
+    public boolean isVisible;
+    public String mBizControlType;
+    public long mBizType;
+    public CarLoc mCarLoc;
+    public XPCrossImageInfo mCrossImageInfo;
+    public EagleEyeStyle mEagleEyeStyle;
+    public boolean mFocus;
+    public boolean mFollowMode;
+    public IBizControlListener mIBizControlListener;
+    public int mIndex;
+    public boolean mIsOpenRadar;
+    public boolean mIsShowByPreview;
+    public String mItemID;
+    public String[] mItemIDs;
+    public double mLat;
+    public double mLon;
+    public IPrepareLayerStyle mMapStyleReader;
+    public int mNewRouteIndex;
+    public int[] mNewlocation;
+    public ILayerClickObserver mObserver;
+    public XPPointBaseData[] mOverlaysCp;
+    public XPPointBaseData[] mOverlaysTrace;
+    public IPathResult mPathResult;
+    public IVariantPath[] mPaths;
+    public long mRequestId;
+    public RouteParams mRouteParams;
+    public int mSelectedIndex;
+    public int mType;
+    public MapView mapView;
+    public ArrayList<LayerItem> mAddItems = new ArrayList<>();
+    public ArrayList<BizCustomPointInfo> mCustomPoints = new ArrayList<>();
+    public ArrayList<String> mBizControlList = new ArrayList<>();
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:id="@+id/route_view_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/shape_card_horizontal_route_line" android:showDividers="middle"/>
+    <com.xiaopeng.xui.view.XView android:id="@+id/route_view_divider_line" android:background="@color/route_panel_card_divider" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <ViewStub android:id="@+id/background_route_bottom_panel_stub" android:layout="@layout/layout_route_detail_panel_bottom" android:inflatedId="@+id/background_route_bottom_panel" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</merge>

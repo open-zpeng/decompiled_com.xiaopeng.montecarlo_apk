@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/poi_price_divider" style="@style/poi_pop_horizontal_divider"/>
+    <RelativeLayout android:orientation="horizontal" android:paddingTop="19dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/price_left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_ic_small_money" android:layout_marginEnd="8dp" android:layout_alignParentStart="true"/>
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/iv_price_expand" android:visibility="gone" android:layout_marginStart="8dp" android:layout_alignParentEnd="true" app:vuiAction="@string/vui_action_click_expand_fold" app:vuiElementType="IMAGEBUTTON" app:vuiLabel="@string/vui_label_poi_card_iv_price_expand" style="@style/button_lower_style"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_toStartOf="@+id/iv_price_expand" android:layout_toEndOf="@+id/price_left_icon">
+            <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_03" android:id="@+id/tv_price_info_bl" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5dp" style="@style/poi_pop_tv_price_info_bl_style"/>
+            <com.xiaopeng.montecarlo.views.poicard.CommonChargePrice android:id="@+id/container_common_charge_price" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.xiaopeng.montecarlo.views.poicard.XpChargePrice android:id="@+id/container_xp_charge_price" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

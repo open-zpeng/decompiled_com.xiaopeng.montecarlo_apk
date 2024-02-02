@@ -1,0 +1,29 @@
+{
+    "cameraType": [
+        {"type": 8, "state": 1,"collision": 0,"priority": 60,"enablepop": 1},
+        { "type": 9, "state": 1,"collision": 0,"priority": 60,"enablepop": 1},
+        { "type": 0, "state": 1,"collision": 0,"priority": 59,"enablepop": 1},
+        { "type": 4, "state": 1,"collision": 0,"priority": 50,"enablepop": 1},
+        { "type": 5, "state": 1,"collision": 0,"priority": 49,"enablepop": 1},
+        { "type": 11,"state": 0,"collision": 1,"priority": 9, "enablepop": 1},
+        { "type": 3, "state": 0,"collision": 1,"priority": 8, "enablepop": 1},
+        { "type": 2, "state": 0,"collision": 1,"priority": 7, "enablepop": 1},
+        { "type": 6, "state": 0,"collision": 1,"priority": 6, "enablepop": 1},
+        { "type": 1, "state": 0,"collision": 1,"priority": 5, "enablepop": 1}
+    ],
+    "breakRuleCameraSubType": [
+        {"type": 1,  "state": 0, "collision": 0, "priority": 30, "enablepop": 1},
+        {"type":  2,  "state": 0, "collision": 0, "priority": 34, "enablepop": 1},
+        {"type":  3,  "state": 0, "collision": 0, "priority": 38, "enablepop": 1},
+        {"type":  4,  "state": 0, "collision": 0, "priority": 29, "enablepop": 1},
+        {"type":  5,  "state": 0, "collision": 0, "priority": 33, "enablepop": 1},
+        {"type":  10, "state": 0, "collision": 0, "priority": 37, "enablepop": 1},
+        {"type":  14, "state": 0, "collision": 0, "priority": 40, "enablepop": 1},
+        {"type":  15, "state": 0, "collision": 0, "priority": 39, "enablepop": 1},
+        {"type":  17, "state": 0, "collision": 0, "priority": 31, "enablepop": 1},
+        {"type":  18, "state": 0, "collision": 0, "priority": 32, "enablepop": 1},
+        {"type":  19, "state": 0, "collision": 0, "priority": 36, "enablepop": 1},
+        {"type":  20, "state": 0, "collision": 0, "priority": 35, "enablepop": 1},
+        {"type":  21, "state": 0, "collision": 0, "priority": 28, "enablepop": 1}
+    ]
+}

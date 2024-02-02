@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/search_item_swipe" android:layout_width="match_parent" android:layout_height="wrap_content" app:ios="true" app:leftSwipe="true" app:swipeEnable="true">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:id="@+id/keyword_item_parent" android:background="@drawable/drawable_ripple" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/search_scene_item_min_height" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_ic_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_ic_small_search_gray" android:layout_centerVertical="true" android:layout_marginStart="@dimen/search_scene_item_icon_ms" android:layout_marginEnd="@dimen/search_scene_item_icon_me" android:layout_alignParentStart="true"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/keyword_item_text" android:layout_centerVertical="true" android:layout_toEndOf="@+id/iv_ic_check" style="@style/search_main_title_style"/>
+        <com.xiaopeng.xui.view.XView android:id="@+id/bottom_line" style="@style/search_item_divider_style"/>
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_left_shadow" android:layout_width="78dp" android:layout_height="wrap_content" android:src="@drawable/shape_bg_indicator_right" android:alpha="0" android:layout_alignParentStart="true"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/tv_kwd_delete" app:vuiAction="@string/vui_action_click" app:vuiElementType="TEXTVIEW" style="@style/search_history_item_delete_style"/>
+</com.xiaopeng.montecarlo.views.SwipeMenuLayout>

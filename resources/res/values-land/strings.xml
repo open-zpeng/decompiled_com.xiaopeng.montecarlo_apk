@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expore_exit_text">退出</string>
+    <string name="navi_unable_reach_des">预计无法到达</string>
+    <string name="navi_unable_reach_via1_des">预计无法到达①</string>
+    <string name="navi_unable_reach_via2_des">预计无法到达②</string>
+    <string name="navi_unable_reach_via3_des">预计无法到达③</string>
+    <string name="poi_distance">&lt;font&gt;&lt;xpface value = \"xpeng-number\"&gt;&lt;xpsize value=\"40\"&gt;%s&lt;/xpsize&gt;&lt;/xpface&gt;&lt;/font&gt;</string>
+    <string name="route_charge_plan_btn_text">当前电量无法到达目的地，点击查看沿途服务区充电站</string>
+    <string name="route_exit_text">取消</string>
+    <string name="tv_power_endurance_name">预计到达</string>
+    <string name="tv_power_via1_endurance_name">预计到达①</string>
+    <string name="tv_power_via2_endurance_name">预计到达②</string>
+    <string name="tv_power_via3_endurance_name">预计到达③</string>
+</resources>

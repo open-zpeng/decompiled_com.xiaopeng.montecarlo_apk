@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item android:left="@dimen/search_shadow_margin" android:top="@dimen/search_shadow_margin" android:right="@dimen/search_shadow_margin" android:bottom="@dimen/search_shadow_margin">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/setting_download_bg_start" android:endColor="@color/setting_download_bg_end" android:angle="0"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</layer-list>

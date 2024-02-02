@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/volume_panel_bg_height" android:width="@dimen/volume_panel_bg_width">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/volume_panel_radius"/>
+            <solid android:color="@color/volumn_bg_color"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:id="@+id/progress_mute_low" android:height="@dimen/volume_panel_icon_size" android:width="@dimen/volume_panel_icon_size" android:left="@dimen/volume_panel_icon_level0_left">
+        <level-list>
+            <item android:drawable="@drawable/vector_ic_mid_volume_low_26_grey" android:maxLevel="10000"/>
+            <item android:drawable="@drawable/vector_ic_mid_volume_mute_26_grey" android:minLevel="10000" android:maxLevel="10001"/>
+        </level-list>
+    </item>
+    <item android:gravity="center_vertical" android:height="@dimen/volume_panel_tick0_width" android:width="@dimen/volume_panel_tick_height" android:left="@dimen/volume_panel_icon_level1_left">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/volumn_bg_icon_color"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="@dimen/volume_panel_tick1_width" android:width="@dimen/volume_panel_tick_height" android:left="@dimen/volume_panel_icon_level2_left">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/volumn_bg_icon_color"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="@dimen/volume_panel_tick2_width" android:width="@dimen/volume_panel_tick_height" android:left="@dimen/volume_panel_icon_level3_left">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/volumn_bg_icon_color"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="@dimen/volume_panel_tick3_width" android:width="@dimen/volume_panel_tick_height" android:left="@dimen/volume_panel_icon_level4_left">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/volumn_bg_icon_color"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="@dimen/volume_panel_tick4_width" android:width="@dimen/volume_panel_tick_height" android:left="@dimen/volume_panel_icon_level5_left">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/volumn_bg_icon_color"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:id="@+id/progress_mute_high" android:height="@dimen/volume_panel_icon_size" android:width="@dimen/volume_panel_icon_size" android:left="@dimen/volume_panel_icon_level6_left">
+        <level-list>
+            <item android:drawable="@drawable/vector_ic_mid_volume_high_26_grey" android:maxLevel="10000"/>
+            <item android:drawable="@drawable/vector_ic_mid_volume_mute_26_grey" android:minLevel="10000" android:maxLevel="10001"/>
+        </level-list>
+    </item>
+</layer-list>

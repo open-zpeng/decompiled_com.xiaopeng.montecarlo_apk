@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_speciallevel"/>
+    <item android:left="@dimen/guide_sapa_padding" android:top="@dimen/guide_sapa_padding" android:right="@dimen/guide_sapa_padding" android:bottom="@dimen/guide_sapa_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/guide_sapa_radius"/>
+            <solid android:color="@color/sapa_detail_toll_bg_color"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/guide_sapa_white_rectangle_padding" android:top="@dimen/guide_sapa_white_rectangle_padding" android:right="@dimen/guide_sapa_white_rectangle_padding" android:bottom="@dimen/guide_sapa_white_rectangle_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/guide_sapa_white_rectangle_radius"/>
+            <stroke android:width="2dp" android:color="@color/sapa_detail_stroke_line_color"/>
+        </shape>
+    </item>
+</layer-list>

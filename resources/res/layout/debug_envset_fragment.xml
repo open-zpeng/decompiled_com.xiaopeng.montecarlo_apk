@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/tag_text_white" android:gravity="center_vertical" android:background="@color/bg_dark_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="接口环境配置" style="@style/font_regular_land_40_port_36"/>
+    <ListView android:id="@+id/env_setting_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

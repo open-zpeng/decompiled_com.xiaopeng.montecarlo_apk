@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/bg_card_bg_black_80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/fragment" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <include layout="@layout/layout_horizontal_line"/>
+    <LinearLayout android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn_close" android:layout_width="0dp" android:layout_height="wrap_content" android:text="关闭" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+        <Button android:id="@+id/btn_back" android:layout_width="0dp" android:layout_height="wrap_content" android:text="返回" android:layout_weight="1" style="@style/font_regular_land_30_port_28"/>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

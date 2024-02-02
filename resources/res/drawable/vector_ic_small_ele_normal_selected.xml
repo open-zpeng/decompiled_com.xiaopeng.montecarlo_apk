@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="22dp" android:width="40dp" android:viewportWidth="40" android:viewportHeight="22">
+    <path android:fillColor="@color/battery_bg_ele_normal_selected" android:pathData="M31,0C33.2091,0 35,1.7909 35,4L35,18C35,20.2091 33.2091,22 31,22L4,22C1.7909,22 0,20.2091 0,18L0,4C0,1.7909 1.7909,0 4,0L31,0ZM31,3L4,3L3.8834,3.0067C3.386,3.0645 3,3.4872 3,4L3,18C3,18.5523 3.4477,19 4,19L31,19C31.5523,19 32,18.5523 32,18L32,4C32,3.4477 31.5523,3 31,3ZM38.5,7C39.3284,7 40,7.6716 40,8.5L40,13.5C40,14.3284 39.3284,15 38.5,15C37.6716,15 37,14.3284 37,13.5L37,8.5C37,7.6716 37.6716,7 38.5,7Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@+id/background_route_bottom_panel" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="30dp" android:paddingEnd="30dp">
+    <include android:layout_width="@dimen/route_panel_waypoint_btn_width" android:layout_height="@dimen/route_panel_waypoint_btn_width" layout="@layout/add_way_point_on_panel_layout"/>
+    <include android:layout_width="0dp" android:layout_height="@dimen/route_panel_waypoint_btn_width" android:layout_weight="128" android:layout_marginStart="24dp" layout="@layout/layout_btn_start_navi"/>
+    <include android:layout_width="0dp" android:layout_height="@dimen/route_panel_waypoint_btn_width" android:layout_weight="77" android:layout_marginStart="24dp" layout="@layout/layout_btn_explore"/>
+    <include android:layout_width="0dp" android:layout_height="@dimen/route_panel_waypoint_btn_width" android:layout_weight="77" android:layout_marginStart="24dp" layout="@layout/cancel_route_on_panel_layout"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

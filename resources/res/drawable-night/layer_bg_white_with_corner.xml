@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item>
+        <shape android:shape="rectangle" android:useLevel="false">
+            <corners android:radius="10dp"/>
+            <solid android:color="@color/bg_input_bg_drck_gray"/>
+        </shape>
+    </item>
+</layer-list>

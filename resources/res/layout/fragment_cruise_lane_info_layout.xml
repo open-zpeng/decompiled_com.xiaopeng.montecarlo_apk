@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.LaneInfoView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="left" android:layout_gravity="left" android:orientation="horizontal" android:id="@+id/mapfragment_cruise_lanes" android:visibility="gone" android:clickable="true" android:layout_marginLeft="-20dp" app:layout_constraintLeft_toRightOf="@+id/tv_search_content" app:layout_constraintTop_toTopOf="0" app:maxHideCount="8" style="@style/lane_style"/>
