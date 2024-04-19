@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/lane_camera_speed_color" android:gravity="center" android:id="@+id/tv_map_interval_camera_title" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="26dp" android:layout_marginStart="40dp" style="@style/font_digital_24"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

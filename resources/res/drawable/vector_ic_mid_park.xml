@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="56dp" android:width="56dp" android:viewportWidth="56" android:viewportHeight="56">
+    <path android:fillColor="@drawable/res_0x7f08000e_vector_ic_mid_park__0" android:pathData="M21,32.9231L21,16.9231L21,28L30.851,28C33.6598,28 36,25.5525 36,22.4615C36,19.3706 33.6598,16.9231 30.851,16.9231L21,16.9231L21,28L21,32.9231ZM21,32.9231L21,41.5385C21,44.8205 16,44.8205 16,41.5385L16,14.4615C16,12.8205 17.25,12 18.5,12L30.851,12C36.491,12 41,16.7159 41,22.4615C41,28.2072 36.491,32.9231 30.851,32.9231L21,32.9231Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

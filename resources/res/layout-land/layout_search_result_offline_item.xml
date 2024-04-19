@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/search_result_offline_container" android:background="@color/search_suggest_offline_item_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_result_offline_min_height">
+    <TextView android:textColor="@color/bg_dark_gray" android:id="@+id/search_result_offline_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_offline_tip" style="@style/font_bold_land_22_port_20"/>
+</LinearLayout>

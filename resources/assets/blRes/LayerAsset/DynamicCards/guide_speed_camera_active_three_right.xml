@@ -1,0 +1,4 @@
+<div style='display:flex;flex-direction:column;align-items:center;justify-content:space-around'>
+  <image src='global_image_guide_camera_speed_right_day_night' />
+  <label id='speed_text' style='position:absolute;right:25px;top:30px;color:#000000;font-size:26px;background-color:transparent;font-family:Roboto-Bold;' text='103'/>
+</div>

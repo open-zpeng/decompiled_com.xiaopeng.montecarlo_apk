@@ -1,0 +1,113 @@
+package com.autonavi.gbl.search.model;
+
+import com.autonavi.gbl.common.model.Coord2DDouble;
+import java.io.Serializable;
+import java.util.ArrayList;
+/* loaded from: classes2.dex */
+public class RecommendPoi implements Serializable {
+    public String adcode;
+    public String address;
+    public String areacode;
+    public String averagecost;
+    public String citycode;
+    public String cityname;
+    public String clusterid;
+    public String cpdata;
+    public String deepinfo;
+    public String distance;
+    public String districtcode;
+    public String districtname;
+    public ArrayList<Coord2DDouble> entrances;
+    public ArrayList<Coord2DDouble> exits;
+    public String icontype;
+    public String id;
+    public String keywords;
+    public String latitude;
+    public String localid;
+    public String longitude;
+    public String name;
+    public String newtype;
+    public String num_space;
+    public String park_price;
+    public String pcdr;
+    public String provincecode;
+    public String provincename;
+    public String ranksearch;
+    public String rating;
+    public String srctype;
+    public String tel;
+    public String typecode;
+    public String weight;
+
+    public RecommendPoi() {
+        this.rating = "";
+        this.tel = "";
+        this.weight = "";
+        this.pcdr = "";
+        this.areacode = "";
+        this.averagecost = "";
+        this.keywords = "";
+        this.id = "";
+        this.ranksearch = "";
+        this.citycode = "";
+        this.clusterid = "";
+        this.districtname = "";
+        this.latitude = "";
+        this.icontype = "";
+        this.entrances = new ArrayList<>();
+        this.exits = new ArrayList<>();
+        this.provincename = "";
+        this.typecode = "";
+        this.cityname = "";
+        this.provincecode = "";
+        this.address = "";
+        this.newtype = "";
+        this.localid = "";
+        this.districtcode = "";
+        this.name = "";
+        this.adcode = "";
+        this.longitude = "";
+        this.deepinfo = "";
+        this.srctype = "";
+        this.cpdata = "";
+        this.distance = "";
+        this.num_space = "";
+        this.park_price = "";
+    }
+
+    public RecommendPoi(String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, String str9, String str10, String str11, String str12, String str13, String str14, ArrayList<Coord2DDouble> arrayList, ArrayList<Coord2DDouble> arrayList2, String str15, String str16, String str17, String str18, String str19, String str20, String str21, String str22, String str23, String str24, String str25, String str26, String str27, String str28, String str29, String str30, String str31) {
+        this.rating = str;
+        this.tel = str2;
+        this.weight = str3;
+        this.pcdr = str4;
+        this.areacode = str5;
+        this.averagecost = str6;
+        this.keywords = str7;
+        this.id = str8;
+        this.ranksearch = str9;
+        this.citycode = str10;
+        this.clusterid = str11;
+        this.districtname = str12;
+        this.latitude = str13;
+        this.icontype = str14;
+        this.entrances = arrayList;
+        this.exits = arrayList2;
+        this.provincename = str15;
+        this.typecode = str16;
+        this.cityname = str17;
+        this.provincecode = str18;
+        this.address = str19;
+        this.newtype = str20;
+        this.localid = str21;
+        this.districtcode = str22;
+        this.name = str23;
+        this.adcode = str24;
+        this.longitude = str25;
+        this.deepinfo = str26;
+        this.srctype = str27;
+        this.cpdata = str28;
+        this.distance = str29;
+        this.num_space = str30;
+        this.park_price = str31;
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:background="@drawable/layer_bg_route_preference" android:padding="@dimen/route_preference_pd" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/route_preference_height">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/route_preference_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_ic_set_route"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/route_preference_text_color" android:ellipsize="none" android:gravity="center" android:id="@+id/route_preference_text" android:fadingEdgeLength="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/route_preference_text_ml" android:layout_marginRight="@dimen/route_preference_text_mr" android:maxWidth="@dimen/route_preference_view_text_max_width" android:singleLine="true" android:includeFontPadding="false" android:layout_centerVertical="true" android:requiresFadingEdge="horizontal" style="@style/route_preference_sytle"/>
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/route_preference_next" style="@style/button_next_style"/>
+</merge>

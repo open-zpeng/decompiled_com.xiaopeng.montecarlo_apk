@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "play_list": [
+        {
+          "soundType": 0,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 1,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 6,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 7,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 8,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 10,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 11,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 20,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 26,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 30,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 10000,
+          "subSoundType": [
+          ]
+        }
+      ],
+      "type": "type_ngp_detail"
+    },
+    {
+      "play_list": [
+        {
+          "soundType": 0,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 1,
+          "subSoundType": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            15,
+            17,
+            19
+          ]
+        },
+        {
+          "soundType": 6,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 7,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 8,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 20,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 26,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 30,
+          "subSoundType": [
+          ]
+        },
+        {
+          "soundType": 10000,
+          "subSoundType": [
+          ]
+        }
+      ],
+      "type": "type_ngp_simple"
+    }
+  ],
+  "version": "2021122501"
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:id="@+id/btn_add_waypoint_container" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" app:vuiAction="@string/vui_action_click_waypoint" app:vuiElementType="GROUP" app:vuiLabel="@string/vui_label_route_add_waypoint">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_add_waypoint" android:background="@drawable/layer_bg_button_gray_normal" android:layout_width="@dimen/route_panel_waypoint_btn_width" android:layout_height="@dimen/route_panel_waypoint_btn_width" android:src="@drawable/drawable_add_waypoint" android:scaleType="center"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_search_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_ic_xxlarge_search" android:scaleType="centerInside"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:id="@+id/tv_search_tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_scene_tip_title_mt" android:text="@string/search_tip_title" style="@style/font_medium_land_30_port_28"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text03" android:id="@+id/tv_search_tip_context1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/search_tip_context1" style="@style/font_medium_land_24_port_22"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text03" android:id="@+id/tv_search_tip_context2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/search_tip_context2" style="@style/font_medium_land_24_port_22"/>
+</LinearLayout>

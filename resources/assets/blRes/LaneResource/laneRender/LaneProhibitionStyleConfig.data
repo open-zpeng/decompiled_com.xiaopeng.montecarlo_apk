@@ -1,0 +1,6 @@
+{
+  "prohibitionMarker": "lane/fill", 
+  "busMarker": "lane/prohibitionBus", 
+  "emergencyMarker": "lane/prohitionEmergency", 
+  "time": 1200.0 
+}

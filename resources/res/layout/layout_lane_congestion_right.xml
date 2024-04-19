@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/png_traffic_jam_mid_right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_lane_congestion_icon" android:background="@drawable/vector_lane_traffic_jam_mid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginStart="53dp"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/lane_congestion_text_color" android:id="@+id/tv_lane_congestion_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginStart="15dp" style="@style/font_medium_28"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/vertical_line" android:layout_width="3dp" android:layout_height="29dp" android:layout_marginLeft="12dp" android:layout_marginTop="34dp" android:layout_marginRight="12dp" android:src="@color/lane_congestion_text_color"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/lane_congestion_text_color" android:id="@+id/tv_lane_congestion_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginEnd="45dp" style="@style/font_medium_28"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

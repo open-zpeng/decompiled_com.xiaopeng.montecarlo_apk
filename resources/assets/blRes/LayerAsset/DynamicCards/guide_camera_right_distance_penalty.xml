@@ -1,0 +1,7 @@
+<div id='guide_camera_bicyclelane_left' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;padding:0px 0px 0px 0px;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:column;justify-content:space-around;align-items:flex-start;background-image:global_image_guide_camera_bubble_red_right_day_night;'>
+	<label id='distance_text_hint' style='color:#e5ff0000;font-size:20px;justify-content:flex-start;max-height:20px;margin-left:4px;margin-right:6px;' text='多人被拍'/>
+	<label id='distance_text_penalty' style='color:#e5000000;font-size:28px;justify-content:flex-start;max-height:28px;margin-left:4px;margin-right:6px;' text='200米'/>
+  </div>
+  <image id='camera_type_image' style='position:absolute;left:26px;top:14px;' src='dynamic'/>
+</div>

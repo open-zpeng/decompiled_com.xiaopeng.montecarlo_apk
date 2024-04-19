@@ -1,0 +1,4 @@
+<div id='lane_guide_turn_right' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;padding:0px 0px 0px 0px'>
+  <image id='bg_image' src='global_image_autonavi_lane_bubble_container_right_day_night' />
+  <image id='turn_image' style='position:absolute;right:22px;top:17px;' src='dynamic' />
+</div>

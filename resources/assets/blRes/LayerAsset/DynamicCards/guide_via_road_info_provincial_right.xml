@@ -1,0 +1,13 @@
+<div id='guide_label_pop' style='width:auto;height:auto;background-image:global_image_road_info_bg_small_right_day_night;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;'>
+	<div id='road_name_code_div' style='width:auto;height:auto;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;'>
+  		<div id='road_code_div' style='width:auto;height:auto;margin-right:8px;background-image:global_image_road_info_bg_provincial_day_night;display:flex;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  			<label id='road_code_text' style='color:#ffffffff;font-size:20px;margin-top:1px;' text='G3'/>
+  		</div>
+  		<label id='via_name_text' style='max-width:200px;line-clamp:1;color:#e6000000;font-size:22px;justify-content:flex-start;' text='京津高速'/>
+	</div>
+	<div id='div2_ignore' style='flex-direction:row;justify-content:flex-start;align-items:center;margin-top:4px;'>
+    	<label id='via_lane_text' style='color:#99000000;font-size:18px;justify-content:flex-start;' text='2-4车道'/>
+    	<label text=' '/>
+    	<label id='via_speed_text' style='color:#99000000;font-size:18px;justify-content:flex-start;' text='110km/h'/>
+	</div>
+</div>

@@ -1,0 +1,5 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;background-image:global_image_autonavi_roadstatu_normal_left_down_day_night'>
+  <label id='congestion_time' style='color:#ffffff;font-size:24px' text='20分钟' />
+  <image style='margin-left:6px;margin-right:6px;' src='global_image_autonavi_roadstatu_line' />
+  <label id='congestion_distance' style='color:#ffffff;font-size:24px' text='803米' />
+</div>

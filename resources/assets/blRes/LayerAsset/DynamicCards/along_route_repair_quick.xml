@@ -1,0 +1,7 @@
+<div id='along_route_wc_quick' style='width:128px;'>
+    <div style='position:absolute;'>
+        <image style='padding-left:12px' src='global_image_quick_route_search_along_des_bg_day_night' />  
+        <label id='type_name' style='left:48px;top:12px;position:absolute;color:#ff000000;font-size:18px;' text='最近'/>
+    </div>
+    <image src='global_image_navi_along_search_repair_icon_day_night' />
+</div>

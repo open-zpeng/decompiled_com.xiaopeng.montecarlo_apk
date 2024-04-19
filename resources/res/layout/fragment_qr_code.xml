@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_qrcode" android:visibility="gone" android:layout_width="216dp" android:layout_height="216dp" android:layout_margin="0dp" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.montecarlo.views.QRRefreshButton android:id="@+id/rb_qrcode" android:visibility="gone" android:layout_width="216dp" android:layout_height="216dp" android:layout_below="@+id/iv_qrcode" android:layout_centerHorizontal="true" app:dayRefreshBgSrc="@drawable/pic_bg_qrcode_failedtoload" app:dayRefreshSrc="@drawable/icon_64_normal_ic_refresh" app:nightRefreshBgSrc="@drawable/pic_bg_qrcode_failedtoload" app:nightRefreshSrc="@drawable/icon_64_normal_ic_refresh"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/font_size_30" android:textColor="@color/primary_text01" android:id="@+id/tv_scan_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="50dp" android:layout_below="@+id/rb_qrcode" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

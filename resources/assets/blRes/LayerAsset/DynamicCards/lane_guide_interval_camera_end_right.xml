@@ -1,0 +1,5 @@
+<div style='display:flex;flex-direction:column;align-items:center;justify-content:space-around'>
+  <image src='global_image_autonavi_lane_bubble_container_interval_camera_end_right_day_night' />
+  <label id='speed_two_text' style='position:absolute;left:39px;top:32px;color:#e5000000;font-size:28px;background-color:transparent;font-family:Roboto-Bold;' text='80'/>
+  <label id='speed_three_text' style='position:absolute;left:32px;top:32px;color:#e5000000;font-size:26px;background-color:transparent;font-family:Roboto-Bold;' text='107'/>
+</div>

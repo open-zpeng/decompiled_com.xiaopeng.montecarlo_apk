@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/primary_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/layout_routing" android:background="@drawable/drawable_common_toast_single_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="545dp" android:layout_centerHorizontal="true">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout_xp_network_image_view_loading_layer"/>
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/main_title_text_color" android:gravity="left" android:id="@+id/tv_routing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/route_routing" android:layout_marginStart="16dp" style="@style/font_medium_20"/>
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/loading_dialog_cancel_btn" android:visibility="gone" android:clickable="true" android:layout_marginLeft="26dp" style="@style/button_close_style"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</RelativeLayout>

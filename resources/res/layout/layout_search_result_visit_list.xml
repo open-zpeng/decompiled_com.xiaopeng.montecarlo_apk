@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/container_evaluation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_forward_color_normal" android:id="@+id/tv_visit_count" android:visibility="gone" style="@style/search_visit_count_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/tv_stop_favourable" android:visibility="gone" android:text="@string/search_result_stop_favourable" style="@style/search_stop_favourable"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text03" android:id="@+id/tv_evaluation_count" android:visibility="gone" style="@style/search_evaluation_count_style"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:id="@+id/container_goto_waypoint" android:background="@drawable/layer_bg_search_set_newpoint" android:layout_width="@dimen/search_waypoint_width" android:layout_height="@dimen/search_waypoint_height" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_goto_waypoint" android:layout_width="@dimen/search_result_btn_waypoint_icon_width" android:layout_height="@dimen/search_result_btn_waypoint_icon_width" android:src="@drawable/vector_ic_small_route01"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:id="@+id/tv_goto_waypoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_new_navi" android:layout_marginStart="2dp" style="@style/search_right_area_action_style"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

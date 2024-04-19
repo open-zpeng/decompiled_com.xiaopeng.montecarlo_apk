@@ -1,0 +1,4 @@
+<div id='guide_familiar_route_background_image' style='width:auto;height:auto;background-image:global_image_navi_bg_familiar_route_right_down_day_night;display:flex;flex-direction:column;justify-content:center;align-items:center;'>
+	<label id='showtip' style='color:#f0000000;font-size:20px;justify-content:flex-start;' text='个人熟悉路线'/>
+</div>
+

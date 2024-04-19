@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:background="@drawable/layer_seekbar_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/btn_volume_mute" android:background="@drawable/selector_map_toggle_button_bg" android:visibility="visible" android:layout_width="@dimen/toggle_button_width" android:layout_height="@dimen/toggle_button_height" android:src="@drawable/layer_volume_button_level" android:layout_marginStart="14dp"/>
+    <FrameLayout android:id="@+id/touchOut" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginEnd="36dp" android:layout_toEndOf="@+id/btn_volume_mute">
+        <com.xiaopeng.xui.widget.slider.XSlider android:layout_gravity="center" android:id="@+id/sliderBar" android:layout_width="match_parent" android:layout_height="match_parent" app:slider_dismiss_pop="true" app:slider_end_index="30" app:slider_init_index="0" app:slider_item_count="13" app:slider_start_index="0" app:slider_step="1"/>
+    </FrameLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

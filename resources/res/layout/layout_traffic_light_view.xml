@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/trafficlight_panel_bg" android:paddingTop="@dimen/traffic_light_view_panel_padding_top" android:layout_width="@dimen/traffic_light_view_panel_width" android:layout_height="@dimen/traffic_light_view_panel_height">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/left_or_turnaround_light" android:layout_width="@dimen/traffic_light_view_size" android:layout_height="@dimen/traffic_light_view_size"/>
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/straight_light" android:layout_width="@dimen/traffic_light_view_size" android:layout_height="@dimen/traffic_light_view_size" android:layout_marginLeft="@dimen/traffic_light_view_margin" android:layout_marginRight="@dimen/traffic_light_view_margin"/>
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/right_light" android:layout_width="@dimen/traffic_light_view_size" android:layout_height="@dimen/traffic_light_view_size"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</merge>

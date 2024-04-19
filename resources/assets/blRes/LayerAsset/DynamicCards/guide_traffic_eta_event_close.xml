@@ -1,0 +1,4 @@
+<div style='display:flex;flex-direction:row;align-items:center'>
+   <image src='global_image_auto_ic_navi_traffic_event_close_day_night' />
+   <label id='event_name' style='margin-left:6px;color:#000000;font-size:20px;' text='封路' />
+</div>

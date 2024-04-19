@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:width="@dimen/restrict_bg_stroke_width" android:color="@color/restricted_rule_normal_text_color"/>
+            <corners android:radius="35dp"/>
+            <stroke android:color="@color/colour_palette_stroke_orange"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/drawable_ripple_r35"/>
+</layer-list>

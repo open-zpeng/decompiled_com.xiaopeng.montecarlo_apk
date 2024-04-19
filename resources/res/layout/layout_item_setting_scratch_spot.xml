@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XListTwo android:id="@+id/setting_scratch_spot_layout" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" app:list_two_text="@string/setting_scratch_spot_title_name" app:list_two_text_sub="@string/setting_scratch_spot_explanation_content" style="@style/XList.Two">
+        <com.xiaopeng.xui.widget.XSwitch android:id="@+id/setting_scratch_spot_switch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/setting_xswitch_margin_start" app:vuiElementType="SWITCH" app:vuiLabel="@string/vui_label_setting_scratch_spot"/>
+    </com.xiaopeng.xui.widget.XListTwo>
+</com.xiaopeng.xui.widget.XConstraintLayout>

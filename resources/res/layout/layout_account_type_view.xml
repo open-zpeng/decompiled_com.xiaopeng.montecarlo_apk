@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/account_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/png_tag_logotag_midxpeng"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/account_logon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_24_normal_ic_finish" android:layout_alignBottom="@+id/account_icon"/>
+</merge>

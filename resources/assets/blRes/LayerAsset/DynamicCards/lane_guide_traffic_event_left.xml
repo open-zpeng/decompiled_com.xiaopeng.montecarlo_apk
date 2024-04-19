@@ -1,0 +1,4 @@
+<div id='lane_guide_traffic_event_left' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;padding:0px 0px 0px 0px'>
+  <image id='bg_image' src='global_image_autonavi_lane_bubble_container_traffic_event_left_day_night' />
+  <image id='event_image' style='position:absolute;left:22px;top:17px;' src='dynamic' />
+</div>

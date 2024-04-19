@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/png_poi_point_xp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/search_decorator_charge_tv_index_font_size" android:textStyle="bold" android:textColor="@color/search_decorator_charge_index_tx_color" android:gravity="center" android:id="@+id/tv_content" android:layout_width="@dimen/search_decorator_charge_tv_index_width_height" android:layout_height="@dimen/search_decorator_charge_tv_index_width_height" android:layout_marginTop="@dimen/search_decorator_charge_tv_index_margin_top" android:layout_centerHorizontal="true" style="@style/font_xp_special_bold"/>
+</RelativeLayout>

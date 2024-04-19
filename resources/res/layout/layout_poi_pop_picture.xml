@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/poi_pop_picture_top" android:padding="@dimen/poi_pop_picture_padding" android:layout_margin="@dimen/poi_pop_picture_viewpager_margin" style="@style/poi_pop_dialog_style">
+    <com.xiaopeng.montecarlo.views.XPViewPager android:id="@+id/large_poi_icon_container" android:layout_centerInParent="true" style="@style/poi_pop_dialog_viewpage_style"/>
+    <com.xiaopeng.xui.widget.pageindicator.XNumberPagerIndicator android:id="@+id/large_poi_pic_index" android:layout_alignParentBottom="true" style="@style/poi_pop_dialog_numberPagerIndicator"/>
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/large_poi_pic_close" android:background="@null" style="@style/button_close_pop_picture_style"/>
+</RelativeLayout>

@@ -1,0 +1,149 @@
+{
+	"roadPolygonMarker": "RoadPolygon",
+	"roadPolygonMarkerNight": "RoadPolygonNight",
+	"carAfterLength": 200,
+	"gradientLength": 200,
+    "breakPointsGrandientLength": 70,
+	"changeLevel": 17.5,
+  "mainCarArr": {
+    "portrait":[
+      {
+        "level": 17,
+        "scale": 5.8
+      },
+      {
+        "level": 18,
+        "scale": 1.6
+      },
+      {
+        "level": 18.7,
+        "scale": 1
+      }
+    ],
+    "landscape":[
+      {
+        "level": 17,
+        "scale": 5.5
+      },
+      {
+       "level": 18,
+       "scale": 1.2
+      },
+      {
+		"level": 18.7,
+		"scale": 1
+      }
+    ]
+  },
+
+	"srinfo": {
+
+    "portrait":{
+      "carAndRoadblock": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }, 
+      "ngpLine": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }, 
+      "LCCLine": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }, 
+      "destCarFrameAndHightLine": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }
+    },
+
+    "landscape":{
+      "carAndRoadblock": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }, 
+      "ngpLine": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }, 
+      "LCCLine": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }, 
+      "destCarFrameAndHightLine": {
+        "minLevel": 18,
+        "maxLevel": 20 
+      }
+    }
+  },
+    "digitalColor": [{
+            "type": "unable",
+            "dayColor": 3439325066,
+            "nightColor": 3439325066
+        },
+        {
+            "type": "enable",
+            "dayColor": 3434538239,
+            "nightColor": 3434538239
+        },
+        {
+            "type": "target",
+            "dayColor": 3434740925,
+            "nightColor": 3434740925
+        },
+        {
+            "type": "limitRuleUnable",
+            "dayColor": 3438658751,
+            "nightColor": 3438658751
+        },
+        {
+            "type": "invalidLaneUnable",
+            "dayColor": 3435116470,
+            "nightColor": 3435116470
+        },
+        {
+            "type": "physicsUnable",
+            "dayColor": 3438907784,
+            "nightColor": 3438907784
+        },
+        {
+            "type": "recommend",
+            "dayColor": 3429482350,
+            "nightColor": 3429482350
+        }
+    ],
+	"surfaceColor": [{
+			"level": 17,
+			"dayColor": 1376423423,
+			"nightColor": 1459644108
+		},
+		{
+			"level": 18,
+			"dayColor": 1376423423,
+			"nightColor": 1459644108
+		}
+        
+	],
+	"surfecelinColor": [{
+			"level": 16,
+			"dayColor": 1376423423,
+			"nightColor": 1459644108,
+			"width": 26
+		},
+        {
+            "level": 17,
+            "dayColor": 1376423423,
+            "nightColor": 1459644108,
+            "width": 10
+        },
+        {
+            "level": 18,
+            "dayColor": 1376423423,
+            "nightColor": 1459644108,
+            "width": 7
+        }
+	],
+    "zOffset": 0.5,
+    "firstDrawAlpha": 0.15,
+    "secondDrawAlpha": 0.85
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item android:drawable="@drawable/bg_guide_current_road" android:left="@dimen/btn_recenter_padding" android:top="@dimen/btn_recenter_padding" android:right="@dimen/btn_recenter_padding" android:bottom="@dimen/btn_recenter_padding"/>
+    <item android:drawable="@drawable/drawable_ripple_r12_no_scale" android:left="@dimen/btn_recenter_padding" android:top="@dimen/btn_recenter_padding" android:right="@dimen/btn_recenter_padding" android:bottom="@dimen/btn_recenter_padding"/>
+</layer-list>

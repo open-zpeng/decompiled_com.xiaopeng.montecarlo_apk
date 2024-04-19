@@ -1,0 +1,6 @@
+<div id='guide_camera_bicyclelane_left' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-start;padding:0px 0px 0px 0px;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:space-around;align-items:flex-end;background-image:global_image_autonavi_lane_bubble_container_camera_left_day_night;'>
+    <label id='distance_text' style='margin-right:4px;color:#e5000000;font-size:28px;justify-content:flex-start;max-height:28px;margin-left:6px;' text='200米'/>
+  </div>
+    <image id='camera_type_image' style='position:absolute;right:26px;top:14px;' src='dynamic'/>
+</div>

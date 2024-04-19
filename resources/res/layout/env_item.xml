@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/xui_white" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+    <TextView android:textColor="@color/primary_black" android:gravity="center_vertical" android:id="@+id/function_name" android:layout_width="match_parent" android:layout_height="50dp" android:text="env name" style="@style/font_regular_land_30_port_28"/>
+    <include layout="@layout/layout_horizontal_line"/>
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="50dp">
+        <RadioButton android:id="@+id/env_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开发环境" android:shadowColor="@color/tag_text_light_green" android:layout_weight="1" style="@style/debug_radio_button_style"/>
+        <RadioButton android:id="@+id/env_test" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试环境" android:shadowColor="@color/tag_text_white" android:layout_weight="1" style="@style/debug_radio_button_style"/>
+        <RadioButton android:id="@+id/env_pre" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="预发布环境" android:shadowColor="@color/tag_text_white" android:layout_weight="1" style="@style/debug_radio_button_style"/>
+        <RadioButton android:id="@+id/env_product" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="生产环境" android:shadowColor="@color/tag_text_white" android:layout_weight="1" style="@style/debug_radio_button_style"/>
+    </RadioGroup>
+</LinearLayout>

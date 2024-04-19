@@ -1,0 +1,574 @@
+{
+  "npg": {
+    "landscape": {
+      "projectCenter":{
+        "projectCenterX": 0.5,
+        "projectCenterY": 0.8
+      },
+      "defaultPostureParam":{
+        "scale": 18.8,
+        "pitch": 60
+      },
+      "freeway": {
+        "farDis": {
+          "pitch": 60,
+          "scale": 18.9,
+          "scaleMax": 18.9,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "middleDis": {
+          "pitch": 60,
+          "scale": 18.9,
+          "scaleMax": 19.3,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisNormal": {
+          "pitch": 54,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisContinue": {
+          "pitch": 58,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisRound": {
+          "pitch": 54,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "laneChange": {
+          "pitch": 60,
+          "scale": 19.3,
+          "scaleMax": 19.3,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "circleBridge": {
+          "pitch": 58,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0.2,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        } 
+      }, 
+      "cityRoad": {
+        "farDis": {
+          "pitch": 60,
+          "scale": 18.9,
+          "scaleMax": 18.9,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "middleDis": {
+          "pitch": 60,
+          "scale": 18.9,
+          "scaleMax": 19.3,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisNormal": {
+          "pitch": 50,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisContinue": {
+          "pitch": 58,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisRound": {
+          "pitch": 50,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "laneChange": {
+          "pitch": 60,
+          "scale": 19.3,
+          "scaleMax": 19.3,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "circleBridge": {
+          "pitch": 58,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0.2,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        } 
+      } 
+    }, 
+    "portrait": {
+      "projectCenter":{
+        "projectCenterX": 0.5,
+        "projectCenterY": 0.8
+      },
+      "defaultPostureParam":{
+        "scale": 18.8,
+        "pitch": 68
+      },
+      "freeway": {
+        "farDis": {
+          "pitch": 70.5,
+          "scale": 18.9,
+          "scaleMax": 18.9,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "middleDis": {
+          "pitch": 70.5,
+          "scale": 18.9,
+          "scaleMax": 19.3,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisNormal": {
+          "pitch": 68,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisContinue": {
+          "pitch": 69.5,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisRound": {
+          "pitch": 68,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "laneChange": {
+          "pitch": 70.5,
+          "scale": 19.3,
+          "scaleMax": 19.3,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "circleBridge": {
+          "pitch": 69.5,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0.3,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        } 
+      }, 
+      "cityRoad": {
+        "farDis": {
+          "pitch": 70.5,
+          "scale": 18.9,
+          "scaleMax": 18.9,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "middleDis": {
+          "pitch": 70.5,
+          "scale": 18.9,
+          "scaleMax": 19.3,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisNormal": {
+          "pitch": 50,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisContinue": {
+          "pitch": 69.5,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisRound": {
+          "pitch": 50,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "laneChange": {
+          "pitch": 70.5,
+          "scale": 19.3,
+          "scaleMax": 19.3,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "circleBridge": {
+          "pitch": 69.5,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.5,
+          "scaleMax": 18.5,
+          "centerRateMax": 0.3,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        } 
+      } 
+    } 
+  }, 
+  "ngpn": {
+    "landscape": {
+      "projectCenter":{
+        "projectCenterX": 0.5,
+        "projectCenterY": 0.8
+      },
+      "defaultPostureParam":{
+        "scale": 18.1,
+        "pitch": 60
+      },
+      "freeway": {
+        "farDis": {
+          "pitch": 60,
+          "scale": 18.3,
+          "scaleMax": 18.3,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "middleDis": {
+          "pitch": 60,
+          "scale": 18.1,
+          "scaleMax": 19.1,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisNormal": {
+          "pitch": 54,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisContinue": {
+          "pitch": 58,
+          "scale": 18.8,
+          "scaleMax": 18.8, 
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisRound": {
+          "pitch": 54,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "laneChange": {
+          "pitch": 60,
+          "scale": 19.1,
+          "scaleMax": 19.1,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "circleBridge": {
+          "pitch": 58,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0.2,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        } 
+      }, 
+      "cityRoad": {
+        "farDis": {
+          "pitch": 60,
+          "scale": 18.7,
+          "scaleMax": 18.7,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "middleDis": {
+          "pitch": 60,
+          "scale": 18.7,
+          "scaleMax": 19.1,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisNormal": {
+          "pitch": 50,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisContinue": {
+          "pitch": 58,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "closeDisRound": {
+          "pitch": 50,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "laneChange": {
+          "pitch": 60,
+          "scale": 19.1,
+          "scaleMax": 19.1,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "circleBridge": {
+          "pitch": 58,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0.2,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.1
+        } 
+      } 
+    }, 
+    "portrait": {
+      "projectCenter":{
+        "projectCenterX": 0.5,
+        "projectCenterY": 0.8
+      },
+      "defaultPostureParam":{
+        "scale": 18.1,
+        "pitch": 68
+      },
+      "freeway": {
+        "farDis": {
+          "pitch": 70.5,
+          "scale": 18.3,
+          "scaleMax": 18.3,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "middleDis": {
+          "pitch": 70.5,
+          "scale": 18.1,
+          "scaleMax": 19.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisNormal": {
+          "pitch": 68,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisContinue": {
+          "pitch": 69.5,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisRound": {
+          "pitch": 68,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "laneChange": {
+          "pitch": 70.5,
+          "scale": 19.1,
+          "scaleMax": 19.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "circleBridge": {
+          "pitch": 69.5,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0.3,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        } 
+      }, 
+      "cityRoad": {
+        "farDis": {
+          "pitch": 70.5,
+          "scale": 18.7,
+          "scaleMax": 18.7,
+          "centerRateMax": 0, 
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "middleDis": {
+          "pitch": 70.5,
+          "scale": 18.7,
+          "scaleMax": 19.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisNormal": {
+          "pitch": 50,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisContinue": {
+          "pitch": 69.5,
+          "scale": 18.8,
+          "scaleMax": 18.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 10,
+          "anchorTopRate": 0.25
+        }, 
+        "closeDisRound": {
+          "pitch": 50,
+          "scale": 17.8,
+          "scaleMax": 17.8,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "laneChange": {
+          "pitch": 70.5,
+          "scale": 19.1,
+          "scaleMax": 19.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "circleBridge": {
+          "pitch": 69.5,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        }, 
+        "roundabout": {
+          "pitch": 50,
+          "scale": 18.1,
+          "scaleMax": 18.1,
+          "centerRateMax": 0.3,
+          "headOffsetMax": 40,
+          "anchorTopRate": 0.25
+        } 
+      } 
+    } 
+  } 
+}

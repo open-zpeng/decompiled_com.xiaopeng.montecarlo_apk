@@ -1,0 +1,6 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;background-image:global_image_autonavi_lane_bubble_container_roadstatu_normal_right_up_day_night'>
+  <image style='margin-left:6px;margin-right:6px;' src='global_image_autonavi_lane_icon_jam_day_night' />
+  <label id='congestion_time' style='color:#ffffff;font-size:24px' text='20分钟' />
+  <image style='margin-left:6px;margin-right:6px;' src='global_image_autonavi_lane_icon_separator_line_day_night' />
+  <label id='congestion_distance' style='color:#ffffff;font-size:24px' text='803米' />
+</div>

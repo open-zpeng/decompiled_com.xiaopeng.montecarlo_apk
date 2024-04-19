@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="SettingMinimapMapModeTabLayoutTitle">
+        <item>@string/setting_minimap_3d_mode_btn_name</item>
+        <item>@string/setting_minimap_2d_mode_btn_name</item>
+    </array>
+    <array name="SettingNaviBroadcastTabLayoutTitle">
+        <item>@string/setting_navi_detail_broadcast_btn_name</item>
+        <item>@string/setting_navi_normal_broadcast_btn_name</item>
+        <item>@string/setting_navi_ultra_simple_broadcast_btn_name</item>
+    </array>
+    <array name="along_way_offline_search_keyword_categories">
+        <item>200300</item>
+        <item>10100</item>
+        <item>10101</item>
+        <item>10102</item>
+        <item>10103</item>
+        <item>10104</item>
+        <item>10105</item>
+        <item>10107</item>
+        <item>10108</item>
+        <item>10109</item>
+        <item>10110</item>
+        <item>10111</item>
+        <item>10112</item>
+        <item>30000</item>
+        <item>30100</item>
+        <item>30200</item>
+        <item>30201</item>
+        <item>30202</item>
+        <item>30203</item>
+        <item>30204</item>
+        <item>30205</item>
+        <item>30206</item>
+        <item>30300</item>
+        <item>30301</item>
+        <item>30302</item>
+        <item>30303</item>
+        <item>30400</item>
+        <item>30401</item>
+        <item>30500</item>
+        <item>30501</item>
+        <item>30502</item>
+        <item>30503</item>
+        <item>30504</item>
+        <item>30505</item>
+        <item>30506</item>
+        <item>30507</item>
+        <item>30508</item>
+        <item>30700</item>
+        <item>31100</item>
+        <item>32700</item>
+        <item>160301</item>
+        <item>160306</item>
+        <item>160302</item>
+        <item>160303</item>
+        <item>160304</item>
+        <item>160305</item>
+        <item>160316</item>
+        <item>160318</item>
+    </array>
+    <array name="along_way_offline_search_keywords">
+        <item>WC;公厕;厕所;公共厕所;洗手间;卫生间</item>
+        <item>加油站</item>
+        <item>中国石化</item>
+        <item>中国石油</item>
+        <item>壳牌</item>
+        <item>美孚</item>
+        <item>加德士</item>
+        <item>东方</item>
+        <item>中石油碧辟</item>
+        <item>中石化碧辟</item>
+        <item>道达尔</item>
+        <item>埃索</item>
+        <item>中化道达尔</item>
+        <item>维修站;汽车维修;汽车修理;维修;修车;小鹏维修</item>
+        <item>汽车综合维修</item>
+        <item>大众维修</item>
+        <item>上海大众维修</item>
+        <item>一汽大众维修</item>
+        <item>斯柯达维修</item>
+        <item>进口大众维修</item>
+        <item>宾利维修</item>
+        <item>兰博基尼维修</item>
+        <item>本田维修</item>
+        <item>广汽本田维修</item>
+        <item>东风本田维修</item>
+        <item>本田讴歌维修</item>
+        <item>奥迪维修</item>
+        <item>一汽大众奥迪维修</item>
+        <item>通用维修</item>
+        <item>凯迪拉克维修</item>
+        <item>别克维修</item>
+        <item>雪佛兰维修</item>
+        <item>欧宝维修</item>
+        <item>萨博维修</item>
+        <item>沃克斯豪尔维修</item>
+        <item>土星维修</item>
+        <item>大宇维修</item>
+        <item>宝马维修</item>
+        <item>丰田维修</item>
+        <item>荣威维修</item>
+        <item>中国银行ATM</item>
+        <item>招商银行ATM</item>
+        <item>中国工商银行ATM</item>
+        <item>中国建设银行ATM</item>
+        <item>中国农业银行ATM</item>
+        <item>交通银行ATM</item>
+        <item>北京银行ATM</item>
+        <item>农村商业银行ATM</item>
+    </array>
+    <array name="along_way_search_keyword_categories">
+        <item>1603</item>
+        <item>03</item>
+        <item>200300</item>
+        <item>1509</item>
+        <item>0111</item>
+        <item>180301</item>
+        <item>05</item>
+        <item>0101</item>
+        <item>06</item>
+        <item>0711</item>
+        <item>0713</item>
+        <item>0714</item>
+        <item>0715</item>
+        <item>0803</item>
+        <item>080601</item>
+        <item>10</item>
+        <item>1203</item>
+        <item>1601</item>
+        <item>0103</item>
+    </array>
+    <array name="along_way_search_keywords">
+        <item>ATM;自动提款机;自动取款机;自动存款机;提款机;取款机;存款机</item>
+        <item>维修站;汽车维修;汽车修理;维修;修车;小鹏维修</item>
+        <item>WC;公厕;厕所;公共厕所;洗手间;卫生间</item>
+        <item>停车场;停车</item>
+        <item>充电站;充电;充电桩;要充电</item>
+        <item>服务区</item>
+        <item>美食;吃饭;餐饮</item>
+        <item>加油站</item>
+        <item>购物服务</item>
+        <item>美容美发店</item>
+        <item>摄影冲印店</item>
+        <item>洗浴推拿场所</item>
+        <item>洗衣店</item>
+        <item>体育休闲服务</item>
+        <item>电影院</item>
+        <item>住宿服务;酒店;旅店;宾馆</item>
+        <item>住宅区</item>
+        <item>银行</item>
+        <item>加气站</item>
+    </array>
+    <array name="common_search_bl_keywords">
+        <item>汽车维修</item>
+        <item>公共厕所</item>
+        <item>停车场</item>
+        <item>充电站</item>
+        <item>餐饮服务</item>
+        <item>小鹏4S</item>
+    </array>
+    <array name="common_search_keyword_categories">
+        <item>03</item>
+        <item>200300</item>
+        <item>1509</item>
+        <item>0111</item>
+        <item>05</item>
+        <item>02</item>
+    </array>
+    <array name="common_search_keywords">
+        <item>维修站;汽车维修;汽车修理;维修;修车;小鹏维修</item>
+        <item>WC;公厕;厕所;公共厕所;洗手间;卫生间</item>
+        <item>停车场;停车</item>
+        <item>充电站;充电;充电桩;要充电</item>
+        <item>美食;吃饭;餐饮</item>
+        <item>4S店;小鹏4S;小鹏4S店</item>
+    </array>
+    <array name="explore_tts_filter_data">
+        <item>准备出发</item>
+        <item>开始导航</item>
+        <item>路线切换成功</item>
+        <item>已为您切换路线</item>
+    </array>
+    <array name="function_arr">
+        <item>高德服务（含账号互通）</item>
+        <item>充电站服务</item>
+        <item>助手服务</item>
+        <item>业务服务</item>
+        <item>洗车服务</item>
+        <item>地图服务</item>
+        <item>通用配置服务</item>
+        <item>社交服务</item>
+        <item>终点停车场推荐</item>
+        <item>资源服务</item>
+    </array>
+    <array name="manual_activate_result">
+        <item>激活失败</item>
+        <item>激活成功，欢迎使用小鹏地图导航</item>
+        <item>激活失败，序列号或激活码校验错误</item>
+        <item>激活失败，激活文件错误</item>
+        <item>激活失败，请确认导航设备号是否正确</item>
+        <item>激活失败，激活文件错误</item>
+        <item>激活失败，请确认序列号是否正确</item>
+        <item>激活失败，请确认激活码是否正确</item>
+    </array>
+    <array name="map_levels_text">
+        <item>1000\n公里</item>
+        <item>500\n公里</item>
+        <item>200\n公里</item>
+        <item>100\n公里</item>
+        <item>50公里</item>
+        <item>30公里</item>
+        <item>20公里</item>
+        <item>10公里</item>
+        <item>5公里</item>
+        <item>2公里</item>
+        <item>1公里</item>
+        <item>500米</item>
+        <item>200米</item>
+        <item>100米</item>
+        <item>50米</item>
+        <item>25米</item>
+        <item>10米</item>
+        <item>5米</item>
+    </array>
+    <array name="navi_mainaction_text">
+        <item>无定义动作</item>
+        <item>无基本导航动作</item>
+        <item>左转</item>
+        <item>右转</item>
+        <item>向左前方行驶</item>
+        <item>向右前方行驶</item>
+        <item>向左后方行驶</item>
+        <item>向右后方行驶</item>
+        <item>左转调头</item>
+        <item>直行</item>
+        <item>到达途经点</item>
+        <item>进入环岛</item>
+        <item>驶出环岛</item>
+        <item>到达服务器</item>
+        <item>到达收费站</item>
+        <item>到达目的地</item>
+        <item>进入隧道</item>
+        <item>进入环岛</item>
+        <item>驶出环岛</item>
+        <item>右转掉头</item>
+        <item>顺行</item>
+        <item>绕环岛左转</item>
+        <item>绕环岛右转</item>
+        <item>绕环岛直行</item>
+        <item>绕环岛调头</item>
+        <item>绕环岛左转</item>
+        <item>绕环岛右转</item>
+        <item>绕环岛直行</item>
+        <item>绕环岛调头</item>
+        <item>通过人行横道</item>
+        <item>通过过街天桥</item>
+        <item>通过地下通道</item>
+        <item>通过广场</item>
+        <item>通过公园</item>
+        <item>通过扶梯</item>
+        <item>通过直梯</item>
+        <item>通过索道</item>
+        <item>通过空中通道</item>
+        <item>通过通道</item>
+        <item>通过行人道路</item>
+        <item>通过游船路线</item>
+        <item>通过观光车路线</item>
+        <item>通过滑道</item>
+        <item>通过阶梯</item>
+        <item>通过斜坡</item>
+        <item>通过桥</item>
+        <item>通过轮渡</item>
+        <item>通过地铁通道</item>
+        <item>进入建筑物</item>
+        <item>离开建筑物</item>
+        <item>电梯换层</item>
+        <item>楼梯换层</item>
+        <item>扶梯换层</item>
+        <item>非导航段通过红绿灯路口</item>
+        <item>非导航段通过普通路口</item>
+    </array>
+    <array name="route_fail_reason">
+        <item>解码器未初始化</item>
+        <item>路径计算不成功</item>
+        <item>网络失败</item>
+        <item>起点错误</item>
+        <item>请求协议非法</item>
+        <item>从呼叫中心获取信息失败</item>
+        <item>终点错误</item>
+        <item>算路服务端编码失败</item>
+        <item>路径数据缺乏预览数据</item>
+        <item>缓存数据格式错误</item>
+        <item>起点找不到道路</item>
+        <item>终点找不到道路</item>
+        <item>途经点找不到道路</item>
+        <item>算路失败（未知错误）</item>
+        <item>离线算路失败</item>
+        <item>用户取消</item>
+        <item>网络超时</item>
+        <item>没有网络连接</item>
+        <item>起点所在城市无离线数据</item>
+        <item>起点/终点/途经点的距离太长（距离&gt;6000KM）</item>
+        <item>缺少离线途径城市数据</item>
+        <item>途经点错误</item>
+        <item>数据正在更新中</item>
+        <item>静默算路不满足条件目前只有限时禁行/道路关闭/车牌限行</item>
+        <item>终点所在城市无离线数据</item>
+        <item>途经点所在城市无离线数据</item>
+        <item>离线算路正在进行中，无法进行新的计算</item>
+        <item>离线算路参数错误，无法进行新的计算</item>
+        <item>没有路线推荐</item>
+        <item>多路线模式下没有算出备选路</item>
+        <item>多路线模式主路线列表为空或者还原失败</item>
+        <item>动态导航没有算出更优路线</item>
+        <item>异常动作引起的更新备选路，仍未消除异常动作</item>
+        <item>前方拥堵引起备选路更新，无躲避拥堵的路线</item>
+        <item>前方有危险事件引起重算，无安全的路线</item>
+        <item>算路超时</item>
+        <item>目的地太近</item>
+    </array>
+    <array name="search_common_keywords">
+        <item>@string/search_category_charge_display</item>
+        <item>@string/search_category_park_display</item>
+        <item>@string/search_category_food_display</item>
+        <item>@string/search_category_wc_display</item>
+        <item>@string/search_category_exp_center_display</item>
+        <item>@string/search_category_server_center_display</item>
+        <item>@string/search_category_carwash_display</item>
+        <item>@string/search_category_fixshop_display</item>
+    </array>
+    <array name="search_page_vui_state_arr">
+        <item>Standard</item>
+        <item>SettingHome</item>
+        <item>SettingOffice</item>
+        <item>SettingWaypoint</item>
+        <item>Around</item>
+    </array>
+    <array name="set_car_logo_key_arr">
+        <item>carlocation_default</item>
+        <item>carlocation_sprout</item>
+        <item>carlocation_octopus</item>
+        <item>carlocation_smile</item>
+        <item>carlocation_girl</item>
+        <item>carlocation_car</item>
+        <item>carlocation_xp</item>
+        <item>carlocation_xpeng</item>
+        <item>carlocation_love</item>
+        <item>carlocation_rocket</item>
+    </array>
+    <array name="set_car_logo_scr_3d_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_sprout_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_octopus_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_smile_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_girl_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_car_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xp_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xpeng_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_love_3d</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_rocket_3d</item>
+    </array>
+    <array name="set_car_logo_scr_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_sprout</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_octopus</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_smile</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_girl</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_car</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xpeng</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_love</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_rocket</item>
+    </array>
+    <array name="set_car_logo_scr_arr_3d_acc_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_sprout_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_octopus_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_smile_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_girl_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_car_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xp_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xpeng_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_love_3d_acc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_rocket_3d_acc</item>
+    </array>
+    <array name="set_car_logo_scr_arr_3d_lcc_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_sprout_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_octopus_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_smile_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_girl_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_car_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xp_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xpeng_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_love_3d_lcc</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_rocket_3d_lcc</item>
+    </array>
+    <array name="set_car_logo_scr_arr_3d_ngp_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_sprout_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_octopus_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_smile_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_girl_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_car_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xp_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_xpeng_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_love_3d_ngp</item>
+        <item>@drawable/png_ic_xlarge_normal_carlocation_rocket_3d_ngp</item>
+    </array>
+    <array name="set_car_logo_scr_arr_acc_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_sprout_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_octopus_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_smile_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_girl_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_car_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xp_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xpeng_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_love_acc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_rocket_acc</item>
+    </array>
+    <array name="set_car_logo_scr_arr_lcc_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_sprout_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_octopus_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_smile_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_girl_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_car_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xp_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xpeng_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_love_lcc</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_rocket_lcc</item>
+    </array>
+    <array name="set_car_logo_scr_arr_ngp_arr">
+        <item>@drawable/png_ic_xlarge_carlocation_normal</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_sprout_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_octopus_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_smile_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_girl_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_car_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xp_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_xpeng_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_love_ngp</item>
+        <item>@drawable/png_ic_xlarge_navigationstatel_carlocation_rocket_ngp</item>
+    </array>
+    <array name="set_car_logo_title_arr">
+        <item>默认车标</item>
+        <item>萌芽君</item>
+        <item>章鱼君</item>
+        <item>惊喜</item>
+        <item>小萝莉</item>
+        <item>座驾</item>
+        <item>小P</item>
+        <item>小鹏</item>
+        <item>爱心</item>
+        <item>火箭</item>
+    </array>
+    <array name="srnavi_ngp_info_tips">
+        <item>请手握方向盘</item>
+        <item>请保持观察路面</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="srnavi_ngp_lc_tips">
+        <item>NGP已退出</item>
+        <item />
+        <item>NGP已开启</item>
+        <item>NGP已退出</item>
+        <item>NGP已退出</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>即将超车</item>
+        <item>即将超车</item>
+        <item>等待旁车通过</item>
+        <item />
+        <item />
+        <item />
+        <item>即将进入匝道</item>
+        <item>等待旁车通过</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>变道已取消</item>
+        <item />
+        <item />
+        <item />
+        <item>避让车辆</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>即将合入主路</item>
+        <item>进入快车道</item>
+        <item>建议手动变道</item>
+        <item />
+        <item>小心施工</item>
+        <item />
+        <item />
+        <item />
+        <item>一公里后将退出</item>
+        <item>雨雾时降速行驶</item>
+        <item />
+        <item />
+        <item />
+        <item>建议手动变道</item>
+        <item>请手动变道</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>500m后将退出</item>
+        <item />
+        <item>小心行人</item>
+        <item>请保持手握方向盘</item>
+        <item>即将向右换道</item>
+        <item />
+        <item>小心急弯</item>
+        <item>请保持手握方向盘</item>
+        <item>避让前车</item>
+        <item>已自动恢复NGP</item>
+        <item>正在远离大型车辆</item>
+        <item />
+        <item />
+        <item />
+        <item>即将变道</item>
+        <item>即将变道</item>
+        <item>请合理控制车速</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>正在绕行</item>
+        <item>前方信号灯路口</item>
+        <item>继续通行</item>
+        <item>停车等待</item>
+        <item>继续通行</item>
+        <item>继续通行</item>
+        <item>NGP已退出</item>
+        <item>继续通行</item>
+        <item />
+        <item />
+        <item>NGP已退出</item>
+        <item />
+        <item />
+        <item>小心行人</item>
+        <item />
+        <item>即将变道</item>
+        <item />
+        <item>变道已取消</item>
+        <item>即将驶出当前车道</item>
+        <item>即将向左变道</item>
+        <item>即将向右变道</item>
+        <item>即将变道</item>
+        <item>请手动变道</item>
+        <item />
+        <item>直行通过</item>
+        <item />
+        <item>即将右转</item>
+        <item>正在避让</item>
+        <item>小心驾驶</item>
+        <item>礼让行人</item>
+        <item />
+        <item>小心合流</item>
+        <item>即将变道</item>
+        <item>前方拥堵，即将变道</item>
+        <item>请手动通过</item>
+        <item>请手动通过</item>
+        <item>请手动变道</item>
+        <item>请手动通过</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>小心行人</item>
+        <item>小心行人</item>
+        <item>小心行人</item>
+        <item>小心前方倒车</item>
+        <item>避让公交车</item>
+        <item />
+        <item />
+        <item />
+        <item>即将变道</item>
+        <item>前方掉头</item>
+        <item />
+        <item />
+        <item />
+        <item>请手动通过</item>
+        <item>100米后NGP将退出</item>
+        <item>100米后NGP将退出</item>
+        <item>150米后NGP将退出</item>
+        <item>150米后NGP将退出</item>
+        <item>800米后将退出</item>
+        <item>500米后将退出</item>
+        <item>500米后将退出</item>
+        <item>NGP已恢复</item>
+        <item>150米后将退出</item>
+        <item>150米后将退出</item>
+        <item>150米后将退出</item>
+        <item>150米后将退出</item>
+        <item>150米后将退出</item>
+    </array>
+    <array name="srnavi_ngp_operate">
+        <item>切换至NGP</item>
+        <item>切换至辅助驾驶</item>
+        <item>点击取消</item>
+    </array>
+    <array name="srnavi_ngp_quit_tips">
+        <item>200米后将退出</item>
+        <item>150米后将退出</item>
+        <item>100米后将退出</item>
+        <item>75米后将退出</item>
+        <item>50米后将退出</item>
+        <item>25米后将退出</item>
+        <item>25米后将退出</item>
+    </array>
+    <array name="start_nav_tts_filter_data">
+        <item>准备出发</item>
+        <item>开始导航</item>
+    </array>
+    <array name="vui_label_cn_index_arr">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>二十一</item>
+        <item>二十二</item>
+        <item>二十三</item>
+        <item>二十四</item>
+        <item>二十五</item>
+        <item>二十六</item>
+        <item>二十七</item>
+        <item>二十八</item>
+        <item>二十九</item>
+        <item>三十</item>
+        <item>三十一</item>
+        <item>三十二</item>
+        <item>三十三</item>
+        <item>三十四</item>
+        <item>三十五</item>
+        <item>三十六</item>
+        <item>三十七</item>
+        <item>三十八</item>
+        <item>三十九</item>
+        <item>四十</item>
+        <item>四十一</item>
+        <item>四十二</item>
+        <item>四十三</item>
+        <item>四十四</item>
+        <item>四十五</item>
+        <item>四十六</item>
+        <item>四十七</item>
+        <item>四十八</item>
+        <item>四十九</item>
+        <item>五十</item>
+    </array>
+    <array name="vui_label_map_btn_map_mode_arr">
+        <item>二D正北向上|北向上</item>
+        <item>二D车头向上|车头向上</item>
+        <item>三D车头向上|三D</item>
+    </array>
+    <array name="vui_label_map_btn_overview_state_arr">
+        <item>全览</item>
+        <item>退出全览</item>
+    </array>
+    <array name="vui_label_map_btn_parallel_state_arr">
+        <item>主路</item>
+        <item>辅路</item>
+    </array>
+    <array name="vui_label_map_btn_parallel_state_bridge_arr">
+        <item>桥上</item>
+        <item>桥下</item>
+    </array>
+    <array name="vui_label_map_scale_arr">
+        <item>十米|10米</item>
+        <item>二十五米|25米</item>
+        <item>五十米|50米</item>
+        <item>一百米|100米</item>
+        <item>二百米|200米</item>
+        <item>五百米|500米</item>
+        <item>一公里|1公里</item>
+        <item>二公里|2公里</item>
+        <item>五公里|5公里</item>
+        <item>十公里|10公里</item>
+        <item>二十公里|20公里</item>
+        <item>三十公里|30公里</item>
+        <item>五十公里|50公里</item>
+        <item>一百公里|100公里</item>
+        <item>二百公里|200公里</item>
+        <item>五百公里|500公里</item>
+        <item>一千公里|1000公里</item>
+    </array>
+    <array name="vui_label_map_style_alternative_path_state_arr">
+        <item>备选路一|第一条|第一条路线</item>
+        <item>备选路二|第二条|第二条路线</item>
+        <item>备选路三|第三条|第三条路线</item>
+    </array>
+    <array name="vui_label_map_switch_arr">
+        <item>车道级界面|进入车道级|进入SR</item>
+        <item>普通地图界面|回普通地图|退出当前地图|切换到普通地图|退出SR</item>
+    </array>
+    <array name="vui_label_poi_card_btn_favorite_state_arr">
+        <item>收藏</item>
+        <item>取消收藏</item>
+    </array>
+    <array name="x_quick_side_bar_letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </array>
+</resources>

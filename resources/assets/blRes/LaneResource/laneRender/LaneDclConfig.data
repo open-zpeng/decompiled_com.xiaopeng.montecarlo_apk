@@ -1,0 +1,13 @@
+{
+  "open": true,
+  "roadclass": 65,
+  "roadclass_desc": "1高速 2国道 4省道 8县道 16乡公路 32县乡村内部路 64城快 128主要道路 256次要道路 512普通道路 1024非导航道路",
+  "srtype": 3,
+  "srtype_desc": "1锥筒 2水马",
+  "blocklanewidth": 0.6,
+  "blocklanetime": 5,
+  "uploadcycle": 120,
+  "uploadend": 20,
+  "filtertype": 1,
+  "threshold": 0.4
+}

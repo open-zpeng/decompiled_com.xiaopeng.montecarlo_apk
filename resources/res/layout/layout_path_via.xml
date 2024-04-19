@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/png_poi_small_passed_point" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/main_title_text_color" android:id="@+id/via_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_map_path_via_mt" android:layout_centerHorizontal="true" style="@style/font_medium_20"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<div id='guide_path_board_label' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:column;justify-content:center;align-items:flex-start;background-image:global_image_navi_bg_route_label_left_up_2_day_night;'>
+    <label id='name_text' style='color:#ffffffff;font-size:24px;justify-content:flex-start;' text='新路线'/>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel" android:left="@dimen/png_bg_shadow_setting_margin" android:top="@dimen/png_bg_shadow_setting_margin" android:right="@dimen/png_bg_shadow_setting_margin" android:bottom="@dimen/png_bg_shadow_setting_margin"/>
+    <item android:drawable="@drawable/x_bg_app" android:left="@dimen/setting_shadow_margin" android:top="@dimen/setting_shadow_margin" android:right="@dimen/setting_shadow_margin" android:bottom="@dimen/setting_shadow_margin"/>
+</layer-list>

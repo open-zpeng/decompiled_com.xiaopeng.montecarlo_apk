@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="drawable_add_waypoint">@drawable/vector_ic_small_search_gray</drawable>
+    <drawable name="drawable_common_common_button_background_selector">@drawable/selector_common_button_background_selector</drawable>
+    <drawable name="drawable_common_toast_single_line">@drawable/toast_single_line</drawable>
+    <drawable name="drawable_guide_navi_interval_camera_bg">@drawable/png_navi_interval_camera_bg_right</drawable>
+    <drawable name="drawable_map_buttons_map_left_btn_bg">@drawable/layer_bg_map_left_buttons</drawable>
+    <drawable name="drawable_map_style_guide_map_traffic_event_bg">@drawable/png_blmap_explore_roadname_right</drawable>
+    <drawable name="drawable_poi_card_view_bg_poi_card">@drawable/layer_bg_poi_pop_container</drawable>
+    <drawable name="drawable_poi_card_view_bg_start_navi_in_poi_pop">@drawable/selector_bg_start_navi_in_poi_pop</drawable>
+    <drawable name="drawable_poi_card_view_poi_divider_bottom">@drawable/card_poi_projection</drawable>
+    <drawable name="drawable_setting_scene_icon_32_normal_ic_download_gray">@drawable/icon_32_normal_ic_download_gray</drawable>
+    <drawable name="drawable_setting_scene_icon_32_normal_ic_start_gray">@drawable/icon_32_normal_ic_start_gray</drawable>
+    <drawable name="drawable_setting_scene_icon_32_normal_ic_suspend_gray">@drawable/icon_32_normal_ic_suspend_gray</drawable>
+    <drawable name="drawable_setting_scene_login_bg">@drawable/selector_common_gradient_btn_background_radius_selector</drawable>
+    <drawable name="icon_route_charge_focus_last_reachable">@drawable/vector_poi_large_charge_chargingpile_selected</drawable>
+    <drawable name="icon_route_charge_focus_reachable">@drawable/vector_poi_large_charge_chargingpile_selected</drawable>
+    <drawable name="icon_route_charge_focus_select_last_reachable">@drawable/vector_poi_large_charge_chargingpile_determine_selected</drawable>
+    <drawable name="icon_route_charge_focus_select_reachable">@drawable/vector_poi_large_charge_chargingpile_determine_selected</drawable>
+    <drawable name="icon_route_charge_focus_unreachable">@drawable/vector_poi_charge_chargingpile_selected</drawable>
+    <drawable name="icon_route_charge_last_reachable">@drawable/vector_poi_large_charge_chargingpile_normal</drawable>
+    <drawable name="icon_route_charge_reachable">@drawable/vector_poi_large_charge_chargingpile_normal</drawable>
+    <drawable name="icon_route_charge_select_last_reachable">@drawable/vector_poi_large_charge_chargingpile_determine_unselected</drawable>
+    <drawable name="icon_route_charge_select_reachable">@drawable/vector_poi_large_charge_chargingpile_determine_unselected</drawable>
+    <drawable name="icon_route_charge_unreachable">@drawable/vector_poi_charge_chargingpile_unselected</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="png_cruise_traffic_event_bg">@drawable/png_blmap_explore_roadname_left</drawable>
+    <drawable name="png_recommend_park_collapse_ic">@drawable/png_ic_large_chargingpile_p</drawable>
+    <drawable name="png_route_compare_tips_bg">@drawable/png_blmap_explore_roadname_right_up</drawable>
+    <drawable name="route_charge_remove_btn">@drawable/vector_ic_small_cutlocation</drawable>
+    <drawable name="route_charge_switch_tips_bg">@drawable/png_bg_remind</drawable>
+    <drawable name="setting_license_plate_save_btn_background">@drawable/shape_bg_licence_ok_bt</drawable>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/drawable_guide_navi_interval_camera_bg" android:clickable="true" android:layout_width="217dp" android:layout_height="157dp">
+    <TextView android:textColor="@color/map_internal_camera_title" android:gravity="center" android:id="@+id/tv_map_interval_camera_title" android:layout_width="165dp" android:layout_height="38dp" android:layout_marginLeft="25dp" android:layout_marginTop="15dp" android:includeFontPadding="false" style="@style/interval_camera_title_style"/>
+    <RelativeLayout android:layout_width="54dp" android:layout_height="54dp" android:layout_marginLeft="47dp" android:layout_marginTop="68dp">
+        <TextView android:textColor="@color/map_internal_camera_content" android:gravity="center" android:id="@+id/tv_map_interval_camera_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:includeFontPadding="false" android:layout_centerInParent="true" android:layout_alignParentEnd="true" style="@style/interval_camera_speed_style"/>
+    </RelativeLayout>
+</RelativeLayout>

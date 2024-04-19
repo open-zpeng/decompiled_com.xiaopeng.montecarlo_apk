@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xp="http://schemas.android.com/apk/res-auto">
+    <com.xiaopeng.montecarlo.views.XPRecyclerView android:id="@+id/favorite_container_recyclerview" android:layout_width="match_parent" android:layout_height="@dimen/search_scene_left_menu_height" android:layout_toRightOf="@+id/search_recyclerview_header" android:layout_below="@+id/search_split_line" android:overScrollMode="never" xp:vuiLayoutLoadable="true" style="@style/scrollbar_left_style"/>
+</merge>

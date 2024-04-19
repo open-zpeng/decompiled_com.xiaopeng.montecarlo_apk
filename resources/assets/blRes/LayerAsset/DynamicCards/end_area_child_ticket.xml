@@ -1,0 +1,6 @@
+<div style='display:flex;flex-direction:column;align-items:center'>
+    <div id='child_type' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_ticket_day_night' />
+        <label id='child_name' style='padding-left:4px;color:#676767;font-size:18px;text-stroke:3px #262626;' text='售票口' />
+    </div>
+</div>

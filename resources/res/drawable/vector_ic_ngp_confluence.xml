@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="80dp" android:width="80dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="@color/ngp_confluence_background" android:pathData="M48,48m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    <path android:fillColor="@color/ngp_confluence_guideline" android:pathData="M46,14L65,36H51.0139C52.6488,41.9666 55.7859,47.6299 59.6393,52.7321C64.616,59.3215 70.6622,64.8069 75.7809,68.5836L72.2187,73.4117C66.7303,69.3623 60.2408,63.4841 54.8514,56.3482C53.4929,54.5494 52.1962,52.66 51,50.6898L51,80H41L41,36H27L46,14Z" android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="96dp" android:width="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="@color/ngp_warn_construction_icon_color" android:pathData="M9.7324,81.4965C9.9617,80.6152 10.7573,80 11.668,80H84.3324C85.243,80 86.0387,80.6152 86.268,81.4965L88.349,89.4965C88.6785,90.7633 87.7224,92 86.4134,92H9.587C8.278,92 7.3219,90.7633 7.6514,89.4965L9.7324,81.4965Z"/>
+    <path android:fillColor="@color/ngp_warn_construction_icon_color" android:pathData="M19.0005,80H77.0005L70.023,56H25.9779L19.0005,80Z"/>
+    <path android:fillColor="@color/ngp_warn_construction_icon_color" android:pathData="M62.7544,31H33.2456L40.6761,5.4417C40.9244,4.5875 41.7071,4 42.5966,4H53.4034C54.2929,4 55.0756,4.5875 55.3239,5.4417L62.7544,31Z"/>
+    <path android:fillColor="@color/ngp_warn_construction_icon_mid_color" android:pathData="M25.9775,56L33.2457,31H62.7545L70.0227,56H25.9775Z"/>
+    <path android:fillColor="@color/ngp_warn_construction_icon_bottom_color" android:pathData="M58.6672,80H77.0005L55.3244,5.4417C55.0761,4.5875 54.2934,4 53.4039,4H50.0005L58.6672,80Z" android:strokeAlpha="0.2" android:fillAlpha="0.2"/>
+</vector>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XCatalog.Item" parent="@style/XCatalogItemBase">
+        <item name="android:textSize">@dimen/x_font_body_01_size</item>
+    </style>
+    <style name="XToastLayoutStyle" parent="@style/XToastLayoutStyleBase">
+        <item name="android:padding">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/x_toast_width</item>
+        <item name="android:paddingStart">@dimen/x_toast_bg_padding</item>
+        <item name="android:paddingEnd">@dimen/x_toast_bg_padding</item>
+    </style>
+    <style name="XToastTextStyle" parent="@style/XToastTextStyleBase">
+        <item name="android:maxWidth">2100dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="base_setting_left_tab_style" parent="@style/XCatalog.Item">
+        <item name="android:textSize">@dimen/font_size_land_28_port_26</item>
+    </style>
+    <style name="button_back_large_style" parent="@style/XButton.Icon.Large">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:src">@drawable/vector_ic_small_back</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="vuiDisableHitEffect">true</item>
+    </style>
+    <style name="button_back_style" parent="@style/XButton.Icon.Small">
+        <item name="android:src">@drawable/vector_ic_small_back</item>
+        <item name="vuiDisableHitEffect">true</item>
+    </style>
+    <style name="button_close_large_style" parent="@style/XButton.Icon.Large">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:src">@drawable/vector_ic_small_close</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="vuiDisableHitEffect">true</item>
+    </style>
+    <style name="button_close_pop_picture_style" parent="@style/XButton.Icon.Large">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:src">@drawable/vector_ic_small_close</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="vuiDisableHitEffect">true</item>
+    </style>
+    <style name="button_close_style" parent="@style/XButton.Icon.Small">
+        <item name="android:src">@drawable/vector_ic_small_close</item>
+        <item name="vuiDisableHitEffect">true</item>
+    </style>
+    <style name="font_map_download_city_text" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_land_28_port_26</item>
+    </style>
+    <style name="font_map_download_city_title" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_land_24_port_22</item>
+    </style>
+    <style name="font_map_download_title_text" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_32</item>
+    </style>
+    <style name="guide_tips_text_style" parent="@style/font_medium_30">
+        <item name="android:textColor">@color/primary_text01</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="poi_body_charge_text_style_22" parent="@style/poi_body_charge_text_style">
+        <item name="android:textSize">@dimen/font_size_28</item>
+    </style>
+    <style name="poi_pop_battery_status_style" parent="@style/font_medium_26">
+    </style>
+    <style name="poi_pop_dial_dialog_style" parent="@style/poi_pop_dialog_style">
+    </style>
+    <style name="poi_pop_dialog_numberPagerIndicator" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginBottom">38dp</item>
+        <item name="android:layout_marginStart">@dimen/poi_pop_picture_vertical_margin</item>
+    </style>
+    <style name="poi_pop_dialog_style" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="poi_pop_dialog_viewpage_style" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="poi_pop_evaluation_count_style" parent="@style/font_medium_24">
+    </style>
+    <style name="poi_pop_navi_distance_style" parent="@style/font_medium_26">
+    </style>
+    <style name="poi_pop_poi_address" parent="@style/font_medium_26">
+    </style>
+    <style name="poi_pop_poi_contact_time_style" parent="@style/font_medium_26">
+    </style>
+    <style name="poi_pop_poi_name_style" parent="@style/font_medium_32">
+    </style>
+    <style name="poi_pop_price_external_style" parent="@style/font_medium_22">
+    </style>
+    <style name="poi_pop_price_time_style" parent="@style/font_medium_26">
+    </style>
+    <style name="poi_pop_price_value_style" parent="@style/font_medium_26">
+    </style>
+    <style name="poi_pop_sup_poi_item_style" parent="@style/font_medium_24">
+    </style>
+    <style name="poi_pop_visit_count_style" parent="@style/font_medium_22">
+        <item name="android:textSize">@dimen/search_visit_count_font_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_bg_visit_count</item>
+        <item name="android:layout_marginTop">@dimen/poi_tv_visit_count_margin_top</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+    <style name="route_charge_arrival_estimation_style" parent="@style/font_xp_medium">
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="route_detail_route_left_distance_unit_text_style" parent="@style/font_medium_30">
+        <item name="android:textColor">@color/route_panel_card_text_color</item>
+    </style>
+    <style name="route_detail_route_left_distance_value_text_style" parent="@style/font_digital_bold_34">
+        <item name="android:textColor">@color/route_panel_card_text_color</item>
+    </style>
+    <style name="route_detail_unit_text_style" parent="@style/font_medium_28">
+        <item name="android:textColor">@color/route_panel_card_text_color</item>
+    </style>
+    <style name="route_detail_value_max_text_style" parent="@style/font_digital_56">
+        <item name="android:textColor">@color/route_panel_card_text_color</item>
+    </style>
+    <style name="route_detail_value_text_style" parent="@style/font_xp_special">
+        <item name="android:textSize">@dimen/font_size_40</item>
+        <item name="android:textColor">@color/route_panel_card_text_color</item>
+    </style>
+    <style name="route_preference_sytle" parent="@style/font_medium_32">
+    </style>
+    <style name="route_type_no_style" parent="@style/font_xp_special_bold">
+        <item name="android:textSize">@dimen/font_size_land_30_port_28</item>
+    </style>
+    <style name="sapa_tv_distance_text_style" parent="@style/font_xp_special">
+        <item name="android:textSize">@dimen/font_size_48</item>
+    </style>
+    <style name="sapa_tv_distance_unit_text_style" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_28</item>
+    </style>
+    <style name="sapa_tv_text_style" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_24</item>
+    </style>
+    <style name="search_around_left_first_view" parent="@style/font_medium_28">
+        <item name="android:textColor">@color/primary_text03</item>
+    </style>
+    <style name="search_around_left_second_view" parent="@style/font_medium_28">
+        <item name="android:textColor">@color/primary_text01</item>
+    </style>
+    <style name="search_around_right_first_view" parent="@style/font_medium_28">
+        <item name="android:textColor">@color/primary_text03</item>
+    </style>
+    <style name="search_content_font_style" parent="@style/font_medium_31">
+    </style>
+    <style name="search_et_search_font_style" parent="@style/font_medium_28">
+    </style>
+    <style name="search_order_style" parent="@style/base_search_order_style">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="search_result_road_info_style" parent="@style/search_result_charge_detail_small_font_style">
+        <item name="android:textColor">@color/primary_text03</item>
+        <item name="android:layout_marginTop">@dimen/search_result_name_mt</item>
+        <item name="android:lineSpacingExtra">@dimen/search_result_price_info_lineSpacingExtra</item>
+        <item name="android:layout_marginEnd">@dimen/search_result_name_mr</item>
+    </style>
+    <style name="search_right_area_action_style" parent="@style/font_medium_28">
+    </style>
+    <style name="search_scene_delete_all_style" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_28</item>
+    </style>
+    <style name="search_scene_favorite_sync_time" parent="@style/font_xp_medium">
+        <item name="android:textSize">@dimen/font_size_24</item>
+    </style>
+    <style name="search_tv_scan_search_style" parent="@style/font_medium_24">
+    </style>
+    <style name="search_tv_search_offline_tip_style" parent="@style/font_medium_24">
+    </style>
+    <style name="setting_container_style" parent="">
+        <item name="android:background">@drawable/shape_setting_bg</item>
+        <item name="android:layout_width">@dimen/setting_root_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="setting_current_car_logo_sub_title_hint_style" parent="@style/font_medium_20">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="setting_current_car_logo_sub_title_style" parent="@style/font_medium_26">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="setting_download_recycleview_style" parent="">
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="setting_download_title_style" parent="@style/font_medium_land_30_port_28">
+    </style>
+    <style name="setting_expand_text_desc_style" parent="@style/setting_expand_text_style">
+        <item name="android:background">@drawable/layer_bg_setting_licence_plate_desc_container</item>
+        <item name="android:layout_height">@dimen/setting_plate_edit_desc_height</item>
+    </style>
+    <style name="setting_expand_text_style" parent="@style/font_medium_26">
+        <item name="android:textColor">@color/primary_text03</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/layer_bg_setting_licence_plate_container</item>
+        <item name="android:paddingLeft">@dimen/setting_license_text_padding_left</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">@dimen/setting_plate_edit_width</item>
+        <item name="android:layout_height">@dimen/setting_plate_edit_height</item>
+        <item name="android:layout_marginTop">-30dp</item>
+        <item name="android:text">@string/setting_license_plate_desc</item>
+    </style>
+    <style name="setting_keyboard_container_style" parent="@style/base_setting_keyboard_container_style">
+        <item name="android:layout_width">@dimen/setting_keyboard_container_width</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+    <style name="setting_keyboard_style" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="setting_left_more_tab_style" parent="@style/base_setting_left_tab_style">
+        <item name="android:drawableLeft">@drawable/selector_setting_left_more_tab_img</item>
+    </style>
+    <style name="setting_left_setting_tab_style" parent="@style/base_setting_left_tab_style">
+        <item name="android:drawableLeft">@drawable/selector_setting_left_main_tab_img</item>
+    </style>
+    <style name="setting_licence_plate_tv_style" parent="">
+        <item name="android:textSize">@dimen/font_size_24</item>
+        <item name="android:textColor">@color/common_forward_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="setting_license_plate_edit_text_style" parent="@style/font_medium_36">
+    </style>
+    <style name="setting_license_plate_province_btn_style" parent="@style/font_medium_36">
+    </style>
+    <style name="setting_license_plate_save_btn_style" parent="@style/font_medium_24">
+        <item name="android:background">@drawable/layer_bg_button_gray_normal</item>
+    </style>
+    <style name="setting_map_version_explanation_style" parent="@style/font_medium_24">
+    </style>
+    <style name="setting_plate_container_style" parent="@style/base_setting_plate_container_style">
+        <item name="android:layout_width">@dimen/setting_plate_edit_width</item>
+    </style>
+    <style name="setting_progress_text_style" parent="@style/font_bold_20">
+    </style>
+    <style name="setting_title_style" parent="@style/font_medium_land_36_port_30">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">134dp</item>
+        <item name="android:layout_marginLeft">36dp</item>
+    </style>
+    <style name="space_search_view_style" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="style_poi_pop_pop_dialog_content" parent="">
+        <item name="android:layout_gravity">top|left</item>
+    </style>
+    <style name="toggle_button_bg_style" parent="@style/base_toggle_button_bg_style">
+        <item name="android:paddingTop">@dimen/layout_map_button_bg_padding_top</item>
+        <item name="android:paddingBottom">@dimen/layout_map_button_bg_padding_top</item>
+        <item name="android:paddingStart">@dimen/layout_map_button_bg_padding_start</item>
+        <item name="android:paddingEnd">@dimen/layout_map_button_bg_padding_start</item>
+    </style>
+    <style name="tv_recommend_park_address_style" parent="@style/font_medium_26">
+    </style>
+    <style name="tv_recommend_park_name_style" parent="@style/font_medium_28">
+    </style>
+</resources>

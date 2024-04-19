@@ -1,0 +1,7 @@
+<div id='search_child_bus_station' style='width:64px;' >
+    <div style='position:absolute;'>
+        <image style='padding-left:12px' src='global_image_station_text' />  
+        <label id='child_name' style='left:26px;top:5px;position:absolute;color:#f19737;font-size:10px;' text='B站台'/>
+    </div>
+    <image src='global_image_station_icon' />
+</div>

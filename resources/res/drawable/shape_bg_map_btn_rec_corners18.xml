@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item android:left="@dimen/shadow_margin" android:top="@dimen/shadow_margin" android:right="@dimen/shadow_margin" android:bottom="@dimen/shadow_margin">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/map_button_bg_corner_radius"/>
+            <gradient android:startColor="@color/map_button_bg_start" android:endColor="@color/map_button_bg_end" android:angle="0"/>
+        </shape>
+    </item>
+</layer-list>

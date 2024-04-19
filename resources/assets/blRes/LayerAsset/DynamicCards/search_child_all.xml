@@ -1,0 +1,42 @@
+<div id='search_child_all' style='display:flex;flex-direction:column;align-items:center'>
+    <div id='child_type_airport' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_airport_day_night' />
+        <label id='child_name_airport' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='航站楼' />
+    </div>
+    <div id='child_type_ticket' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_ticket_day_night' />
+        <label id='child_name_ticket' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='售票处' />
+    </div>
+    <div id='child_type_subway' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_subway_day_night' />
+        <label id='child_name_subway' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='地铁' />
+    </div>
+    <div id='child_type_park' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_park_day_night' />
+        <label id='child_name_park' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='停车场' />
+    </div>
+    <div id='child_type_exist' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_exist_day_night' />
+        <label id='child_name_exist' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='出口' />
+    </div>
+    <div id='child_type_more' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_more_day_night' />
+        <label id='child_name_more' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='其它' />
+    </div>
+    <div id='child_type_in' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_in_day_night' />
+        <label id='child_name_in' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='入口' />
+    </div>
+    <div id='child_type_fly' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_fly_day_night' />
+        <label id='child_name_fly' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='出发楼' />
+    </div>
+    <div id='child_type_door' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_door_day_night' />
+        <label id='child_name_door' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='门' />
+    </div>
+    <div id='child_type_arrive' style='display:flex;flex-direction:row;align-items:center'>
+        <image src='global_image_child_arrive_day_night' />
+        <label id='child_name_arrive' style='padding-left:4px;color:#4e5661;font-size:18px;text-stroke:1px #131313;' text='到达楼' />
+    </div>
+</div>

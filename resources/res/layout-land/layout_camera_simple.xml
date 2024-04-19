@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.montecarlo.views.camera.CameraSimpleViewContainer xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/view_camera_simple" android:clickable="true" android:layout_marginLeft="5dp" android:layout_below="@+id/route_panel" app:childViewWidth="@dimen/camera_panel_explore_width" style="@style/camera_simple_style"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/layout_map_volume_panel_horizontal_height" android:width="@dimen/layout_map_volume_panel_horizontal_width" android:drawable="@drawable/png_bg_shadow_secondlevel"/>
+    <item android:gravity="center" android:height="80dp" android:width="396dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/volume_panel_radius"/>
+            <solid android:color="@color/color_map_button_bg_color"/>
+        </shape>
+    </item>
+</layer-list>

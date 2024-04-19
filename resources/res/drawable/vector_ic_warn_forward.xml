@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="96dp" android:width="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="@color/ngp_warn_forward_icon_color" android:pathData="M48 96C21.4903 96 0 74.5097 0 48C0 21.4903 21.4903 0 48 0C74.5097 0 96 21.4903 96 48C96 74.5097 74.5097 96 48 96Z"/>
+    <path android:fillColor="@color/ngp_warn_forward_arrow_icon_color" android:pathData="M72 46L48.5016 16L25 46L37.5714 46L37.5714 76L59.4286 76L59.4286 46L72 46Z" android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_park_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_tag_texttag_smallp" android:layout_marginEnd="4dp"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_forward_color_normal" android:gravity="center_vertical" android:id="@+id/tv_park_remain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/park_info_remain_idle" style="@style/search_result_charge_detail_small_font_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_forward_color_normal" android:gravity="center_vertical" android:id="@+id/tv_park_remain_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" style="@style/search_result_charge_detail_small_font_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text03" android:gravity="center_vertical" android:id="@+id/tv_park_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" style="@style/search_result_charge_detail_small_font_style"/>
+</merge>

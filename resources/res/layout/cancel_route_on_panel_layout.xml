@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/route_cancel_panel" android:background="@drawable/layer_bg_button_gray_normal" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/primary_text01" android:gravity="center" android:id="@+id/btn_cancel_route" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/route_exit_text" android:includeFontPadding="false" android:drawableLeft="@drawable/selector_cancel_button" android:drawablePadding="8dp" android:layout_centerInParent="true" style="@style/route_panel_btn_style"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

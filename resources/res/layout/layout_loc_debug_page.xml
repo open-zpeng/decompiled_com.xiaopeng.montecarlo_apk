@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/loc_debug_switch_parent" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp">
+        <TextView android:textColor="@android:color/white" android:id="@+id/loc_debug_switch_text" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/debug_list_enable_location_statistics" android:layout_weight="1" style="@style/font_regular_land_40_port_36"/>
+        <Switch android:layout_gravity="center" android:id="@+id/loc_debug_switch" android:padding="10dp" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/loc_debug_mode_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="28dp">
+        <com.xiaopeng.xui.widget.XRadioButton android:textColor="@color/color_dialog_home_company_setting_title" android:gravity="center" android:id="@+id/loc_debug_mode_bench" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_list_loc_debug_mode_bench" style="@style/font_regular_land_30_port_28"/>
+        <com.xiaopeng.xui.widget.XRadioButton android:textColor="@color/color_dialog_home_company_setting_title" android:gravity="center" android:id="@+id/loc_debug_mode_vehicle" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_list_loc_debug_mode_vehicle" style="@style/font_regular_land_30_port_28"/>
+    </RadioGroup>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/loc_debug_reset_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp">
+        <TextView android:textColor="@android:color/white" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/debug_list_reset_location_ttff" android:layout_weight="1" style="@style/font_regular_land_40_port_36"/>
+    </LinearLayout>
+</LinearLayout>

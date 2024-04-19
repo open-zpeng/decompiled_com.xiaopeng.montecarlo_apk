@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/tips_container" android:padding="@dimen/shadow_margin" android:focusable="true" android:layout_width="@dimen/tips_width" android:layout_height="@dimen/restrict_pop_max_height">
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="32dp">
+        <com.xiaopeng.xui.widget.XTextView android:ellipsize="end" android:id="@+id/tips_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/font_medium_land_30_port_28"/>
+        <com.xiaopeng.xui.widget.XTextView android:ellipsize="end" android:id="@+id/tips_content" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="111111" android:lines="1" style="@style/font_bold_land_24_port_22"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+    <com.xiaopeng.xui.widget.XButton android:id="@+id/tips_detail_btn" android:layout_marginBottom="32dp" android:text="@string/restricted_rule_detail_guide_open_btn_name" android:layout_alignParentBottom="true" android:layout_marginStart="32dp" style="@style/restrict_button_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:gravity="center" android:id="@+id/clock_close" android:layout_marginBottom="32dp" android:layout_toRightOf="@+id/tips_detail_btn" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" app:vuiAction="@string/vui_action_click" app:vuiElementType="BUTTON" style="@style/restrict_button_style"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

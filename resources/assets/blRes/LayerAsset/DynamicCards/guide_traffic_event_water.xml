@@ -1,0 +1,7 @@
+<div style='display:flex;flex-direction:row;align-items:center'>
+   <image src='global_image_auto_ic_navi_traffic_event_water_day_night' />
+   <label id='event_name' style='color:#3a3a3a;font-size:20px;' text='积水' />
+   <image id='point_day' style='padding-left:6px;padding-right:6px;' src='auto_ic_navi_eta_2d_point' />
+   <image id='point_night' style='padding-left:6px;padding-right:6px;' src='auto_ic_navi_eta_2d_point_night' />
+   <label id='lane_name' style='color:#3a3a3a;font-size:20px;' text='中间道' />
+</div>

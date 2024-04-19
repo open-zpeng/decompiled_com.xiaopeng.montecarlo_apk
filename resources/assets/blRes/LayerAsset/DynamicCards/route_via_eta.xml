@@ -1,0 +1,13 @@
+<div id='end_area_all' style='margin-top:10px;display:flex;width:auto;height:auto;flex-direction:column;margin-left:22px;margin-right:22px;justify-content:center;align-items:flex-start;background-image:global_image_route_info_day_night;'>
+  <div id='end_area_eta' style='display:flex;width:auto;height:auto;flex-direction:row;justify-content:center;align-items:flex-start;align-items:center;'>
+    <label id='eta_text' style='justify-content:flex-start;color:#ffffff;font-size:18px;' text='预计17:12到达'/>
+  </div>
+  <div id='end_area_energy' style='display:flex;width:auto;height:auto;margin-top:2px;flex-direction:row;justify-content:center;align-items:center;'>
+    <image id='energy_low' style='margin-right:4px;' src='global_image_odd_power_icon_low_day_night' />
+    <image id='energy_mid' style='margin-right:4px;' src='global_image_odd_power_icon_mid_day_night' />
+    <image id='energy_high' style='margin-right:4px;' src='global_image_odd_power_icon_high_day_night' />
+    <label id='energy_text_desc' style='justify-content:flex-start;color:#ffffff;font-size:18px;margin-top:2px;' text='剩余电量'/>
+    <label id='energy_text' style='justify-content:flex-start;color:#ffffff;font-size:20px;margin-left:4px;margin-top:2px;' text='60%'/>
+    <label id='energy_text_low' style='justify-content:flex-start;color:#ffbaba;font-size:18px;margin-left:4px;margin-top:2px;' text='19%'/>
+  </div>
+</div>

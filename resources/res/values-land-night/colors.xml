@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="battery_bg_ele_normal_selected">@color/common_blue_dark</color>
+    <color name="battery_status_normal_status_selected">@color/common_blue_dark</color>
+    <color name="color_guide_turn_icon_road">#5c6c85</color>
+    <color name="color_poi_card_pop_dialog_pic_bg_color">#c2000000</color>
+    <color name="common_gray_56">#8ff2f3f5</color>
+    <color name="favorite_item_delete_bg">#5d000000</color>
+    <color name="pop_dialog_bg_color">#db000000</color>
+    <color name="search_load_more_color">#ffce7a00</color>
+    <color name="search_load_more_normal_bg_color">#242634</color>
+    <color name="search_load_more_selected_bg_color">#3c4155</color>
+    <color name="search_order_text_color">#c1ffffff</color>
+    <color name="setting_car_logo_bg">#263246</color>
+    <color name="vector_mid_sou_path1_fill_color">#a8ffffff</color>
+</resources>

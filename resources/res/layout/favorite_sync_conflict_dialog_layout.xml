@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="44dp" android:layout_marginBottom="37dp" android:layout_marginStart="@dimen/search_favorite_sync_dialog_margin_start">
+        <com.xiaopeng.xui.widget.XTextView android:textColor="@color/color_dialog_home_company_setting_title" android:layout_gravity="center" android:id="@+id/conflict_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/font_medium_36"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/favorite_sync_conflict_home_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginStart="@dimen/search_favorite_sync_dialog_margin_start">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="56dp">
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/favorite_sync_home_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_ic_mid_home"/>
+            <com.xiaopeng.xui.widget.XTextView android:textColor="@color/color_dialog_home_company_setting_content" android:id="@+id/favorite_sync_home_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home" android:layout_marginStart="20dp" style="@style/font_medium_30"/>
+        </LinearLayout>
+        <com.xiaopeng.xui.widget.XRadioGroup android:id="@+id/favorite_sync_conflict_home_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <com.xiaopeng.xui.widget.XRadioButton android:textColor="@color/color_dialog_home_company_setting_content" android:gravity="center" android:id="@+id/favorite_sync_conflict_amap_home" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" style="@style/font_medium_30"/>
+            <com.xiaopeng.xui.widget.XRadioButton android:textColor="@color/color_dialog_home_company_setting_content" android:gravity="center" android:id="@+id/favorite_sync_conflict_xp_home" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/font_medium_30"/>
+        </com.xiaopeng.xui.widget.XRadioGroup>
+    </LinearLayout>
+    <com.xiaopeng.xui.view.XView android:id="@+id/favorite_sync_conflict_line" android:background="@color/color_dialog_home_company_setting_bg_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="43dp" android:layout_marginBottom="18dp" android:layout_marginStart="-10dp" android:layout_marginEnd="-10dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/favorite_sync_conflict_company_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginStart="@dimen/search_favorite_sync_dialog_margin_start">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="56dp">
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/favorite_sync_company_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vector_ic_mid_company"/>
+            <com.xiaopeng.xui.widget.XTextView android:textColor="@color/color_dialog_home_company_setting_content" android:id="@+id/favorite_sync_company_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/company" android:layout_marginStart="20dp" style="@style/font_medium_30"/>
+        </LinearLayout>
+        <com.xiaopeng.xui.widget.XRadioGroup android:id="@+id/favorite_sync_conflict_company_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <com.xiaopeng.xui.widget.XRadioButton android:textColor="@color/color_dialog_home_company_setting_content" android:gravity="center" android:id="@+id/favorite_sync_conflict_amap_company" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" style="@style/font_medium_30"/>
+            <com.xiaopeng.xui.widget.XRadioButton android:textColor="@color/color_dialog_home_company_setting_title" android:gravity="center" android:id="@+id/favorite_sync_conflict_xp_company" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/font_medium_30"/>
+        </com.xiaopeng.xui.widget.XRadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,315 @@
+{
+    "maneuver_render_style_0":
+	{
+		"angle": 0,
+		"corner_bessel": 0.1,
+		"margin": 8,
+		"arrow_height": 0.7,
+		"arrow_width": 0.7,
+		"arrow_indent": 0.1,
+		"road_paint":
+		{
+			"note": "背景道路的风格效果，支持多层叠加",
+			"style":
+			[
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFF9CA2A4"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xA5000000",
+							"strokeThickness": 2.0
+						}
+					}
+				}
+			]
+		},
+		"roundabout_road_paint":
+		{
+			"note": "环岛道路的风格效果，支持多层叠加",
+			"style":
+			[
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFF9CA2A4"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xA5000000",
+							"strokeThickness": 2.0
+						}
+					}
+				}
+			]
+		},
+		"roundabout_circle_paint":
+		{
+			"note": "环岛圆圈的风格效果，支持多层叠加",
+			"style":
+			[
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFF9CA2A4"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xA5000000",
+							"strokeThickness": 2.0
+						}
+					}
+				},
+				{
+					"width_coefficient": 0.99,
+					"hollow_out": 0.05,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFBBBEBF"
+						}
+					}
+				}
+			]
+		},
+		"uturn_road_paint":
+		{
+			"note": "调头背景道路的风格效果，支持多层叠加",
+			"style":
+			[
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFF9CA2A4"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xA5000000",
+							"strokeThickness": 2.0
+						}
+					}
+				}
+			]
+		},
+		"arrow_paint":
+		{
+			"note": "背景道路箭头的风格效果，支持多层叠加",
+			"style":
+			[
+				{
+					"width_coefficient": 0.9,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xD8141414",
+							"strokeThickness": 8.0
+						},
+						"STYLE_FILTER": {
+						  "radius": 20,
+						  "color": "0x80000000",
+						  "morphologyRadius": 0.75,
+						  "morphologyType": 1,
+						  "dx": 0,
+						  "dy": 4,
+						  "shadowType": 2
+						}
+					}
+				},
+				{
+					"width_coefficient": 0.9,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						},
+						"STYLE_FILTER": {
+						  "radius": 20,
+						  "color": "0xA6000000",
+						  "morphologyRadius": 0,
+						  "morphologyType": 0,
+						  "dx": 0,
+						  "dy": 8,
+						  "shadowType": 3
+						}
+					}
+				},
+				{
+					"width_coefficient": 0.9,
+					"paint":
+					{
+						"STYLE_FILL_LINEARGRADIENT": {
+						  "x1": 0.500,
+						  "y1": 0.160,
+						  "x2": 0.500,
+						  "y2": 0.740,
+						  "spreadmethod": 0,
+						  "gradientData_offset_start": 0,
+						  "gradientData_color_start": "0xFFFFFFFF",
+						  "gradientData_offset_end": 1,
+						  "gradientData_color_end": "0xD8D8D8"
+						}
+					}
+				},
+				{
+					"width_coefficient": 0.9,
+					"hollow_out": 0.1,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						}
+					}
+				}
+			]
+		},
+		"uturn_arrow_paint":
+		{
+			"note": "调头道路箭头的风格效果，支持多层叠加",
+			"style":
+			[
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xD8141414",
+							"strokeThickness": 8.0
+						},
+						"STYLE_FILTER": {
+						  "radius": 20,
+						  "color": "0x80000000",
+						  "morphologyRadius": 0.75,
+						  "morphologyType": 1,
+						  "dx": 0,
+						  "dy": 4,
+						  "shadowType": 2
+						}
+					}
+				},
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						},
+						"STYLE_FILTER": {
+						  "radius": 20,
+						  "color": "0xA6000000",
+						  "morphologyRadius": 0,
+						  "morphologyType": 0,
+						  "dx": 0,
+						  "dy": 8,
+						  "shadowType": 3
+						}
+					}
+				},
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL_LINEARGRADIENT": {
+						  "x1": 0.500,
+						  "y1": 0.160,
+						  "x2": 0.500,
+						  "y2": 0.740,
+						  "spreadmethod": 0,
+						  "gradientData_offset_start": 0,
+						  "gradientData_color_start": "0xFFFFFFFF",
+						  "gradientData_offset_end": 1,
+						  "gradientData_color_end": "0xD8D8D8"
+						}
+					}
+				},
+				{
+					"width_coefficient": 1.0,
+					"hollow_out": 0.1,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						}
+					}
+				}
+			]
+		},
+		"roundabout_arrow_paint":
+		{
+			"note": "环岛道路箭头的风格效果，支持多层叠加",
+			"style":
+			[
+
+				{
+					"width_coefficient": 1.0,
+					"paint":
+					{
+						"STYLE_FILL":
+						{
+							"fillcolor": "0xFFFFFFFF"
+						},
+						"STYLE_STROKE":
+						{
+							"strokeColor": "0xD8141414",
+							"strokeThickness": 3.0
+						}
+					}
+				},
+				{
+					"width_coefficient": 0.75,
+					"paint":
+					{
+						"STYLE_FILTER": {
+						  "radius": 15,
+						  "color": "0x40000000",
+						  "morphologyRadius": 0,
+						  "morphologyType": 0,
+						  "dx": 0,
+						  "dy": -10,
+						  "shadowType": 3
+						},
+						"STYLE_FILL_LINEARGRADIENT": {
+						  "x1": 1.151,
+						  "y1": 0.153,
+						  "x2": -0.049,
+						  "y2": 0.686,
+						  "spreadmethod": 0,
+						  "gradientData_offset_start": 0.2,
+						  "gradientData_color_start": "0xFFFFFFFF",
+						  "gradientData_offset_end": 1,
+						  "gradientData_color_end": "0xD8D8D8"
+						}
+					}
+				}
+			]
+		}
+	}
+}

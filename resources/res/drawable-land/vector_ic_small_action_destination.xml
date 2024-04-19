@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="28dp" android:width="28dp" android:viewportWidth="28" android:viewportHeight="28">
+    <path android:fillColor="@color/traffic_bar_bg_color" android:pathData="M14,14m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+    <path android:fillColor="#00000000" android:pathData="M14,14m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" android:strokeColor="@color/traffic_bar_bg_color" android:strokeWidth="5" android:fillType="nonZero"/>
+    <path android:fillColor="#00000000" android:pathData="M14,14m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0" android:strokeColor="@color/traffic_bar_end_icon_bg_color" android:strokeWidth="7" android:strokeLineJoin="round" android:fillType="nonZero"/>
+</vector>

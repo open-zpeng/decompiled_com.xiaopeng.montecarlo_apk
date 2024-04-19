@@ -1,0 +1,4 @@
+<div style='width:auto;height:auto;display:flex;flex-direction:row;justify_content:space-around;background-image:global_image_new_energy_red_day_night'>
+   <image style='margin-left:13px;margin-top:4px;margin-bottom:3px;margin-bottom:13px;' src='global_image_new_energy_battery_emptey_day_night' />
+   <label id='energy_text' style='padding-left:4px;padding-top:5px;padding-right:14px;color:#e6ffffff;font-size:20px;' text='0%' />
+</div>

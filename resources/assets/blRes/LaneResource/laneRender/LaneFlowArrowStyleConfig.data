@@ -1,0 +1,16 @@
+{
+	"lightMarker": "lane/Route_RTK_Flowarrow_Texture_Light",
+	"darkMarker": "lane/Route_RTK_Flowarrow_Texture_Dark",
+	"normalMarker": "lane/Route_RTK_Flowarrow_Texture_Normal",
+	"flowMarker": "lane/Route_RTK_Flowarrow_Texture_Arrow",
+	"lightColor": 2583691263,
+	"darkColor": 2583691263,
+	"flowColor": 4294967295,
+	"normalColor": 2583691263,
+	"baseHeight": 0.5,
+	"height": 3,
+	"thickness": 0.3,
+	"speed": 0.2,
+	"angle": 30,
+	"cutLength": 150
+}

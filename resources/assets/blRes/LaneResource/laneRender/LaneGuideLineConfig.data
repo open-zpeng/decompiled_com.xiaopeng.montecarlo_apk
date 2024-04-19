@@ -1,0 +1,18 @@
+{
+  "guideLineTmcColorDay": {
+    "tmcColorUnknown": 4281972644,
+    "tmcColorOpen": 4280922185,
+    "tmcColorSlow": 4293243704,
+    "tmcColorJam": 4292626506,
+    "tmcColorCongested": 4288553764,
+    "tmcColorExtremeOpen": 4279727695
+  },
+  "guideLineTmcColorNight": {
+    "tmcColorUnknown": 4281567868,
+    "tmcColorOpen": 4279927591,
+    "tmcColorSlow": 4289824278,
+    "tmcColorJam": 4288943901,
+    "tmcColorCongested": 4284353811,
+    "tmcColorExtremeOpen": 4278673186
+  }
+}

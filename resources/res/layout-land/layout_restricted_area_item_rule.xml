@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false">
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="vertical" android:paddingLeft="37dp" android:paddingRight="37dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.xiaopeng.xui.widget.XLinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="37dp">
+            <com.xiaopeng.xui.widget.XTextView android:layout_gravity="center_vertical" android:id="@+id/time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restricted_area_rule_time_name" style="@style/restrict_detail_title_style"/>
+            <com.xiaopeng.xui.widget.XTextView android:layout_gravity="center_vertical" android:id="@+id/right_image_content" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/restrict_rule_item_right" style="@style/restrict_hightlight_style"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/restrict_item_realtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/restrict_detail_content_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/area_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/restricted_area_rule_area_name" style="@style/restrict_detail_title_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/restrict_item_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/restrict_detail_content_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/rule_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/restricted_area_rule_desc_title" style="@style/restrict_detail_title_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/restrict_detail_content_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/otherdesc_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/restricted_area_other_desc_title" style="@style/restrict_detail_title_style"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/otherdesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/restrict_detail_content_style"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</ScrollView>

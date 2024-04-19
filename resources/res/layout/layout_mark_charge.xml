@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mark_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_cooperate_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/map_layout_mark_charge_cooperate_icon_left" android:src="@drawable/png_poi_large_charge_pc_chargingpile_slow"/>
+    <ImageView android:id="@+id/iv_cooperate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/map_layout_mark_charge_cooperate_default" android:src="@drawable/png_tag_small_exclusive_free"/>
+    <TextView android:textStyle="bold" android:textColor="@color/group_charge_text_color" android:gravity="center" android:id="@+id/tv_count_num" android:visibility="gone" android:layout_width="@dimen/map_layout_mark_charge_tv_count_num_width_height" android:layout_height="@dimen/map_layout_mark_charge_tv_count_num_width_height" android:layout_marginLeft="@dimen/map_layout_mark_charge_tv_count_num_left" android:layout_marginTop="@dimen/map_layout_mark_charge_tv_count_num_top" style="@style/font_medium_24"/>
+</FrameLayout>

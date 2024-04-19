@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/container_content" android:background="@drawable/drawable_ripple" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_scene_item_min_height" app:vuiAction="@string/vui_action_click" app:vuiElementType="GROUP">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/iv_item_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_scene_item_icon_mt" android:layout_marginStart="@dimen/search_scene_item_icon_ms" android:layout_marginEnd="@dimen/search_scene_item_icon_me" android:layout_alignParentStart="true"/>
+    <com.xiaopeng.montecarlo.views.HistoryRouteView android:id="@+id/view_history_route" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/search_scene_item_content_mt" android:layout_marginBottom="@dimen/search_scene_item_content_mb" android:layout_toEndOf="@+id/iv_item_type"/>
+    <View android:id="@+id/bottom_line" style="@style/search_item_divider_style"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

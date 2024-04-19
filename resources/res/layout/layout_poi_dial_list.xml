@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/poi_pop_dial_top" android:clickable="true" style="@style/poi_pop_dial_dialog_style">
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/poi_dial_container" android:background="@drawable/shape_bg_poi_dial_container" android:clickable="true" android:layout_marginTop="50dp" style="@style/style_poi_pop_dial_top"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

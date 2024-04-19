@@ -1,0 +1,33 @@
+{
+  "srDecisionLinezoffset": 0.0,
+  "srDecisionDirectionzoffset": 0.0,
+  "srLlinezoffset": 0.0,
+  "srHightLanezoffset": 0.0,
+  "overpassAlphaLaneLine": 0.0,
+  "overpassAlphaRoadFace": 0.05,
+  "overpassAlphaRoadBottom":  0.0,
+  "overpassAlphaRail": 0.05,
+  "overpassAlphaGreenBelt": 0.0,
+  "overpassAlphaCurbstoneOnRoadFace":  0.0,
+  "overpassAlphaEdgeStoneGreenBelt": 0.0,
+  "overpassTranslucentBufferLength": 60.0,
+  "overpassGuideLineLenAfterCar": 200.0
+}
+
+/* 注释
+{
+  "srDecisionLinezoffset": 0.0, // 决策线zoffset
+  "srDecisionDirectionzoffset": 0.0, // 决策圆盘zoffset
+  "srLlinezoffset": 0.0, // LCC,LDW,LKA,ELK zoffset
+  "srHightLanezoffset": 0.0, // 高亮车道线zoffset
+  "overpassAlphaLaneLine": 0,           // 车道线透明度
+  "overpassAlphaRoadFace": 0,            // 路面透明度
+  "overpassAlphaRoadBottom":  0,          // 路面底部透明度
+  "overpassAlphaRail": 0,             // 护栏透明度
+  "overpassAlphaGreenBelt": 0,         // 绿化带透明度
+  "overpassAlphaCurbstoneOnRoadFace":  0,  // 路面路缘石透明度
+  "overpassAlphaEdgeStoneGreenBelt": 0,    // 路缘石绿化带透明度
+  "overpassTranslucentBufferLength": 60.0,   // 渐变长度
+  "overpassGuideLineLenAfterCar": 200.0      // 车后方距离
+}
+*/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaopeng.xui.widget.XImageView android:layout_gravity="center_vertical" android:id="@+id/icon_charge" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/charge_content_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" style="@style/poi_body_charge_text_style_22"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/charge_content_total" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/poi_body_charge_text_style_22"/>
+</merge>

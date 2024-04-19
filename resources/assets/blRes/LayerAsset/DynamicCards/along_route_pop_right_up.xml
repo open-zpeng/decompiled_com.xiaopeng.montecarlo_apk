@@ -1,0 +1,12 @@
+<div id='along_route_pop_label' style='display:flex;width:auto;height:auto;margin-left:16px;margin-bottom:46px;margin-right:5px;flex-direction:row;justify-content:flex-start;align-items:flex-start;'>
+  <div id='bg_div' style='display:flex;width:auto;height:auto;flex-direction:column;justify-content:center;align-items:flex-start;background-image:global_image_along_bubble_right_top_day_night;'>
+    <label id='name_text' style='color:#E6000000;font-size:18px;justify-content:flex-start;' text='中国石油加油站'/>
+    <label id='name_text_center' style='color:#E6000000;font-size:18px;justify-content:flex-start;margin-top:4px;margin-bottom:4px;' text='中国石油加油站'/>
+    <div id='eta_div' style='display:flex;flex-direction:row;justify-content:flex-start;align-items:center;margin-top:2px;'>
+      <label id='time_diff_text' style='color:#E6000000;font-size:16px;justify-content:flex-start;' text='+4分钟'/>
+      <label id='distance_diff_text' style='color:#E6000000;font-size:16px;margin-left:6px;justify-content:flex-start;' text='+493米'/>
+      <image id='best_way_image' style='margin-left:6px;' src='global_image_along_bubble_best_way_day_night'/>
+      <image id='nearest_image' style='margin-left:6px;' src='global_image_along_bubble_nearest_day_night'/>
+    </div>
+  </div>
+</div>

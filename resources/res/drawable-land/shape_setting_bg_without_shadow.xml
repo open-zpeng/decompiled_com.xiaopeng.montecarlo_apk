@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/map_settings_bg" android:left="@dimen/search_shadow_margin" android:top="@dimen/search_shadow_margin" android:right="@dimen/search_shadow_margin" android:bottom="@dimen/search_shadow_margin"/>
+</layer-list>

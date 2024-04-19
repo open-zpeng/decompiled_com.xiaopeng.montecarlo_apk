@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="42dp" android:width="12dp" android:viewportWidth="12" android:viewportHeight="42">
+    <path android:fillColor="@color/nav_camera_divider" android:pathData="M1.5925,2.5186L8.083,20.1357C8.2885,20.6936 8.2885,21.3064 8.083,21.8643L1.5925,39.4814C1.3061,40.2588 1.7041,41.1211 2.4814,41.4075C3.2588,41.6939 4.1211,41.2959 4.4075,40.5186L10.8981,22.9014C11.3502,21.6741 11.3502,20.3259 10.8981,19.0986L4.4075,1.4814C4.1211,0.7041 3.2588,0.3061 2.4814,0.5925C1.7041,0.8789 1.3061,1.7412 1.5925,2.5186Z" android:strokeColor="#00000000" android:strokeWidth="1" android:strokeAlpha="0.1611" android:fillAlpha="1" android:fillType="nonZero"/>
+</vector>

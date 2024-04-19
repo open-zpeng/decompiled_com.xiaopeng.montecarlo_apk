@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaopeng.xui.widget.XImageButton android:layout_gravity="end|center_vertical" android:id="@+id/expand_collapse" android:visibility="gone" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_alignParentEnd="true" app:vuiAction="@string/vui_action_click_expand_fold" app:vuiElementType="IMAGEBUTTON" style="@style/button_lower_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_02" android:gravity="center" android:id="@+id/expandable_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:minHeight="24dp" android:includeFontPadding="false" android:lineSpacingExtra="8dp" android:layout_toStartOf="@+id/expand_collapse" style="@style/poi_pop_poi_address"/>
+</merge>

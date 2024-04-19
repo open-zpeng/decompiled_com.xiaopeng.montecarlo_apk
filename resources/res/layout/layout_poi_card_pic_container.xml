@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.montecarlo.views.NaviImageView android:id="@+id/poi_icon_pic" android:visibility="gone" android:layout_width="@dimen/poi_icon_pic_preview_width" android:layout_height="@dimen/poi_icon_pic_preview_height" android:layout_marginRight="24dp" android:scaleType="fitXY" app:vuiAction="@string/vui_action_click" app:vuiElementType="IMAGEVIEW" app:vuiLabel="查看图片|展示图片|查看图片"/>
+    <com.xiaopeng.xui.widget.XLoading android:gravity="center" android:id="@+id/poi_icon_pic_progress" android:visibility="gone" android:layout_width="120dp" android:layout_height="120dp" style="@style/XLoading.Small"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/poi_card_text_color_04" android:id="@+id/poi_pic_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:singleLine="true" android:layout_alignBottom="@+id/poi_icon_pic" android:layout_marginStart="6dp" android:layout_alignStart="@+id/poi_icon_pic" style="@style/poi_pic_num_text_style"/>
+</merge>

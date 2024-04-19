@@ -1,0 +1,4 @@
+<div style='display:flex;flex-direction:row;align-items:center'>
+   <image src='global_image_auto_ic_navi_traffic_event_forbidden_day_night' />
+   <label id='event_name' style='margin-left:6px;color:#3a3a3a;font-size:20px;' text='限行' />
+</div>

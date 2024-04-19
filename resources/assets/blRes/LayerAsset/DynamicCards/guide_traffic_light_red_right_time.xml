@@ -1,0 +1,5 @@
+<div style='display:flex;flex-direction:column;align-items:center;justify-content:space-around'>
+  <image src='global_image_traffic_light_red_right_time_day_night' />
+  <label id='time_text_two' style='position:absolute;left:82px;top:4px;color:#1c1c1c;font-size:20px;font-family:Oswald-Regular;' text='60'/>
+  <label id='time_text_three' style='position:absolute;left:78px;top:5px;color:#1c1c1c;font-size:18px;font-family:Oswald-Regular;' text='120'/>
+</div>

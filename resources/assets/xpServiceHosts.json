@@ -1,0 +1,44 @@
+{
+  "xp-search-boot": {
+    "develop": "http://logan-gateway.dev.logan.xiaopeng.local/xp-search-boot",
+    "test": "http://logan-gateway.test.logan.xiaopeng.local/xp-search-boot",
+    "staging": "https://xmart.deploy-test.xiaopeng.com/bd_search/v1.0",
+    "product": "https://xmart.xiaopeng.com/bd_search/v1.0"
+  },
+  "xp-assistant-boot": {
+    "develop": "http://logan-gateway.dev.logan.xiaopeng.local/xp-assistant-boot",
+    "test": "http://logan-gateway.test.logan.xiaopeng.local/xp-assistant-boot",
+    "staging": "",
+    "product": "https://xmart.xiaopeng.com/assistant"
+  },
+  "xp-biz-boot": {
+    "develop": "",
+    "test": "https://10.0.13.28:8553/biz",
+    "staging": "https://xmart.deploy-test.xiaopeng.com/biz",
+    "product": "https://xmart.xiaopeng.com/biz"
+  },
+  "xp-navigation-boot": {
+    "develop": "http://10.0.13.38:8553/navi",
+    "test": "https://10.0.13.28:8553/navi",
+    "staging": "https://xmart.deploy-test.xiaopeng.com/navi",
+    "product": "https://xmart.xiaopeng.com/navi"
+  },
+  "xp-charge-station-search-boot": {
+    "develop": "http://logan-gateway.dev.logan.xiaopeng.local/xp-charge-station-search-boot",
+    "test": "http://logan-gateway.test.logan.xiaopeng.local/xp-charge-station-search-boot",
+    "staging": "https://xmart.deploy-test.xiaopeng.com/chrg_search",
+    "product": "https://xmart.xiaopeng.com/chrg_search"
+  },
+  "xp-charge-boot": {
+    "develop": "",
+    "test": "",
+    "staging": "http://chargegateway.deploy-test.xiaopeng.com/charge",
+    "product": "https://chargegateway.xiaopeng.com/charge"
+  },
+  "xp-xui-boot": {
+    "develop": "http://10.0.13.38:18553/xui",
+    "test": "https://10.0.13.28:18553/xui",
+    "staging": "https://xmart.deploy-test.xiaopeng.com/xui",
+    "product": "https://xmart.xiaopeng.com/xui"
+  }
+}

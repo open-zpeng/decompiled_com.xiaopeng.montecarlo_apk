@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/tag_text_white" android:gravity="center_vertical" android:background="@color/bg_dark_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="高德SDK信息" style="@style/font_regular_land_40_port_36"/>
+    <TextView android:textColor="@color/tag_text_white" android:gravity="center_vertical" android:id="@+id/antonavi_info" android:background="@color/bg_dark_gray" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/font_regular_land_30_port_28"/>
+</LinearLayout>

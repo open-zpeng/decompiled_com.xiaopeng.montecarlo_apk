@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/layer_loading" android:background="@color/traffic_event_error_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLoading android:layout_gravity="center" android:id="@+id/pb_loading" android:layout_width="64dp" android:layout_height="64dp" style="@style/XLoading.Small"/>
+</com.xiaopeng.xui.widget.XFrameLayout>
